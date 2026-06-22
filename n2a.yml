@@ -1,0 +1,323 @@
+- generic [ref=e1]:
+  - iframe [ref=e41]:
+    - button "Open AI Assistant Launcher" [ref=f81e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f81e8]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Menu" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - group [ref=e12]:
+          - checkbox "Novo visual" [checked] [ref=e14]
+          - paragraph [ref=e18]: Novo visual
+      - generic [ref=e19]:
+        - button "Pesquisar" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - button "Central de ajuda" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - button "Central de notificações" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - button "ID:301268 - Richard Sebold" [ref=e36] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - navigation "breadcrumb" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img [ref=e51]
+                  - generic "Tecnologia" [ref=e54] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e55]:
+                  - generic "99 - Sustentação" [ref=e56] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e57]:
+                  - generic "Sustentação" [ref=e58] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e59]:
+                  - generic "N2" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - button "Activity" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - heading "[BUG] Falha ao atualizar template PowerBI erro 502 Bad Gateway" [level=2] [ref=e66]
+          - generic [ref=e68]:
+            - button "Pessoas" [ref=e69] [cursor=pointer]:
+              - img [ref=e71]
+              - text: Pessoas
+            - group [ref=e72]:
+              - img [ref=e74]
+              - img [ref=e77]
+              - img [ref=e80]
+        - generic [ref=e82]:
+          - tablist [ref=e84]:
+            - tab "Informações" [ref=e88] [cursor=pointer]:
+              - paragraph [ref=e89]: Informações
+          - generic [ref=e90]:
+            - separator
+      - iframe [active] [ref=e93]:
+        - generic [active] [ref=f75e1]:
+          - generic [ref=f75e3]:
+            - generic [ref=f75e5]:
+              - generic [ref=f75e6]:
+                - list [ref=f75e8]:
+                  - listitem [ref=f75e9]:
+                    - link ";Novo" [ref=f75e10] [cursor=pointer]:
+                      - /url: /a/4874953/f/4883952/activities/new
+                  - listitem [ref=f75e11]:
+                    - generic [ref=f75e12]: "%Editar"
+                  - text: 
+                  - listitem [ref=f75e13]:
+                    - generic [ref=f75e14]: "&Apagar"
+                  - listitem [ref=f75e15]:
+                    - button "| Concluido" [ref=f75e18] [cursor=pointer]:
+                      - paragraph [ref=f75e19]:
+                        - generic [ref=f75e20]: "|"
+                        - generic "Concluido" [ref=f75e21]
+                      - img [ref=f75e22]
+                  - listitem [ref=f75e24]
+                  - listitem [ref=f75e25]:
+                    - generic "Comentar" [ref=f75e26] [cursor=pointer]: <
+                  - listitem [ref=f75e27]:
+                    - generic "Apontar" [ref=f75e28] [cursor=pointer]: h
+                  - listitem [ref=f75e29]:
+                    - generic "Tags" [ref=f75e30] [cursor=pointer]: "\""
+                    - text: J y
+                  - listitem [ref=f75e31]:
+                    - generic "Alocação Parcial" [ref=f75e32] [cursor=pointer]: 
+                  - listitem [ref=f75e33]:
+                    - generic "Checklist" [ref=f75e34] [cursor=pointer]: 
+                - generic [ref=f75e35]:
+                  - strong [ref=f75e36]: Título
+                  - paragraph [ref=f75e37]: "[BUG] Falha ao atualizar template PowerBI erro 502 Bad Gateway"
+                  - generic [ref=f75e38]:
+                    - generic [ref=f75e39]:
+                      - text: Projeto / Pasta
+                      - paragraph [ref=f75e40]:
+                        - generic [ref=f75e41]: H
+                        - link "Tecnologia > 99 - Sustentação > Sustentação > N2" [ref=f75e42] [cursor=pointer]:
+                          - /url: /a/4874953/f/4883952/activities/
+                      - strong [ref=f75e43]: ID por Grupo de trabalho
+                      - paragraph [ref=f75e44]: "20099"
+                      - generic [ref=f75e45]:
+                        - generic [ref=f75e46]:
+                          - strong [ref=f75e47]: Criado há
+                          - paragraph [ref=f75e48]: 4 dias 15/06/2026
+                        - generic [ref=f75e49]:
+                          - strong [ref=f75e50]: Solicitante
+                          - paragraph [ref=f75e51]: Christofer Bastos
+                      - paragraph [ref=f75e52]:
+                        - strong [ref=f75e53]: Tipo de Atividade
+                        - generic [ref=f75e54]: M
+                        - text: Tech - Bug Produção
+                      - strong [ref=f75e55]: Descrição
+                      - generic [ref=f75e56]:
+                        - paragraph [ref=f75e57]:
+                          - text: Cliente
+                          - strong [ref=f75e58]: Cotesa
+                          - text: relatou que, ao tentar atualizar o template no
+                          - strong [ref=f75e59]: PowerBI
+                          - text: ", ocorre o seguinte erro:"
+                        - paragraph [ref=f75e60]:
+                          - text: Falha no Web.Contents ao obter conteúdo de '
+                          - link "https://api.twygo.com/api/v2/questionnaires_attempts?page=1&per_page=1000" [ref=f75e61] [cursor=pointer]:
+                            - /url: https://api.twygo.com/api/v2/questionnaires_attempts?page=1&per_page=1000
+                          - text: "' (502): Bad Gateway"
+                          - img [ref=f75e62]
+                        - list [ref=f75e63]:
+                          - listitem [ref=f75e64]:
+                            - text: Esse erro
+                            - strong [ref=f75e65]: impede a atualização do conteúdo
+                            - text: no PowerBI.
+                          - listitem [ref=f75e66]:
+                            - text: Testes via
+                            - strong [ref=f75e67]: Postman
+                            - text: "confirmaram o mesmo comportamento: a partir de uma certa quantidade de páginas, a consulta retorna erro e bloqueia a atualização."
+                            - img [ref=f75e68]
+                        - heading "Testes realizados" [level=3] [ref=f75e69]:
+                          - strong [ref=f75e70]: Testes realizados
+                        - list [ref=f75e71]:
+                          - listitem [ref=f75e72]: Atualização do template PowerBI erro 502
+                          - listitem [ref=f75e73]: Teste via Postman com paginação erro a partir de determinada página
+                          - listitem [ref=f75e74]: Verificação do endpoint questionnaires_attempts falha consistente
+                        - heading "Comportamento esperado" [level=3] [ref=f75e75]:
+                          - strong [ref=f75e76]: Comportamento esperado
+                        - list [ref=f75e77]:
+                          - listitem [ref=f75e78]: O template PowerBI deve atualizar corretamente sem retornar erro
+                          - listitem [ref=f75e79]: A API deve responder de forma confiável mesmo com grandes volumes de dados (múltiplas páginas)
+                        - heading "Comportamento atual" [level=3] [ref=f75e80]:
+                          - strong [ref=f75e81]: Comportamento atual
+                        - list [ref=f75e82]:
+                          - listitem [ref=f75e83]: Retorno de erro 502 Bad Gateway ao tentar consultar grandes volumes de dados
+                          - listitem [ref=f75e84]: Template PowerBI não é atualizado
+                        - heading "Acesso para análise" [level=3] [ref=f75e85]:
+                          - strong [ref=f75e86]: Acesso para análise
+                        - paragraph [ref=f75e87]:
+                          - text: "Ambiente:"
+                          - link "https://cotesa.twygoead.com/" [ref=f75e88] [cursor=pointer]:
+                            - /url: https://cotesa.twygoead.com/
+                          - text: "Login:"
+                          - link "anapaula.reis@twygo.com" [ref=f75e89] [cursor=pointer]:
+                            - /url: mailto:anapaula.reis@twygo.com
+                          - text: "Senha: !Suport3@2026"
+                          - text: "Chave API: 17008469862tZ7pjKvz6emvFn63MWZ7JGLm_1Yq2nHISBu08Hhov8"
+                        - heading "Observações" [level=3] [ref=f75e90]:
+                          - strong [ref=f75e91]: Observações
+                        - list [ref=f75e92]:
+                          - listitem [ref=f75e93]:
+                            - text: Problema relacionado a
+                            - strong [ref=f75e94]: volume de dados/paginação na API
+                          - listitem [ref=f75e95]: Impacto direto em relatórios e dashboards do cliente
+                          - listitem [ref=f75e96]: Necessário revisar tratamento de paginação e estabilidade do endpoint para suportar grandes volumes
+                      - strong [ref=f75e97]: Categorias
+                      - paragraph
+                      - strong [ref=f75e98]: Prioridade
+                      - paragraph [ref=f75e99]: "1"
+                      - strong [ref=f75e100]: Tags
+                      - paragraph:
+                        - generic:
+                          - list
+                      - strong [ref=f75e101]: Replanejamentos
+                      - paragraph [ref=f75e102]: "0"
+                      - generic [ref=f75e103]:
+                        - generic [ref=f75e104]:
+                          - strong [ref=f75e105]: Pull request
+                          - paragraph [ref=f75e106]:
+                            - link "https://github.com/Twygo/twyg-app/pull/10724" [ref=f75e107] [cursor=pointer]:
+                              - /url: https://github.com/Twygo/twyg-app/pull/10724
+                        - generic [ref=f75e108]:
+                          - strong [ref=f75e109]: Nº Ticket Movidesk
+                          - paragraph [ref=f75e110]:
+                            - link "https://app.hubspot.com/contacts/44238979/record/0-5/45758844555" [ref=f75e111] [cursor=pointer]:
+                              - /url: https://app.hubspot.com/contacts/44238979/record/0-5/45758844555
+                        - generic [ref=f75e112]:
+                          - strong [ref=f75e113]: Urgência
+                          - paragraph [ref=f75e114]: Alto
+                        - generic [ref=f75e115]:
+                          - strong [ref=f75e116]: Versão
+                          - paragraph
+                        - generic [ref=f75e117]:
+                          - strong [ref=f75e118]: Rebote
+                          - paragraph
+                        - generic [ref=f75e119]:
+                          - strong [ref=f75e120]: Plataforma
+                          - paragraph [ref=f75e121]: ", Desktop"
+                        - generic [ref=f75e122]:
+                          - strong [ref=f75e123]: Funcionalidade
+                          - paragraph [ref=f75e124]: Views de BI
+                        - generic [ref=f75e125]:
+                          - strong [ref=f75e126]: Sub-funcionalidade
+                          - paragraph [ref=f75e127]: Clientes
+                        - generic [ref=f75e129]: J
+                        - generic [ref=f75e130]:
+                          - list [ref=f75e131]:
+                            - listitem [ref=f75e132]:
+                              - link "Cliente" [ref=f75e133] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Cliente
+                            - listitem [ref=f75e135]:
+                              - link "Classificação" [ref=f75e136] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Classificação
+                          - generic [ref=f75e139]: J
+                    - generic [ref=f75e140]:
+                      - generic [ref=f75e141]:
+                        - generic [ref=f75e143]: i Prazo
+                        - generic [ref=f75e144]:
+                          - generic [ref=f75e145]:
+                            - generic [ref=f75e146]:
+                              - strong [ref=f75e147]: Início Estimado
+                              - paragraph
+                            - generic [ref=f75e148]:
+                              - strong [ref=f75e149]: Término Estimado
+                              - paragraph
+                          - generic [ref=f75e150]:
+                            - generic [ref=f75e151]:
+                              - strong [ref=f75e152]: Início Real
+                              - paragraph [ref=f75e153]: 16/06/2026 - 10:55h
+                            - generic [ref=f75e154]:
+                              - strong [ref=f75e155]: Término Real
+                              - paragraph [ref=f75e156]: 18/06/2026 - 09:09h
+                          - generic [ref=f75e158]:
+                            - strong [ref=f75e159]: Tendência de Término
+                            - paragraph
+                      - generic [ref=f75e160]:
+                        - generic [ref=f75e162]: h Esforço
+                        - generic [ref=f75e164]:
+                          - generic [ref=f75e165]:
+                            - strong [ref=f75e166]: Esforço Estimado
+                            - paragraph [ref=f75e167]: 0,00h
+                          - generic [ref=f75e168]:
+                            - strong [ref=f75e169]: Esforço Real
+                            - paragraph [ref=f75e170]: 3,88h
+                      - generic [ref=f75e171]:
+                        - generic [ref=f75e173]: e Lançamentos Financeiros
+                        - generic [ref=f75e175]:
+                          - generic [ref=f75e176]:
+                            - strong [ref=f75e177]: Previsto
+                            - paragraph
+                          - generic [ref=f75e178]:
+                            - strong [ref=f75e179]: Realizado
+                            - paragraph
+                      - generic [ref=f75e180]:
+                        - generic [ref=f75e182]:  Andamento
+                        - generic [ref=f75e184]:
+                          - generic [ref=f75e185]:
+                            - strong [ref=f75e186]: "% Completo"
+                            - progressbar [ref=f75e188]
+                            - generic [ref=f75e189]: 100,00%
+                          - img [ref=f75e193]:
+                            - generic [ref=f75e202]: "0"
+                            - generic [ref=f75e205]: 3,88
+                  - strong [ref=f75e211]: "[ Lembrar-me"
+                  - strong [ref=f75e212]: "@ Repetir"
+              - generic [ref=f75e215]:
+                - list [ref=f75e216]:
+                  - listitem [ref=f75e217]:
+                    - link "Arquivos" [ref=f75e218]:
+                      - /url: "#object-show-files"
+                  - listitem [ref=f75e219]:
+                    - link "Atividades Vinculadas" [expanded] [ref=f75e220] [cursor=pointer]:
+                      - /url: "#object-show-dependencies"
+                  - listitem [ref=f75e221]:
+                    - link "Marcos" [ref=f75e222] [cursor=pointer]:
+                      - /url: "#object-show-milestones"
+                  - listitem [ref=f75e223]:
+                    - link "Links" [ref=f75e224] [cursor=pointer]:
+                      - /url: "#object-show-links"
+                  - listitem [ref=f75e225]:
+                    - link "Finanças" [ref=f75e226] [cursor=pointer]:
+                      - /url: "#object-show-finances"
+                  - listitem [ref=f75e227]:
+                    - link "Histórico" [ref=f75e228] [cursor=pointer]:
+                      - /url: "#object-show-timeline"
+                - generic [ref=f75e229]:
+                  - text: J J M P
+                  - generic [ref=f75e230]:
+                    - link "JVincular Arquivo" [ref=f75e231] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f75e233]:
+                      - listitem [ref=f75e234]: Nenhum registro encontrado.
+                      - table:
+                        - rowgroup
+                  - text: J J J
+              - text: $
+            - text: D V
+          - generic:
+            - list
+            - list
+            - list
+            - list
+            - list
+            - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

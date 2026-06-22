@@ -1,0 +1,293 @@
+- generic [ref=e1]:
+  - iframe [ref=e41]:
+    - button "Open AI Assistant Launcher" [ref=f54e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f54e8]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Menu" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - group [ref=e12]:
+          - checkbox "Novo visual" [checked] [ref=e14]
+          - paragraph [ref=e18]: Novo visual
+      - generic [ref=e19]:
+        - button "Pesquisar" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - button "Central de ajuda" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - button "Central de notificações" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - button "ID:301268 - Richard Sebold" [ref=e36] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - navigation "breadcrumb" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img [ref=e51]
+                  - generic "Tecnologia" [ref=e54] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e55]:
+                  - generic "01 - Desenvolvimento" [ref=e56] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e57]:
+                  - generic "Ativos - Desenvolvimento" [ref=e58] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e59]:
+                  - generic "Recertificação" [ref=e60] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e61]:
+                  - generic "Recertificação - 4.Beta" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - button "Activity" [ref=e64] [cursor=pointer]:
+                - img [ref=e65]
+              - heading "P3 [Recertificação] Modal errada sendo exibido no acesso da reinscrição" [level=2] [ref=e68]
+          - generic [ref=e70]:
+            - button "Pessoas" [ref=e71] [cursor=pointer]:
+              - img [ref=e73]
+              - text: Pessoas
+            - group [ref=e74]:
+              - img [ref=e76]
+              - img [ref=e79]
+              - img [ref=e82]
+        - generic [ref=e84]:
+          - tablist [ref=e86]:
+            - tab "Informações" [ref=e90] [cursor=pointer]:
+              - paragraph [ref=e91]: Informações
+          - generic [ref=e92]:
+            - separator
+      - iframe [active] [ref=e95]:
+        - generic [active] [ref=f48e1]:
+          - generic [ref=f48e3]:
+            - generic [ref=f48e5]:
+              - generic [ref=f48e6]:
+                - list [ref=f48e8]:
+                  - listitem [ref=f48e9]:
+                    - link ";Novo" [ref=f48e10] [cursor=pointer]:
+                      - /url: /a/4874953/f/6529243/activities/new
+                  - listitem [ref=f48e11]:
+                    - generic [ref=f48e12]: "%Editar"
+                  - text: 
+                  - listitem [ref=f48e13]:
+                    - generic [ref=f48e14]: "&Apagar"
+                  - listitem [ref=f48e15]:
+                    - button "| Concluido" [ref=f48e18] [cursor=pointer]:
+                      - paragraph [ref=f48e19]:
+                        - generic [ref=f48e20]: "|"
+                        - generic "Concluido" [ref=f48e21]
+                      - img [ref=f48e22]
+                  - listitem [ref=f48e24]
+                  - listitem [ref=f48e25]:
+                    - generic "Comentar" [ref=f48e26] [cursor=pointer]: <
+                  - listitem [ref=f48e27]:
+                    - generic "Apontar" [ref=f48e28] [cursor=pointer]: h
+                  - listitem [ref=f48e29]:
+                    - generic "Tags" [ref=f48e30] [cursor=pointer]: "\""
+                    - text: J y
+                  - listitem [ref=f48e31]:
+                    - generic "Alocação Parcial" [ref=f48e32] [cursor=pointer]: 
+                  - listitem [ref=f48e33]:
+                    - generic "Checklist" [ref=f48e34] [cursor=pointer]: 
+                - generic [ref=f48e35]:
+                  - strong [ref=f48e36]: Título
+                  - paragraph [ref=f48e37]: P3 [Recertificação] Modal errada sendo exibido no acesso da reinscrição
+                  - generic [ref=f48e38]:
+                    - generic [ref=f48e39]:
+                      - text: Projeto / Pasta
+                      - paragraph [ref=f48e40]:
+                        - generic [ref=f48e41]: H
+                        - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Recertificação > Recertificação - 4.Beta" [ref=f48e42] [cursor=pointer]:
+                          - /url: /a/4874953/f/6529243/activities/
+                      - strong [ref=f48e43]: ID por Grupo de trabalho
+                      - paragraph [ref=f48e44]: "19757"
+                      - generic [ref=f48e45]:
+                        - generic [ref=f48e46]:
+                          - strong [ref=f48e47]: Criado há
+                          - paragraph [ref=f48e48]: 17 dias 02/06/2026
+                        - generic [ref=f48e49]:
+                          - strong [ref=f48e50]: Solicitante
+                          - paragraph [ref=f48e51]: Éverton Gambeta
+                      - paragraph [ref=f48e52]:
+                        - strong [ref=f48e53]: Tipo de Atividade
+                        - generic [ref=f48e54]: M
+                        - text: Tech - Bug Produção
+                      - strong [ref=f48e55]: Descrição
+                      - generic [ref=f48e56]:
+                        - paragraph [ref=f48e57]:
+                          - strong [ref=f48e58]: ":: Incidente identificado ::"
+                        - list [ref=f48e59]:
+                          - listitem [ref=f48e60]: Realizei a Trilha e Cursos com o aluno
+                          - listitem [ref=f48e61]: Fiz a reinscrição dele pela importação CSV na Trilha.
+                          - listitem [ref=f48e62]: O aluno acessa na trilha mas é exibida uma modal de "Parabéns" sobre a aprovação atingida na trilha, MAS é uma reinscrição; ele ainda não concluiu nenhum atividade dessa trilha.
+                        - paragraph [ref=f48e63]:
+                          - strong [ref=f48e65]: "Obs:"
+                          - text: acredito que está sendo puxada a modal da inscrição anterior que ele fez e concluiu, mas não deveria mostrar essa modal na inscrição nova (reinscrição), SOMENTE quando ele efetivamente terminar.
+                        - paragraph [ref=f48e66]:
+                          - img [ref=f48e67]
+                        - paragraph [ref=f48e68]:
+                          - strong [ref=f48e69]: ":: Comportamento esperado ::"
+                          - text: A modal deve aparecer somente quando ele concluir toda a trilha, não no começo do acesso da reinscrição.
+                        - paragraph [ref=f48e70]:
+                          - strong [ref=f48e71]: ":: Informações ::"
+                          - strong [ref=f48e72]: "url:"
+                          - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f48e73] [cursor=pointer]:
+                            - /url: https://testedemigracao.stage.twygoead.com/users/login
+                          - strong [ref=f48e74]: "login:"
+                          - link "evertongambeta@gmail.com" [ref=f48e75] [cursor=pointer]:
+                            - /url: mailto:evertongambeta@gmail.com
+                          - strong [ref=f48e76]: "senha:"
+                          - text: "123456"
+                          - strong [ref=f48e77]: "org_id:"
+                          - text: "19653"
+                      - strong [ref=f48e78]: Categorias
+                      - paragraph
+                      - strong [ref=f48e79]: Prioridade
+                      - paragraph [ref=f48e80]: "3"
+                      - strong [ref=f48e81]: Tags
+                      - paragraph:
+                        - generic:
+                          - list
+                      - strong [ref=f48e82]: Replanejamentos
+                      - paragraph [ref=f48e83]: "0"
+                      - generic [ref=f48e84]:
+                        - generic [ref=f48e85]:
+                          - strong [ref=f48e86]: Pull request
+                          - paragraph [ref=f48e87]:
+                            - link "https://github.com/Twygo/twyg-app/pull/10519" [ref=f48e88] [cursor=pointer]:
+                              - /url: https://github.com/Twygo/twyg-app/pull/10519
+                        - generic [ref=f48e89]:
+                          - strong [ref=f48e90]: Nº Ticket Movidesk
+                          - paragraph [ref=f48e91]: .
+                        - generic [ref=f48e92]:
+                          - strong [ref=f48e93]: Urgência
+                          - paragraph [ref=f48e94]: Medio
+                        - generic [ref=f48e95]:
+                          - strong [ref=f48e96]: Versão
+                          - paragraph
+                        - generic [ref=f48e97]:
+                          - strong [ref=f48e98]: Rebote
+                          - paragraph
+                        - generic [ref=f48e99]:
+                          - strong [ref=f48e100]: Plataforma
+                          - paragraph [ref=f48e101]: ", Desktop"
+                        - generic [ref=f48e102]:
+                          - strong [ref=f48e103]: Funcionalidade
+                          - paragraph [ref=f48e104]: Twygo
+                        - generic [ref=f48e105]:
+                          - strong [ref=f48e106]: Sub-funcionalidade
+                          - paragraph [ref=f48e107]: Twygo
+                        - generic [ref=f48e109]: J
+                        - generic [ref=f48e110]:
+                          - list [ref=f48e111]:
+                            - listitem [ref=f48e112]:
+                              - link "Cliente" [ref=f48e113] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Cliente
+                            - listitem [ref=f48e115]:
+                              - link "Classificação" [ref=f48e116] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Classificação
+                          - generic [ref=f48e119]: J
+                    - generic [ref=f48e120]:
+                      - generic [ref=f48e121]:
+                        - generic [ref=f48e123]: i Prazo
+                        - generic [ref=f48e124]:
+                          - generic [ref=f48e125]:
+                            - generic [ref=f48e126]:
+                              - strong [ref=f48e127]: Início Estimado
+                              - paragraph
+                            - generic [ref=f48e128]:
+                              - strong [ref=f48e129]: Término Estimado
+                              - paragraph
+                          - generic [ref=f48e130]:
+                            - generic [ref=f48e131]:
+                              - strong [ref=f48e132]: Início Real
+                              - paragraph [ref=f48e133]: 02/06/2026 - 10:15h
+                            - generic [ref=f48e134]:
+                              - strong [ref=f48e135]: Término Real
+                              - paragraph [ref=f48e136]: 17/06/2026 - 20:36h
+                          - generic [ref=f48e138]:
+                            - strong [ref=f48e139]: Tendência de Término
+                            - paragraph
+                      - generic [ref=f48e140]:
+                        - generic [ref=f48e142]: h Esforço
+                        - generic [ref=f48e144]:
+                          - generic [ref=f48e145]:
+                            - strong [ref=f48e146]: Esforço Estimado
+                            - paragraph [ref=f48e147]: 0,00h
+                          - generic [ref=f48e148]:
+                            - strong [ref=f48e149]: Esforço Real
+                            - paragraph [ref=f48e150]: 1,08h
+                      - generic [ref=f48e151]:
+                        - generic [ref=f48e153]: e Lançamentos Financeiros
+                        - generic [ref=f48e155]:
+                          - generic [ref=f48e156]:
+                            - strong [ref=f48e157]: Previsto
+                            - paragraph
+                          - generic [ref=f48e158]:
+                            - strong [ref=f48e159]: Realizado
+                            - paragraph
+                      - generic [ref=f48e160]:
+                        - generic [ref=f48e162]:  Andamento
+                        - generic [ref=f48e164]:
+                          - generic [ref=f48e165]:
+                            - strong [ref=f48e166]: "% Completo"
+                            - progressbar [ref=f48e168]
+                            - generic [ref=f48e169]: 100,00%
+                          - img [ref=f48e173]:
+                            - generic [ref=f48e182]: "0"
+                            - generic [ref=f48e185]: 1,08
+                  - strong [ref=f48e191]: "[ Lembrar-me"
+                  - strong [ref=f48e192]: "@ Repetir"
+              - generic [ref=f48e195]:
+                - list [ref=f48e196]:
+                  - listitem [ref=f48e197]:
+                    - link "Arquivos" [ref=f48e198]:
+                      - /url: "#object-show-files"
+                  - listitem [ref=f48e199]:
+                    - link "Atividades Vinculadas" [expanded] [ref=f48e200] [cursor=pointer]:
+                      - /url: "#object-show-dependencies"
+                  - listitem [ref=f48e201]:
+                    - link "Marcos" [ref=f48e202] [cursor=pointer]:
+                      - /url: "#object-show-milestones"
+                  - listitem [ref=f48e203]:
+                    - link "Links" [ref=f48e204] [cursor=pointer]:
+                      - /url: "#object-show-links"
+                  - listitem [ref=f48e205]:
+                    - link "Finanças" [ref=f48e206] [cursor=pointer]:
+                      - /url: "#object-show-finances"
+                  - listitem [ref=f48e207]:
+                    - link "Histórico" [ref=f48e208] [cursor=pointer]:
+                      - /url: "#object-show-timeline"
+                - generic [ref=f48e209]:
+                  - text: J J M P
+                  - generic [ref=f48e210]:
+                    - link "JVincular Arquivo" [ref=f48e211] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f48e213]:
+                      - listitem [ref=f48e214]: Nenhum registro encontrado.
+                      - table:
+                        - rowgroup
+                  - text: J J J
+              - text: $
+            - text: D V
+          - generic:
+            - list
+            - list
+            - list
+            - list
+            - list
+            - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

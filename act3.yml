@@ -1,0 +1,291 @@
+- generic [ref=e1]:
+  - iframe [ref=e41]:
+    - button "Open AI Assistant Launcher" [ref=f63e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f63e8]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Menu" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - group [ref=e12]:
+          - checkbox "Novo visual" [checked] [ref=e14]
+          - paragraph [ref=e18]: Novo visual
+      - generic [ref=e19]:
+        - button "Pesquisar" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - button "Central de ajuda" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - button "Central de notificações" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - button "ID:301268 - Richard Sebold" [ref=e36] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - navigation "breadcrumb" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img [ref=e51]
+                  - generic "Tecnologia" [ref=e54] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e55]:
+                  - generic "01 - Desenvolvimento" [ref=e56] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e57]:
+                  - generic "Ativos - Desenvolvimento" [ref=e58] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e59]:
+                  - generic "Recertificação" [ref=e60] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e61]:
+                  - generic "Recertificação - 4.Beta" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - button "Activity" [ref=e64] [cursor=pointer]:
+                - img [ref=e65]
+              - heading "P2 - [Recertificação] Compartilhamento ESPELHO, ambiente consumidor não altera \"Permitir reinscrição\"" [level=2] [ref=e68]
+          - generic [ref=e70]:
+            - button "Pessoas" [ref=e71] [cursor=pointer]:
+              - img [ref=e73]
+              - text: Pessoas
+            - group [ref=e74]:
+              - img [ref=e76]
+              - img [ref=e79]
+              - img [ref=e82]
+        - generic [ref=e84]:
+          - tablist [ref=e86]:
+            - tab "Informações" [ref=e90] [cursor=pointer]:
+              - paragraph [ref=e91]: Informações
+          - generic [ref=e92]:
+            - separator
+      - iframe [active] [ref=e95]:
+        - generic [active] [ref=f57e1]:
+          - generic [ref=f57e3]:
+            - generic [ref=f57e5]:
+              - generic [ref=f57e6]:
+                - list [ref=f57e8]:
+                  - listitem [ref=f57e9]:
+                    - link ";Novo" [ref=f57e10] [cursor=pointer]:
+                      - /url: /a/4874953/f/6529243/activities/new
+                  - listitem [ref=f57e11]:
+                    - generic [ref=f57e12]: "%Editar"
+                  - text: 
+                  - listitem [ref=f57e13]:
+                    - generic [ref=f57e14]: "&Apagar"
+                  - listitem [ref=f57e15]:
+                    - button "3 Validação" [ref=f57e18] [cursor=pointer]:
+                      - paragraph [ref=f57e19]:
+                        - generic [ref=f57e20]: "3"
+                        - generic "Validação" [ref=f57e21]
+                      - img [ref=f57e22]
+                  - listitem [ref=f57e24]
+                  - listitem [ref=f57e25]:
+                    - generic "Comentar" [ref=f57e26] [cursor=pointer]: <
+                  - listitem [ref=f57e27]:
+                    - generic "Apontar" [ref=f57e28] [cursor=pointer]: h
+                  - listitem [ref=f57e29]:
+                    - generic "Tags" [ref=f57e30] [cursor=pointer]: "\""
+                    - text: J y
+                  - listitem [ref=f57e31]:
+                    - generic "Alocação Parcial" [ref=f57e32] [cursor=pointer]: 
+                  - listitem [ref=f57e33]:
+                    - generic "Checklist" [ref=f57e34] [cursor=pointer]: 
+                - generic [ref=f57e35]:
+                  - strong [ref=f57e36]: Título
+                  - paragraph [ref=f57e37]: P2 - [Recertificação] Compartilhamento ESPELHO, ambiente consumidor não altera "Permitir reinscrição"
+                  - generic [ref=f57e38]:
+                    - generic [ref=f57e39]:
+                      - text: Projeto / Pasta
+                      - paragraph [ref=f57e40]:
+                        - generic [ref=f57e41]: H
+                        - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Recertificação > Recertificação - 4.Beta" [ref=f57e42] [cursor=pointer]:
+                          - /url: /a/4874953/f/6529243/activities/
+                      - strong [ref=f57e43]: ID por Grupo de trabalho
+                      - paragraph [ref=f57e44]: "19768"
+                      - generic [ref=f57e45]:
+                        - generic [ref=f57e46]:
+                          - strong [ref=f57e47]: Criado há
+                          - paragraph [ref=f57e48]: 17 dias 02/06/2026
+                        - generic [ref=f57e49]:
+                          - strong [ref=f57e50]: Solicitante
+                          - paragraph [ref=f57e51]: Éverton Gambeta
+                      - paragraph [ref=f57e52]:
+                        - strong [ref=f57e53]: Tipo de Atividade
+                        - generic [ref=f57e54]: M
+                        - text: Tech - Bug Produção
+                      - strong [ref=f57e55]: Descrição
+                      - generic [ref=f57e56]:
+                        - paragraph [ref=f57e57]:
+                          - strong [ref=f57e58]: ":: Incidente identificado ::"
+                        - list [ref=f57e59]:
+                          - listitem [ref=f57e60]: No compartilhamento ESPELHO o curso recebido deve ficar com a opção de "Permitir reinscrição" travada, ou seja, impossibilitando marcar ou desmarcar, pois deve ser respeitada a configuração do ambiente provedor para esse parâmetro.
+                        - paragraph [ref=f57e61]:
+                          - img [ref=f57e62]
+                        - paragraph [ref=f57e63]:
+                          - strong [ref=f57e64]: ":: Comportamento esperado ::"
+                        - list [ref=f57e65]:
+                          - listitem [ref=f57e66]: Ao enviar um curso com a opção "Permitir reinscrição" marcada, o ambiente consumidor recebe marcado e NÃO consegue alterar.
+                          - listitem [ref=f57e67]: Ao enviar um curso com a opção "Permitir reinscrição" desmarcada, o ambiente consumidor recebe desmarcado e NÃO consegue alterar.
+                          - listitem [ref=f57e68]: Se no ambiente provedor foi habilitado ou desabilitado esse parâmetro, essa condição deve ser refletida no ambiente consumidor.
+                          - listitem [ref=f57e69]: Aplicar a correção para os compartilhamentos ESPELHO de ambiente interno e externo.
+                        - paragraph [ref=f57e70]:
+                          - strong [ref=f57e71]: ":: Informações ::"
+                          - strong [ref=f57e72]: "url:"
+                          - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f57e73] [cursor=pointer]:
+                            - /url: https://testedemigracao.stage.twygoead.com/users/login
+                          - strong [ref=f57e74]: "login:"
+                          - link "evertongambeta@gmail.com" [ref=f57e75] [cursor=pointer]:
+                            - /url: mailto:evertongambeta@gmail.com
+                          - strong [ref=f57e76]: "senha:"
+                          - text: "123456"
+                          - strong [ref=f57e77]: "org_id:"
+                          - text: "19653"
+                      - strong [ref=f57e78]: Categorias
+                      - paragraph
+                      - strong [ref=f57e79]: Prioridade
+                      - paragraph [ref=f57e80]: "2"
+                      - strong [ref=f57e81]: Tags
+                      - paragraph:
+                        - generic:
+                          - list
+                      - strong [ref=f57e82]: Replanejamentos
+                      - paragraph [ref=f57e83]: "0"
+                      - generic [ref=f57e84]:
+                        - generic [ref=f57e85]:
+                          - strong [ref=f57e86]: Pull request
+                          - paragraph
+                        - generic [ref=f57e87]:
+                          - strong [ref=f57e88]: Nº Ticket Movidesk
+                          - paragraph [ref=f57e89]: .
+                        - generic [ref=f57e90]:
+                          - strong [ref=f57e91]: Urgência
+                          - paragraph [ref=f57e92]: Medio
+                        - generic [ref=f57e93]:
+                          - strong [ref=f57e94]: Versão
+                          - paragraph
+                        - generic [ref=f57e95]:
+                          - strong [ref=f57e96]: Rebote
+                          - paragraph
+                        - generic [ref=f57e97]:
+                          - strong [ref=f57e98]: Plataforma
+                          - paragraph [ref=f57e99]: ", Desktop"
+                        - generic [ref=f57e100]:
+                          - strong [ref=f57e101]: Funcionalidade
+                          - paragraph [ref=f57e102]: Twygo
+                        - generic [ref=f57e103]:
+                          - strong [ref=f57e104]: Sub-funcionalidade
+                          - paragraph [ref=f57e105]: Twygo
+                        - generic [ref=f57e107]: J
+                        - generic [ref=f57e108]:
+                          - list [ref=f57e109]:
+                            - listitem [ref=f57e110]:
+                              - link "Cliente" [ref=f57e111] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Cliente
+                            - listitem [ref=f57e113]:
+                              - link "Classificação" [ref=f57e114] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Classificação
+                          - generic [ref=f57e117]: J
+                    - generic [ref=f57e118]:
+                      - generic [ref=f57e119]:
+                        - generic [ref=f57e121]: i Prazo
+                        - generic [ref=f57e122]:
+                          - generic [ref=f57e123]:
+                            - generic [ref=f57e124]:
+                              - strong [ref=f57e125]: Início Estimado
+                              - paragraph
+                            - generic [ref=f57e126]:
+                              - strong [ref=f57e127]: Término Estimado
+                              - paragraph
+                          - generic [ref=f57e128]:
+                            - generic [ref=f57e129]:
+                              - strong [ref=f57e130]: Início Real
+                              - paragraph [ref=f57e131]: 02/06/2026 - 15:40h
+                            - generic [ref=f57e132]:
+                              - strong [ref=f57e133]: Término Real
+                              - paragraph
+                          - generic [ref=f57e135]:
+                            - strong [ref=f57e136]: Tendência de Término
+                            - paragraph
+                      - generic [ref=f57e137]:
+                        - generic [ref=f57e139]: h Esforço
+                        - generic [ref=f57e141]:
+                          - generic [ref=f57e142]:
+                            - strong [ref=f57e143]: Esforço Estimado
+                            - paragraph [ref=f57e144]: 0,00h
+                          - generic [ref=f57e145]:
+                            - strong [ref=f57e146]: Esforço Real
+                            - paragraph [ref=f57e147]: 1,67h
+                      - generic [ref=f57e148]:
+                        - generic [ref=f57e150]: e Lançamentos Financeiros
+                        - generic [ref=f57e152]:
+                          - generic [ref=f57e153]:
+                            - strong [ref=f57e154]: Previsto
+                            - paragraph
+                          - generic [ref=f57e155]:
+                            - strong [ref=f57e156]: Realizado
+                            - paragraph
+                      - generic [ref=f57e157]:
+                        - generic [ref=f57e159]:  Andamento
+                        - generic [ref=f57e161]:
+                          - generic [ref=f57e162]:
+                            - strong [ref=f57e163]: "% Completo"
+                            - generic [ref=f57e164]:
+                              - progressbar
+                            - generic [ref=f57e165]: 0,00%
+                          - img [ref=f57e169]:
+                            - generic [ref=f57e178]: "0"
+                            - generic [ref=f57e181]: 1,67
+                  - strong [ref=f57e187]: "[ Lembrar-me"
+                  - strong [ref=f57e188]: "@ Repetir"
+              - generic [ref=f57e191]:
+                - list [ref=f57e192]:
+                  - listitem [ref=f57e193]:
+                    - link "Arquivos" [ref=f57e194]:
+                      - /url: "#object-show-files"
+                  - listitem [ref=f57e195]:
+                    - link "Atividades Vinculadas" [expanded] [ref=f57e196] [cursor=pointer]:
+                      - /url: "#object-show-dependencies"
+                  - listitem [ref=f57e197]:
+                    - link "Marcos" [ref=f57e198] [cursor=pointer]:
+                      - /url: "#object-show-milestones"
+                  - listitem [ref=f57e199]:
+                    - link "Links" [ref=f57e200] [cursor=pointer]:
+                      - /url: "#object-show-links"
+                  - listitem [ref=f57e201]:
+                    - link "Finanças" [ref=f57e202] [cursor=pointer]:
+                      - /url: "#object-show-finances"
+                  - listitem [ref=f57e203]:
+                    - link "Histórico" [ref=f57e204] [cursor=pointer]:
+                      - /url: "#object-show-timeline"
+                - generic [ref=f57e205]:
+                  - text: J J M P
+                  - generic [ref=f57e206]:
+                    - link "JVincular Arquivo" [ref=f57e207] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f57e209]:
+                      - listitem [ref=f57e210]: Nenhum registro encontrado.
+                      - table:
+                        - rowgroup
+                  - text: J J J
+              - text: $
+            - text: D V
+          - generic:
+            - list
+            - list
+            - list
+            - list
+            - list
+            - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

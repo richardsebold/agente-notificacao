@@ -1,0 +1,703 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f207e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f207e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e446]:
+                    - generic [ref=e447]:
+                      - button "toggle" [ref=e448] [cursor=pointer]:
+                        - img [ref=e449]
+                      - link "00 - Arquitetura" [ref=e451] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e452]:
+                          - img [ref=e453]
+                          - paragraph [ref=e456]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e457] [cursor=pointer]:
+                      - img [ref=e458]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - button "toggle" [ref=e466] [cursor=pointer]:
+                        - img [ref=e467]
+                      - link "01 - Desenvolvimento" [ref=e469] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e470]:
+                          - img [ref=e471]
+                          - paragraph [ref=e474]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e475] [cursor=pointer]:
+                      - img [ref=e476]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]:
+                      - button "toggle" [ref=e484] [cursor=pointer]:
+                        - img [ref=e485]
+                      - link "* Indiretos" [ref=e487] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e488]:
+                          - img [ref=e489]
+                          - paragraph [ref=e492]: "* Indiretos"
+                    - button "Ver mais" [ref=e493] [cursor=pointer]:
+                      - img [ref=e494]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - button "toggle" [ref=e502] [cursor=pointer]:
+                        - img [ref=e503]
+                      - link "Ativos - Desenvolvimento" [ref=e505] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e506]:
+                          - img [ref=e507]
+                          - paragraph [ref=e510]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e511] [cursor=pointer]:
+                      - img [ref=e512]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e518]:
+                    - generic [ref=e519]:
+                      - button "toggle" [ref=e520] [cursor=pointer]:
+                        - img [ref=e521]
+                      - link "Inativos - Desenvolvimento" [ref=e523] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e524]:
+                          - img [ref=e525]
+                          - paragraph [ref=e528]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e529] [cursor=pointer]:
+                      - img [ref=e530]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e536]:
+                    - generic [ref=e537]:
+                      - button "toggle" [ref=e538] [cursor=pointer]:
+                        - img [ref=e539]
+                      - link "Não iniciados - Desenvolvimento" [ref=e541] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e542]:
+                          - img [ref=e543]
+                          - paragraph [ref=e546]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e547] [cursor=pointer]:
+                      - img [ref=e548]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e554]:
+                    - generic [ref=e555]:
+                      - button "toggle" [ref=e556] [cursor=pointer]:
+                        - img [ref=e557]
+                      - link "02 - Qualidade" [ref=e559] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e560]:
+                          - img [ref=e561]
+                          - paragraph [ref=e564]: 02 - Qualidade
+                    - button "Ver mais" [ref=e565] [cursor=pointer]:
+                      - img [ref=e566]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e572]:
+                    - generic [ref=e573]:
+                      - button "toggle" [ref=e574] [cursor=pointer]:
+                        - img [ref=e575]
+                      - link "03 - Engenharia de produto" [ref=e577] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e578]:
+                          - img [ref=e579]
+                          - paragraph [ref=e582]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e583] [cursor=pointer]:
+                      - img [ref=e584]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e590]:
+                    - generic [ref=e591]:
+                      - button "toggle" [ref=e592] [cursor=pointer]:
+                        - img [ref=e593]
+                      - link "04 - Gestão e Projetos" [ref=e595] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e596]:
+                          - img [ref=e597]
+                          - paragraph [ref=e600]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e601] [cursor=pointer]:
+                      - img [ref=e602]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - button "toggle" [ref=e610] [cursor=pointer]:
+                        - img [ref=e611]
+                      - link "05 - DevOps" [ref=e613] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e614]:
+                          - img [ref=e615]
+                          - paragraph [ref=e618]: 05 - DevOps
+                    - button "Ver mais" [ref=e619] [cursor=pointer]:
+                      - img [ref=e620]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e626]:
+                    - generic [ref=e627]:
+                      - button "toggle" [ref=e628] [cursor=pointer]:
+                        - img [ref=e629]
+                      - link "98 - Backlog" [ref=e631] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e632]:
+                          - img [ref=e633]
+                          - paragraph [ref=e636]: 98 - Backlog
+                    - button "Ver mais" [ref=e637] [cursor=pointer]:
+                      - img [ref=e638]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e644]:
+                    - generic [ref=e645]:
+                      - button "toggle" [ref=e646] [cursor=pointer]:
+                        - img [ref=e647]
+                      - link "99 - Sustentação" [ref=e649] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e650]:
+                          - img [ref=e651]
+                          - paragraph [ref=e654]: 99 - Sustentação
+                    - button "Ver mais" [ref=e655] [cursor=pointer]:
+                      - img [ref=e656]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e662]:
+                    - generic [ref=e663]:
+                      - button "toggle" [ref=e664] [cursor=pointer]:
+                        - img [ref=e665]
+                      - link "API" [ref=e667] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e668]:
+                          - img [ref=e669]
+                          - paragraph [ref=e672]: API
+                    - button "Ver mais" [ref=e673] [cursor=pointer]:
+                      - img [ref=e674]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - button "toggle" [ref=e682] [cursor=pointer]:
+                        - img [ref=e683]
+                      - link "Histórico" [ref=e685] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e686]:
+                          - img [ref=e687]
+                          - paragraph [ref=e690]: Histórico
+                    - button "Ver mais" [ref=e691] [cursor=pointer]:
+                      - img [ref=e692]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Evolução UI e novo design system" [ref=e407] [cursor=pointer]: Evolução UI e novo design s...
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Facelift - Conteúdos - Editar - 4.Beta" [ref=e409] [cursor=pointer]: Facelift - Conteúdos - Edit...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - 'heading "P1 - [Facelift] Compartilhamento: filtro \"Tipo de experiência\" não funciona" [level=2] [ref=e415]'
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - generic [ref=e422]: "+3"
+                - img [ref=e424]
+                - img [ref=e427]
+                - img [ref=e430]
+          - generic [ref=e432]:
+            - tablist [ref=e434]:
+              - tab "Informações" [selected] [ref=e438] [cursor=pointer]:
+                - paragraph [ref=e439]: Informações
+            - generic [ref=e440]:
+              - separator
+        - iframe [active] [ref=e443]:
+          - generic [ref=f206e1]:
+            - generic [ref=f206e3]:
+              - generic [ref=f206e5]:
+                - generic [ref=f206e6]:
+                  - list [ref=f206e8]:
+                    - listitem [ref=f206e9]:
+                      - link ";Novo" [ref=f206e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6273562/activities/new
+                    - listitem [ref=f206e11]:
+                      - generic [ref=f206e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f206e13]:
+                      - generic [ref=f206e14]: "&Apagar"
+                    - listitem [ref=f206e15]:
+                      - button "| Concluido" [ref=f206e18] [cursor=pointer]:
+                        - paragraph [ref=f206e19]:
+                          - generic [ref=f206e20]: "|"
+                          - generic "Concluido" [ref=f206e21]
+                        - img [ref=f206e22]
+                    - listitem [ref=f206e24]
+                    - listitem [ref=f206e25]:
+                      - generic "Comentar" [ref=f206e26] [cursor=pointer]: <
+                    - listitem [ref=f206e27]:
+                      - generic "Apontar" [ref=f206e28] [cursor=pointer]: h
+                    - listitem [ref=f206e29]:
+                      - generic "Tags" [ref=f206e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f206e31]:
+                      - generic "Alocação Parcial" [ref=f206e32] [cursor=pointer]: 
+                    - listitem [ref=f206e33]:
+                      - generic "Checklist" [ref=f206e34] [cursor=pointer]: 
+                  - generic [ref=f206e35]:
+                    - strong [ref=f206e36]: Título
+                    - paragraph [ref=f206e37]: "P1 - [Facelift] Compartilhamento: filtro \"Tipo de experiência\" não funciona"
+                    - generic [ref=f206e38]:
+                      - generic [ref=f206e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f206e40]:
+                          - generic [ref=f206e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Evolução UI e novo design system > Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6273562/activities/
+                        - strong [ref=f206e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f206e44]: "18423"
+                        - generic [ref=f206e45]:
+                          - generic [ref=f206e46]:
+                            - strong [ref=f206e47]: Criado há
+                            - paragraph [ref=f206e48]: 2 meses 13/04/2026
+                          - generic [ref=f206e49]:
+                            - strong [ref=f206e50]: Solicitante
+                            - paragraph [ref=f206e51]: Éverton Gambeta
+                        - paragraph [ref=f206e52]:
+                          - strong [ref=f206e53]: Tipo de Atividade
+                          - generic [ref=f206e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f206e55]: Descrição
+                        - generic [ref=f206e56]:
+                          - paragraph [ref=f206e57]:
+                            - strong [ref=f206e58]: ":: Incidente identificado ::"
+                            - text: Na tela de compartilhamento, o filtro "Tipo de experiência" não funciona na aba de "Recebidos".
+                          - paragraph [ref=f206e59]:
+                            - strong [ref=f206e60]: ":: Passo a passo para reprodução ::"
+                            - text: » Acessar a tela de compartilhamento de um conteúdo.
+                          - paragraph [ref=f206e61]:
+                            - strong [ref=f206e62]: ":: Comportamento esperado ::"
+                          - list [ref=f206e63]:
+                            - listitem [ref=f206e64]:
+                              - strong [ref=f206e66]: "Ajuste 1:"
+                              - text: mostrar os valores para o campo "Tipo de experiência" tanto na aba de "Concedidos" como na aba de "Recebidos".
+                            - listitem [ref=f206e67]:
+                              - strong [ref=f206e69]: "Ajuste 2:"
+                              - text: poder aplicar e filtrar o campo "Tipo de experiência" tanto na aba de "Concedidos" como na aba de "Recebidos".
+                          - paragraph [ref=f206e70]:
+                            - strong [ref=f206e71]: ":: Informações ::"
+                            - strong [ref=f206e72]: "url:"
+                            - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f206e73] [cursor=pointer]:
+                              - /url: https://testedemigracao.stage.twygoead.com/users/login
+                            - strong [ref=f206e74]: "login:"
+                            - link "evertongambeta@gmail.com" [ref=f206e75] [cursor=pointer]:
+                              - /url: mailto:evertongambeta@gmail.com
+                            - strong [ref=f206e76]: "senha:"
+                            - text: "123456"
+                            - strong [ref=f206e77]: "org_id:"
+                            - text: "19653"
+                          - paragraph [ref=f206e78]:
+                            - strong [ref=f206e79]: ":: Evidência(s) ::"
+                            - text: "Link da evidência:"
+                            - link "https://jam.dev/c/7fc46058-86b7-4a8e-962a-b72a760fa8a4" [ref=f206e80] [cursor=pointer]:
+                              - /url: https://jam.dev/c/7fc46058-86b7-4a8e-962a-b72a760fa8a4
+                          - paragraph [ref=f206e81]
+                          - 'heading "Obs.: Verificar mais informações do dev no comentário." [level=4] [ref=f206e82]':
+                            - strong [ref=f206e84]: "Obs.: Verificar mais informações do dev no comentário."
+                        - strong [ref=f206e85]: Categorias
+                        - paragraph
+                        - strong [ref=f206e86]: Prioridade
+                        - paragraph [ref=f206e87]: "1"
+                        - strong [ref=f206e88]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f206e89]: Replanejamentos
+                        - paragraph [ref=f206e90]: "1"
+                        - generic [ref=f206e91]:
+                          - generic [ref=f206e92]:
+                            - strong [ref=f206e93]: Pull request
+                            - paragraph [ref=f206e94]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10257" [ref=f206e95] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10257
+                          - generic [ref=f206e96]:
+                            - strong [ref=f206e97]: Nº Ticket Movidesk
+                            - paragraph [ref=f206e98]: .
+                          - generic [ref=f206e99]:
+                            - strong [ref=f206e100]: Urgência
+                            - paragraph [ref=f206e101]: Medio
+                          - generic [ref=f206e102]:
+                            - strong [ref=f206e103]: Versão
+                            - paragraph
+                          - generic [ref=f206e104]:
+                            - strong [ref=f206e105]: Rebote
+                            - paragraph
+                          - generic [ref=f206e106]:
+                            - strong [ref=f206e107]: Plataforma
+                            - paragraph [ref=f206e108]: ", Desktop"
+                          - generic [ref=f206e109]:
+                            - strong [ref=f206e110]: Funcionalidade
+                            - paragraph [ref=f206e111]: Twygo
+                          - generic [ref=f206e112]:
+                            - strong [ref=f206e113]: Sub-funcionalidade
+                            - paragraph [ref=f206e114]: Twygo
+                          - generic [ref=f206e116]: J
+                          - generic [ref=f206e117]:
+                            - list [ref=f206e118]:
+                              - listitem [ref=f206e119]:
+                                - link "Cliente" [ref=f206e120] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f206e122]:
+                                - link "Classificação" [ref=f206e123] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f206e126]: J
+                      - generic [ref=f206e127]:
+                        - generic [ref=f206e128]:
+                          - generic [ref=f206e130]: i Prazo
+                          - generic [ref=f206e131]:
+                            - generic [ref=f206e132]:
+                              - generic [ref=f206e133]:
+                                - strong [ref=f206e134]: Início Estimado
+                                - paragraph
+                              - generic [ref=f206e135]:
+                                - strong [ref=f206e136]: Término Estimado
+                                - paragraph
+                            - generic [ref=f206e137]:
+                              - generic [ref=f206e138]:
+                                - strong [ref=f206e139]: Início Real
+                                - paragraph [ref=f206e140]: 13/04/2026 - 13:25h
+                              - generic [ref=f206e141]:
+                                - strong [ref=f206e142]: Término Real
+                                - paragraph [ref=f206e143]: 18/06/2026 - 20:51h
+                            - generic [ref=f206e145]:
+                              - strong [ref=f206e146]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f206e147]:
+                          - generic [ref=f206e149]: h Esforço
+                          - generic [ref=f206e151]:
+                            - generic [ref=f206e152]:
+                              - strong [ref=f206e153]: Esforço Estimado
+                              - paragraph [ref=f206e154]: 6,00h
+                            - generic [ref=f206e155]:
+                              - strong [ref=f206e156]: Esforço Real
+                              - paragraph [ref=f206e157]: 8,08h
+                        - generic [ref=f206e158]:
+                          - generic [ref=f206e160]: e Lançamentos Financeiros
+                          - generic [ref=f206e162]:
+                            - generic [ref=f206e163]:
+                              - strong [ref=f206e164]: Previsto
+                              - paragraph
+                            - generic [ref=f206e165]:
+                              - strong [ref=f206e166]: Realizado
+                              - paragraph
+                        - generic [ref=f206e167]:
+                          - generic [ref=f206e169]:  Andamento
+                          - generic [ref=f206e171]:
+                            - generic [ref=f206e172]:
+                              - strong [ref=f206e173]: "% Completo"
+                              - progressbar [ref=f206e175]
+                              - generic [ref=f206e176]: 100,00%
+                            - img [ref=f206e180]:
+                              - generic [ref=f206e191]: "6"
+                              - generic [ref=f206e194]: 8,08
+                    - strong [ref=f206e200]: "[ Lembrar-me"
+                    - strong [ref=f206e201]: "@ Repetir"
+                - generic [ref=f206e204]:
+                  - list [ref=f206e205]:
+                    - listitem [ref=f206e206]:
+                      - link "Arquivos" [ref=f206e207] [cursor=pointer]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f206e208]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f206e209] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f206e210]:
+                      - link "Marcos" [ref=f206e211] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f206e212]:
+                      - link "Links" [ref=f206e213] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f206e214]:
+                      - link "Finanças" [ref=f206e215] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f206e216]:
+                      - link "Histórico" [expanded] [ref=f206e217]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f206e218]:
+                    - generic [ref=f206e224]:
+                      - list [ref=f206e225]:
+                        - strong [ref=f206e226]: Tipos
+                        - listitem [ref=f206e227]:
+                          - checkbox "Comentários" [checked] [ref=f206e228]
+                          - generic [ref=f206e229]: Comentários
+                        - listitem [ref=f206e230]:
+                          - checkbox "Apontamentos" [checked] [ref=f206e231]
+                          - generic [ref=f206e232]: Apontamentos
+                        - listitem [ref=f206e233]:
+                          - checkbox "Atualizações" [checked] [ref=f206e234]
+                          - generic [ref=f206e235]: Atualizações
+                      - list [ref=f206e236]:
+                        - strong [ref=f206e237]: Ver
+                        - listitem [ref=f206e238]:
+                          - radio "Tudo" [checked] [active] [ref=f206e239]
+                          - generic [ref=f206e240]: Tudo
+                        - listitem [ref=f206e241]:
+                          - radio "Estou envolvido" [ref=f206e242]
+                          - generic [ref=f206e243]: Estou envolvido
+                      - list [ref=f206e244]:
+                        - listitem
+                      - generic [ref=f206e246]:
+                        - list [ref=f206e247]:
+                          - listitem [ref=f206e248]:
+                            - generic [ref=f206e249]: 18/06/2026
+                          - listitem [ref=f206e250]:
+                            - generic [ref=f206e251]: c
+                            - generic [ref=f206e252]:
+                              - generic [ref=f206e253]:
+                                - generic [ref=f206e254]: h
+                                - generic "2026-06-18 23:51:39" [ref=f206e255]: 12 horas atrás.
+                              - generic [ref=f206e256]:
+                                - img "Foto" [ref=f206e258]
+                                - generic [ref=f206e259]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e260]
+                                  - link "Jeiel Alves de Oliveira" [ref=f206e261] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/279122
+                                  - text: atualizou a atividade
+                              - generic [ref=f206e262]:
+                                - text: "Término Real de: em branco para: 18/06/2026 20:51"
+                                - text: "Situação de: Validação para: Concluido"
+                          - listitem [ref=f206e263]:
+                            - generic [ref=f206e264]: c
+                            - generic [ref=f206e265]:
+                              - generic [ref=f206e266]:
+                                - generic [ref=f206e267]: h
+                                - generic "2026-06-18 13:56:39" [ref=f206e268]: 22 horas atrás.
+                              - generic [ref=f206e269]:
+                                - img "Foto" [ref=f206e271]
+                                - generic [ref=f206e272]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e273]
+                                  - link "Éverton Gambeta" [ref=f206e274] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/200317
+                                  - text: adicionou uma relação na atividade
+                              - generic [ref=f206e275]:
+                                - text: "Uma atividade foi relacionada:"
+                                - link "[Facelift] - Gerar versão para deploy da Twygo - 18/06;2026" [ref=f206e276] [cursor=pointer]:
+                                  - /url: https://app.artia.com/a/4874953/f/6273562/activities/33101040
+                          - listitem [ref=f206e277]:
+                            - generic [ref=f206e278]: h
+                            - generic [ref=f206e279]:
+                              - generic [ref=f206e280]:
+                                - generic [ref=f206e281]: h
+                                - generic "2026-06-18 13:06:38" [ref=f206e282]: 23 horas atrás.
+                              - generic [ref=f206e283]:
+                                - img "Foto" [ref=f206e285]
+                                - generic [ref=f206e286]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e287]
+                                  - link "Richard Sebold" [ref=f206e288] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: alterou um apontamento na atividade
+                              - generic [ref=f206e289]: "Horas apontadas de: 00:21 para: 00:30"
+                          - listitem [ref=f206e290]:
+                            - generic [ref=f206e291]: c
+                            - generic [ref=f206e292]:
+                              - generic [ref=f206e293]:
+                                - generic [ref=f206e294]: h
+                                - generic "2026-06-18 12:49:09" [ref=f206e295]: 23 horas atrás.
+                              - generic [ref=f206e296]:
+                                - img "Foto" [ref=f206e298]
+                                - generic [ref=f206e299]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e300]
+                                  - link "Richard Sebold" [ref=f206e301] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: atualizou a atividade
+                              - generic [ref=f206e302]: "Situação de: Em Andamento para: Validação"
+                          - listitem [ref=f206e303]:
+                            - generic [ref=f206e304]: h
+                            - generic [ref=f206e305]:
+                              - generic [ref=f206e306]:
+                                - generic [ref=f206e307]: h
+                                - generic "2026-06-18 12:48:27" [ref=f206e308]: 23 horas atrás.
+                              - generic [ref=f206e309]:
+                                - img "Foto" [ref=f206e311]
+                                - generic [ref=f206e312]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e313]
+                                  - link "Richard Sebold" [ref=f206e314] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: criou um apontamento na atividade
+                              - generic [ref=f206e315]:
+                                - text: "Horas apontadas: 00:21"
+                                - text: "Data: 18/06/2026"
+                                - text: "Comentário: Validado o filtro de filtro na tela de compartilhamento, na aba de concedidos e recebidos"
+                                - text: "Situação: Em Andamento"
+                                - text: "Tipo da hora: Hora normal"
+                                - text: "Área: Qualidade"
+                          - listitem [ref=f206e316]:
+                            - generic [ref=f206e317]: c
+                            - generic [ref=f206e318]:
+                              - generic [ref=f206e319]:
+                                - generic [ref=f206e320]: h
+                                - generic "2026-06-18 12:48:26" [ref=f206e321]: 23 horas atrás.
+                              - generic [ref=f206e322]:
+                                - img "Foto" [ref=f206e324]
+                                - generic [ref=f206e325]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e326]
+                                  - link "Richard Sebold" [ref=f206e327] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: atualizou a atividade
+                              - generic [ref=f206e328]: "% Completo de: 20,78% para: 21,74%"
+                          - listitem [ref=f206e329]:
+                            - generic [ref=f206e330]: f
+                            - generic [ref=f206e331]:
+                              - generic [ref=f206e332]:
+                                - generic [ref=f206e333]: h
+                                - generic "2026-06-18 12:45:14" [ref=f206e334]: 09:45
+                              - generic [ref=f206e335]:
+                                - img "Foto" [ref=f206e337]
+                                - generic [ref=f206e338]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e339]
+                                  - link "Richard Sebold" [ref=f206e340] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f206e341]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ✅ Passou
+                                - text: ":: Ambiente ::"
+                                - text: Stage
+                                - text: ":: Validação ::"
+                                - text: Validado o filtro de tipo de experiencia, tanto no na aba de concedidos quanto recebidos.
+                                - text: ":: Evidência(s) ::"
+                                - text: "Evidência no link:"
+                                - link "https://jam.dev/c/da7750ad-ef3d-4d1a-ad27-62e002b5ac6e" [ref=f206e342] [cursor=pointer]:
+                                  - /url: https://jam.dev/c/da7750ad-ef3d-4d1a-ad27-62e002b5ac6e
+                                - text: "Usuários associados: Éverton Gambeta, Felipe Schiochet Hansen"
+                          - listitem [ref=f206e343]:
+                            - generic [ref=f206e344]: c
+                            - generic [ref=f206e345]:
+                              - generic [ref=f206e346]:
+                                - generic [ref=f206e347]: h
+                                - generic "2026-06-18 12:32:21" [ref=f206e348]: 09:32
+                              - generic [ref=f206e349]:
+                                - img "Foto" [ref=f206e351]
+                                - generic [ref=f206e352]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e353]
+                                  - link "Richard Sebold" [ref=f206e354] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: atualizou a atividade
+                              - generic [ref=f206e355]: "Situação de: Validação para: Em Andamento"
+                          - listitem [ref=f206e356]:
+                            - generic [ref=f206e357]: j
+                            - generic [ref=f206e358]:
+                              - generic [ref=f206e359]:
+                                - generic [ref=f206e360]: h
+                                - generic "2026-06-18 12:30:35" [ref=f206e361]: 09:30
+                              - generic [ref=f206e362]:
+                                - img "Foto" [ref=f206e364]
+                                - generic [ref=f206e365]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e366]
+                                  - link "Richard Sebold" [ref=f206e367] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301268
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f206e368]: "Responsável: Richard Sebold"
+                          - listitem [ref=f206e369]:
+                            - generic [ref=f206e370]: 17/06/2026
+                          - listitem [ref=f206e371]:
+                            - generic [ref=f206e372]: c
+                            - generic [ref=f206e373]:
+                              - generic [ref=f206e374]:
+                                - generic [ref=f206e375]: h
+                                - generic "2026-06-17 13:39:45" [ref=f206e376]: 10:39
+                              - generic [ref=f206e377]:
+                                - img "Foto" [ref=f206e379]
+                                - generic [ref=f206e380]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f206e381]
+                                  - link "Éverton Gambeta" [ref=f206e382] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f206e383]: "Situação de: Pronto para stage para: Validação"
+                        - generic [ref=f206e385]:
+                          - list [ref=f206e386]:
+                            - listitem [ref=f206e387]
+                          - list [ref=f206e388]:
+                            - listitem [ref=f206e389]:
+                              - link "» Mais antigos" [ref=f206e390] [cursor=pointer]:
+                                - /url: "#"
+                    - text: J J M P M P J J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

@@ -1,0 +1,683 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f225e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f225e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - button "toggle" [ref=e447] [cursor=pointer]:
+                        - img [ref=e448]
+                      - link "00 - Arquitetura" [ref=e450] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e451]:
+                          - img [ref=e452]
+                          - paragraph [ref=e455]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e456] [cursor=pointer]:
+                      - img [ref=e457]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e463]:
+                    - generic [ref=e464]:
+                      - button "toggle" [ref=e465] [cursor=pointer]:
+                        - img [ref=e466]
+                      - link "01 - Desenvolvimento" [ref=e468] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e469]:
+                          - img [ref=e470]
+                          - paragraph [ref=e473]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e474] [cursor=pointer]:
+                      - img [ref=e475]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e481]:
+                    - generic [ref=e482]:
+                      - button "toggle" [ref=e483] [cursor=pointer]:
+                        - img [ref=e484]
+                      - link "* Indiretos" [ref=e486] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e487]:
+                          - img [ref=e488]
+                          - paragraph [ref=e491]: "* Indiretos"
+                    - button "Ver mais" [ref=e492] [cursor=pointer]:
+                      - img [ref=e493]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - button "toggle" [ref=e501] [cursor=pointer]:
+                        - img [ref=e502]
+                      - link "Ativos - Desenvolvimento" [ref=e504] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e505]:
+                          - img [ref=e506]
+                          - paragraph [ref=e509]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e510] [cursor=pointer]:
+                      - img [ref=e511]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - button "toggle" [ref=e519] [cursor=pointer]:
+                        - img [ref=e520]
+                      - link "Inativos - Desenvolvimento" [ref=e522] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e523]:
+                          - img [ref=e524]
+                          - paragraph [ref=e527]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e528] [cursor=pointer]:
+                      - img [ref=e529]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e535]:
+                    - generic [ref=e536]:
+                      - button "toggle" [ref=e537] [cursor=pointer]:
+                        - img [ref=e538]
+                      - link "Não iniciados - Desenvolvimento" [ref=e540] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e541]:
+                          - img [ref=e542]
+                          - paragraph [ref=e545]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e546] [cursor=pointer]:
+                      - img [ref=e547]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e553]:
+                    - generic [ref=e554]:
+                      - button "toggle" [ref=e555] [cursor=pointer]:
+                        - img [ref=e556]
+                      - link "02 - Qualidade" [ref=e558] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e559]:
+                          - img [ref=e560]
+                          - paragraph [ref=e563]: 02 - Qualidade
+                    - button "Ver mais" [ref=e564] [cursor=pointer]:
+                      - img [ref=e565]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - button "toggle" [ref=e573] [cursor=pointer]:
+                        - img [ref=e574]
+                      - link "03 - Engenharia de produto" [ref=e576] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e577]:
+                          - img [ref=e578]
+                          - paragraph [ref=e581]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e582] [cursor=pointer]:
+                      - img [ref=e583]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - button "toggle" [ref=e591] [cursor=pointer]:
+                        - img [ref=e592]
+                      - link "04 - Gestão e Projetos" [ref=e594] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e595]:
+                          - img [ref=e596]
+                          - paragraph [ref=e599]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - button "toggle" [ref=e609] [cursor=pointer]:
+                        - img [ref=e610]
+                      - link "05 - DevOps" [ref=e612] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e613]:
+                          - img [ref=e614]
+                          - paragraph [ref=e617]: 05 - DevOps
+                    - button "Ver mais" [ref=e618] [cursor=pointer]:
+                      - img [ref=e619]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]:
+                      - button "toggle" [ref=e627] [cursor=pointer]:
+                        - img [ref=e628]
+                      - link "98 - Backlog" [ref=e630] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e631]:
+                          - img [ref=e632]
+                          - paragraph [ref=e635]: 98 - Backlog
+                    - button "Ver mais" [ref=e636] [cursor=pointer]:
+                      - img [ref=e637]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e643]:
+                    - generic [ref=e644]:
+                      - button "toggle" [ref=e645] [cursor=pointer]:
+                        - img [ref=e646]
+                      - link "99 - Sustentação" [ref=e648] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e649]:
+                          - img [ref=e650]
+                          - paragraph [ref=e653]: 99 - Sustentação
+                    - button "Ver mais" [ref=e654] [cursor=pointer]:
+                      - img [ref=e655]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - button "toggle" [ref=e663] [cursor=pointer]:
+                        - img [ref=e664]
+                      - link "API" [ref=e666] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e667]:
+                          - img [ref=e668]
+                          - paragraph [ref=e671]: API
+                    - button "Ver mais" [ref=e672] [cursor=pointer]:
+                      - img [ref=e673]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - button "toggle" [ref=e681] [cursor=pointer]:
+                        - img [ref=e682]
+                      - link "Histórico" [ref=e684] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e685]:
+                          - img [ref=e686]
+                          - paragraph [ref=e689]: Histórico
+                    - button "Ver mais" [ref=e690] [cursor=pointer]:
+                      - img [ref=e691]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Evolução UI e novo design system" [ref=e407] [cursor=pointer]: Evolução UI e novo design s...
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Facelift - Conteúdos - Editar - 4.Beta" [ref=e409] [cursor=pointer]: Facelift - Conteúdos - Edit...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - heading "[Facelift] Aba Dashboard vem com alguns dashs escondidos" [level=2] [ref=e415]
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - img [ref=e423]
+                - img [ref=e426]
+                - img [ref=e429]
+          - generic [ref=e431]:
+            - tablist [ref=e433]:
+              - tab "Informações" [selected] [ref=e437] [cursor=pointer]:
+                - paragraph [ref=e438]: Informações
+            - generic [ref=e439]:
+              - separator
+        - iframe [active] [ref=e442]:
+          - generic [ref=f219e1]:
+            - generic [ref=f219e3]:
+              - generic [ref=f219e5]:
+                - generic [ref=f219e6]:
+                  - list [ref=f219e8]:
+                    - listitem [ref=f219e9]:
+                      - link ";Novo" [ref=f219e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6273562/activities/new
+                    - listitem [ref=f219e11]:
+                      - generic [ref=f219e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f219e13]:
+                      - generic [ref=f219e14]: "&Apagar"
+                    - listitem [ref=f219e15]:
+                      - button "| Concluido" [ref=f219e18] [cursor=pointer]:
+                        - paragraph [ref=f219e19]:
+                          - generic [ref=f219e20]: "|"
+                          - generic "Concluido" [ref=f219e21]
+                        - img [ref=f219e22]
+                    - listitem [ref=f219e24]
+                    - listitem [ref=f219e25]:
+                      - generic "Comentar" [ref=f219e26] [cursor=pointer]: <
+                    - listitem [ref=f219e27]:
+                      - generic "Apontar" [ref=f219e28] [cursor=pointer]: h
+                    - listitem [ref=f219e29]:
+                      - generic "Tags" [ref=f219e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f219e31]:
+                      - generic "Alocação Parcial" [ref=f219e32] [cursor=pointer]: 
+                    - listitem [ref=f219e33]:
+                      - generic "Checklist" [ref=f219e34] [cursor=pointer]: 
+                  - generic [ref=f219e35]:
+                    - strong [ref=f219e36]: Título
+                    - paragraph [ref=f219e37]: "[Facelift] Aba Dashboard vem com alguns dashs escondidos"
+                    - generic [ref=f219e38]:
+                      - generic [ref=f219e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f219e40]:
+                          - generic [ref=f219e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Evolução UI e novo design system > Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6273562/activities/
+                        - strong [ref=f219e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f219e44]: "19792"
+                        - generic [ref=f219e45]:
+                          - generic [ref=f219e46]:
+                            - strong [ref=f219e47]: Criado há
+                            - paragraph [ref=f219e48]: 15 dias 04/06/2026
+                          - generic [ref=f219e49]:
+                            - strong [ref=f219e50]: Solicitante
+                            - paragraph [ref=f219e51]: Angelica Cristine Budziak
+                        - paragraph [ref=f219e52]:
+                          - strong [ref=f219e53]: Tipo de Atividade
+                          - generic [ref=f219e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f219e55]: Descrição
+                        - generic [ref=f219e56]:
+                          - paragraph [ref=f219e57]: Ao acessar a aba dashboard são exibidos apenas os 4 primeiros, os demais ficam escondidos.
+                          - paragraph [ref=f219e58]: Isso fazia sentido quando dashboard e aprendizagem ficavam juntos, agora com abas separadas precisa ser arrumado para que todos os dashboards já venham exibidos por padrão.
+                          - paragraph [ref=f219e59]: Não há mais necessidade dessa opção "Mostrar/Esconder dashboards"
+                          - paragraph [ref=f219e60]:
+                            - img [ref=f219e61]
+                        - strong [ref=f219e62]: Categorias
+                        - paragraph
+                        - strong [ref=f219e63]: Prioridade
+                        - paragraph
+                        - strong [ref=f219e64]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f219e65]: Replanejamentos
+                        - paragraph [ref=f219e66]: "1"
+                        - generic [ref=f219e67]:
+                          - generic [ref=f219e68]:
+                            - strong [ref=f219e69]: Pull request
+                            - paragraph [ref=f219e70]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10629" [ref=f219e71] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10629
+                          - generic [ref=f219e72]:
+                            - strong [ref=f219e73]: Nº Ticket Movidesk
+                            - paragraph [ref=f219e74]: .
+                          - generic [ref=f219e75]:
+                            - strong [ref=f219e76]: Urgência
+                            - paragraph [ref=f219e77]: Baixo
+                          - generic [ref=f219e78]:
+                            - strong [ref=f219e79]: Versão
+                            - paragraph
+                          - generic [ref=f219e80]:
+                            - strong [ref=f219e81]: Rebote
+                            - paragraph
+                          - generic [ref=f219e82]:
+                            - strong [ref=f219e83]: Plataforma
+                            - paragraph [ref=f219e84]: Desktop
+                          - generic [ref=f219e85]:
+                            - strong [ref=f219e86]: Funcionalidade
+                            - paragraph [ref=f219e87]: Conteúdos
+                          - generic [ref=f219e88]:
+                            - strong [ref=f219e89]: Sub-funcionalidade
+                            - paragraph [ref=f219e90]: Dashboards
+                          - generic [ref=f219e92]: J
+                          - generic [ref=f219e93]:
+                            - list [ref=f219e94]:
+                              - listitem [ref=f219e95]:
+                                - link "Cliente" [ref=f219e96] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f219e98]:
+                                - link "Classificação" [ref=f219e99] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f219e102]: J
+                      - generic [ref=f219e103]:
+                        - generic [ref=f219e104]:
+                          - generic [ref=f219e106]: i Prazo
+                          - generic [ref=f219e107]:
+                            - generic [ref=f219e108]:
+                              - generic [ref=f219e109]:
+                                - strong [ref=f219e110]: Início Estimado
+                                - paragraph
+                              - generic [ref=f219e111]:
+                                - strong [ref=f219e112]: Término Estimado
+                                - paragraph
+                            - generic [ref=f219e113]:
+                              - generic [ref=f219e114]:
+                                - strong [ref=f219e115]: Início Real
+                                - paragraph [ref=f219e116]: 04/06/2026
+                              - generic [ref=f219e117]:
+                                - strong [ref=f219e118]: Término Real
+                                - paragraph [ref=f219e119]: 18/06/2026 - 20:51h
+                            - generic [ref=f219e121]:
+                              - strong [ref=f219e122]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f219e123]:
+                          - generic [ref=f219e125]: h Esforço
+                          - generic [ref=f219e127]:
+                            - generic [ref=f219e128]:
+                              - strong [ref=f219e129]: Esforço Estimado
+                              - paragraph [ref=f219e130]: 1,00h
+                            - generic [ref=f219e131]:
+                              - strong [ref=f219e132]: Esforço Real
+                              - paragraph [ref=f219e133]: 1,33h
+                        - generic [ref=f219e134]:
+                          - generic [ref=f219e136]: e Lançamentos Financeiros
+                          - generic [ref=f219e138]:
+                            - generic [ref=f219e139]:
+                              - strong [ref=f219e140]: Previsto
+                              - paragraph
+                            - generic [ref=f219e141]:
+                              - strong [ref=f219e142]: Realizado
+                              - paragraph
+                        - generic [ref=f219e143]:
+                          - generic [ref=f219e145]:  Andamento
+                          - generic [ref=f219e147]:
+                            - generic [ref=f219e148]:
+                              - strong [ref=f219e149]: "% Completo"
+                              - progressbar [ref=f219e151]
+                              - generic [ref=f219e152]: 100,00%
+                            - img [ref=f219e156]:
+                              - generic [ref=f219e167]: "1"
+                              - generic [ref=f219e170]: 1,33
+                    - strong [ref=f219e176]: "[ Lembrar-me"
+                    - strong [ref=f219e177]: "@ Repetir"
+                - generic [ref=f219e180]:
+                  - list [ref=f219e181]:
+                    - listitem [ref=f219e182]:
+                      - link "Arquivos" [ref=f219e183] [cursor=pointer]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f219e184]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f219e185] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f219e186]:
+                      - link "Marcos" [ref=f219e187] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f219e188]:
+                      - link "Links" [ref=f219e189] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f219e190]:
+                      - link "Finanças" [ref=f219e191] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f219e192]:
+                      - link "Histórico" [expanded] [ref=f219e193]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f219e194]:
+                    - generic [ref=f219e200]:
+                      - list [ref=f219e201]:
+                        - strong [ref=f219e202]: Tipos
+                        - listitem [ref=f219e203]:
+                          - checkbox "Comentários" [checked] [ref=f219e204]
+                          - generic [ref=f219e205]: Comentários
+                        - listitem [ref=f219e206]:
+                          - checkbox "Apontamentos" [checked] [ref=f219e207]
+                          - generic [ref=f219e208]: Apontamentos
+                        - listitem [ref=f219e209]:
+                          - checkbox "Atualizações" [checked] [ref=f219e210]
+                          - generic [ref=f219e211]: Atualizações
+                      - list [ref=f219e212]:
+                        - strong [ref=f219e213]: Ver
+                        - listitem [ref=f219e214]:
+                          - radio "Tudo" [checked] [active] [ref=f219e215]
+                          - generic [ref=f219e216]: Tudo
+                        - listitem [ref=f219e217]:
+                          - radio "Estou envolvido" [ref=f219e218]
+                          - generic [ref=f219e219]: Estou envolvido
+                      - list [ref=f219e220]:
+                        - listitem
+                      - generic [ref=f219e222]:
+                        - list [ref=f219e223]:
+                          - listitem [ref=f219e224]:
+                            - generic [ref=f219e225]: 18/06/2026
+                          - listitem [ref=f219e226]:
+                            - generic [ref=f219e227]: c
+                            - generic [ref=f219e228]:
+                              - generic [ref=f219e229]:
+                                - generic [ref=f219e230]: h
+                                - generic "2026-06-18 23:51:49" [ref=f219e231]: 12 horas atrás.
+                              - generic [ref=f219e232]:
+                                - img "Foto" [ref=f219e234]
+                                - generic [ref=f219e235]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e236]
+                                  - link "Jeiel Alves de Oliveira" [ref=f219e237] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/279122
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e238]:
+                                - text: "Término Real de: em branco para: 18/06/2026 20:51"
+                                - text: "Situação de: Validação para: Concluido"
+                          - listitem [ref=f219e239]:
+                            - generic [ref=f219e240]: c
+                            - generic [ref=f219e241]:
+                              - generic [ref=f219e242]:
+                                - generic [ref=f219e243]: h
+                                - generic "2026-06-18 21:03:46" [ref=f219e244]: 15 horas atrás.
+                              - generic [ref=f219e245]:
+                                - img "Foto" [ref=f219e247]
+                                - generic [ref=f219e248]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e249]
+                                  - link "Éverton Gambeta" [ref=f219e250] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/200317
+                                  - text: adicionou uma relação na atividade
+                              - generic [ref=f219e251]:
+                                - text: "Uma atividade foi relacionada:"
+                                - link "[Facelift] - Gerar versão para deploy da Twygo - 18/06;2026" [ref=f219e252] [cursor=pointer]:
+                                  - /url: https://app.artia.com/a/4874953/f/6273562/activities/33101040
+                          - listitem [ref=f219e253]:
+                            - generic [ref=f219e254]: c
+                            - generic [ref=f219e255]:
+                              - generic [ref=f219e256]:
+                                - generic [ref=f219e257]: h
+                                - generic "2026-06-18 17:27:51" [ref=f219e258]: 19 horas atrás.
+                              - generic [ref=f219e259]:
+                                - img "Foto" [ref=f219e261]
+                                - generic [ref=f219e262]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e263]
+                                  - link "Dante Tavares" [ref=f219e264] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e265]: "Situação de: Em Andamento para: Validação"
+                          - listitem [ref=f219e266]:
+                            - generic [ref=f219e267]: h
+                            - generic [ref=f219e268]:
+                              - generic [ref=f219e269]:
+                                - generic [ref=f219e270]: h
+                                - generic "2026-06-18 17:27:51" [ref=f219e271]: 19 horas atrás.
+                              - generic [ref=f219e272]:
+                                - img "Foto" [ref=f219e274]
+                                - generic [ref=f219e275]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e276]
+                                  - link "Dante Tavares" [ref=f219e277] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301266
+                                  - text: criou um apontamento na atividade
+                              - generic [ref=f219e278]:
+                                - text: "Horas apontadas: 00:30"
+                                - text: "Data: 18/06/2026"
+                                - text: "Comentário: Revalidação realizada em Stage na aba Dashboard dos conteúdos do Facelift. Todos os dashboards são exibidos automaticamente ao acessar a tela, sem ocultação de cards ou necessidade de ação manual para expandi-los. O botão/opção \"Mostrar/Esconder Dashboard\" não está mais presente e os indicadores permanecem visíveis por padrão em todos os cenários validados. Problema não reproduzido. Correção aprovada."
+                                - text: "Situação: Em Andamento"
+                                - text: "Tipo da hora: Hora normal"
+                                - text: "Área: Qualidade"
+                          - listitem [ref=f219e279]:
+                            - generic [ref=f219e280]: f
+                            - generic [ref=f219e281]:
+                              - generic [ref=f219e282]:
+                                - generic [ref=f219e283]: h
+                                - generic "2026-06-18 17:23:09" [ref=f219e284]: 19 horas atrás.
+                              - generic [ref=f219e285]:
+                                - img "Foto" [ref=f219e287]
+                                - generic [ref=f219e288]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e289]
+                                  - link "Dante Tavares" [ref=f219e290] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301266
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f219e291]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ✅ Passou
+                                - text: ":: Ambiente ::"
+                                - text: Stage
+                                - text: ":: Validação ::"
+                                - text: Na edição de Conteúdo > aba Dashboard, todos os dashboards aparecem expandidos e visíveis
+                                - text: por padrão e o botão "Mostrar/Esconder Dashboard" não existe mais. Confirmado ao vivo em
+                                - text: 2 conteúdos distintos.
+                                - text: ":: Obs ::"
+                                - text: "PR #10629 ainda OPEN, mas o comportamento já está deployado no stage: 0 chakra-collapse"
+                                - text: e 10 cards/gráficos visíveis em ambos os conteúdos testados.
+                                - text: ":: Evidência(s) ::"
+                                - text: "- 10_aba_dashboard.png / 11_aba_dashboard_conteudo2.png"
+                                - text: "Evidência no link:"
+                                - link "https://github.com/DantexgerBR/twygo-playwright-tests/commit/40b8182a0630c9fdb6eb77c1184405a33599922c" [ref=f219e292] [cursor=pointer]:
+                                  - /url: https://github.com/DantexgerBR/twygo-playwright-tests/commit/40b8182a0630c9fdb6eb77c1184405a33599922c
+                                - text: "Usuários associados: Angelica Cristine Budziak, Vinicius Lisboa"
+                          - listitem [ref=f219e293]:
+                            - generic [ref=f219e294]: j
+                            - generic [ref=f219e295]:
+                              - generic [ref=f219e296]:
+                                - generic [ref=f219e297]: h
+                                - generic "2026-06-18 15:08:21" [ref=f219e298]: 21 horas atrás.
+                              - generic [ref=f219e299]:
+                                - img "Foto" [ref=f219e301]
+                                - generic [ref=f219e302]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e303]
+                                  - link "Dante Tavares" [ref=f219e304] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301266
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f219e305]: "Responsável: Dante Tavares"
+                          - listitem [ref=f219e306]:
+                            - generic [ref=f219e307]: c
+                            - generic [ref=f219e308]:
+                              - generic [ref=f219e309]:
+                                - generic [ref=f219e310]: h
+                                - generic "2026-06-18 15:08:21" [ref=f219e311]: 21 horas atrás.
+                              - generic [ref=f219e312]:
+                                - img "Foto" [ref=f219e314]
+                                - generic [ref=f219e315]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e316]
+                                  - link "Dante Tavares" [ref=f219e317] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e318]: "Situação de: Validação para: Em Andamento"
+                          - listitem [ref=f219e319]:
+                            - generic [ref=f219e320]: c
+                            - generic [ref=f219e321]:
+                              - generic [ref=f219e322]:
+                                - generic [ref=f219e323]: h
+                                - generic "2026-06-18 14:43:25" [ref=f219e324]: 22 horas atrás.
+                              - generic [ref=f219e325]:
+                                - img "Foto" [ref=f219e327]
+                                - generic [ref=f219e328]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e329]
+                                  - link "Éverton Gambeta" [ref=f219e330] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e331]: "Situação de: Pronto para stage para: Validação"
+                          - listitem [ref=f219e332]:
+                            - generic [ref=f219e333]: c
+                            - generic [ref=f219e334]:
+                              - generic [ref=f219e335]:
+                                - generic [ref=f219e336]: h
+                                - generic "2026-06-18 14:04:27" [ref=f219e337]: 22 horas atrás.
+                              - generic [ref=f219e338]:
+                                - img "Foto" [ref=f219e340]
+                                - generic [ref=f219e341]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e342]
+                                  - link "Vinicius Lisboa" [ref=f219e343] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/200535
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e344]: "Situação de: Em Revisão para: Pronto para stage"
+                          - listitem [ref=f219e345]:
+                            - generic [ref=f219e346]: 16/06/2026
+                          - listitem [ref=f219e347]:
+                            - generic [ref=f219e348]: c
+                            - generic [ref=f219e349]:
+                              - generic [ref=f219e350]:
+                                - generic [ref=f219e351]: h
+                                - generic "2026-06-16 14:01:40" [ref=f219e352]: 11:01
+                              - generic [ref=f219e353]:
+                                - img "Foto" [ref=f219e355]
+                                - generic [ref=f219e356]:
+                                  - generic "Tecnologia | Facelift - Conteúdos - Editar - 4.Beta" [ref=f219e357]: Tecnologia | Facelift - Conteúdos - Editar - 4.Beta Via API
+                                  - link "João Miguel Gorski" [ref=f219e358] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6273562/timeline/279121
+                                  - text: atualizou a atividade
+                              - generic [ref=f219e359]:
+                                - text: "Esforço Estimado de: 0,00 para: 1,00"
+                                - text: "Replanejamentos de: 0 para: 1"
+                                - generic [ref=f219e360]:
+                                  - strong [ref=f219e361]: "Via API por:"
+                                  - text: João Miguel Gorski
+                        - generic [ref=f219e363]:
+                          - list [ref=f219e364]:
+                            - listitem [ref=f219e365]
+                          - list [ref=f219e366]:
+                            - listitem [ref=f219e367]:
+                              - link "» Mais antigos" [ref=f219e368] [cursor=pointer]:
+                                - /url: "#"
+                    - text: J J M P J J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

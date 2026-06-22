@@ -1,0 +1,329 @@
+- generic [ref=e1]:
+  - iframe [ref=e41]:
+    - button "Open AI Assistant Launcher" [ref=f99e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f99e8]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Menu" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - group [ref=e12]:
+          - checkbox "Novo visual" [checked] [ref=e14]
+          - paragraph [ref=e18]: Novo visual
+      - generic [ref=e19]:
+        - button "Pesquisar" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - button "Central de ajuda" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - button "Central de notificações" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - button "ID:301268 - Richard Sebold" [ref=e36] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - navigation "breadcrumb" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img [ref=e51]
+                  - generic "Tecnologia" [ref=e54] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e55]:
+                  - generic "99 - Sustentação" [ref=e56] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e57]:
+                  - generic "Sustentação" [ref=e58] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e59]:
+                  - generic "N2" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - button "Activity" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - heading "[BUG] E-mail de aceite dos Termos de Uso reenviado junto com e-mail de inscrição em curso" [level=2] [ref=e66]
+          - generic [ref=e68]:
+            - button "Pessoas" [ref=e69] [cursor=pointer]:
+              - img [ref=e71]
+              - text: Pessoas
+            - group [ref=e72]:
+              - img [ref=e74]
+              - img [ref=e77]
+        - generic [ref=e79]:
+          - tablist [ref=e81]:
+            - tab "Informações" [ref=e85] [cursor=pointer]:
+              - paragraph [ref=e86]: Informações
+          - generic [ref=e87]:
+            - separator
+      - iframe [active] [ref=e90]:
+        - generic [active] [ref=f93e1]:
+          - generic [ref=f93e3]:
+            - generic [ref=f93e5]:
+              - generic [ref=f93e6]:
+                - list [ref=f93e8]:
+                  - listitem [ref=f93e9]:
+                    - link ";Novo" [ref=f93e10] [cursor=pointer]:
+                      - /url: /a/4874953/f/4883952/activities/new
+                  - listitem [ref=f93e11]:
+                    - generic [ref=f93e12]: "%Editar"
+                  - text: 
+                  - listitem [ref=f93e13]:
+                    - generic [ref=f93e14]: "&Apagar"
+                  - listitem [ref=f93e15]:
+                    - button "| Concluido" [ref=f93e18] [cursor=pointer]:
+                      - paragraph [ref=f93e19]:
+                        - generic [ref=f93e20]: "|"
+                        - generic "Concluido" [ref=f93e21]
+                      - img [ref=f93e22]
+                  - listitem [ref=f93e24]
+                  - listitem [ref=f93e25]:
+                    - generic "Comentar" [ref=f93e26] [cursor=pointer]: <
+                  - listitem [ref=f93e27]:
+                    - generic "Apontar" [ref=f93e28] [cursor=pointer]: h
+                  - listitem [ref=f93e29]:
+                    - generic "Tags" [ref=f93e30] [cursor=pointer]: "\""
+                    - text: J y
+                  - listitem [ref=f93e31]:
+                    - generic "Alocação Parcial" [ref=f93e32] [cursor=pointer]: 
+                  - listitem [ref=f93e33]:
+                    - generic "Checklist" [ref=f93e34] [cursor=pointer]: 
+                - generic [ref=f93e35]:
+                  - strong [ref=f93e36]: Título
+                  - paragraph [ref=f93e37]: "[BUG] E-mail de aceite dos Termos de Uso reenviado junto com e-mail de inscrição em curso"
+                  - generic [ref=f93e38]:
+                    - generic [ref=f93e39]:
+                      - text: Projeto / Pasta
+                      - paragraph [ref=f93e40]:
+                        - generic [ref=f93e41]: H
+                        - link "Tecnologia > 99 - Sustentação > Sustentação > N2" [ref=f93e42] [cursor=pointer]:
+                          - /url: /a/4874953/f/4883952/activities/
+                      - strong [ref=f93e43]: ID por Grupo de trabalho
+                      - paragraph [ref=f93e44]: "20097"
+                      - generic [ref=f93e45]:
+                        - generic [ref=f93e46]:
+                          - strong [ref=f93e47]: Criado há
+                          - paragraph [ref=f93e48]: 4 dias 15/06/2026
+                        - generic [ref=f93e49]:
+                          - strong [ref=f93e50]: Solicitante
+                          - paragraph [ref=f93e51]: Raisa Frederico Gomes
+                      - paragraph [ref=f93e52]:
+                        - strong [ref=f93e53]: Tipo de Atividade
+                        - generic [ref=f93e54]: M
+                        - text: Tech - Bug Produção
+                      - strong [ref=f93e55]: Descrição
+                      - generic [ref=f93e56]:
+                        - paragraph [ref=f93e57]:
+                          - strong [ref=f93e58]: Descrição
+                          - text: Cliente
+                          - strong [ref=f93e59]: Carel (ID 36744)
+                          - text: reporta que alguns usuários estão recebendo o e-mail de
+                          - strong [ref=f93e60]: aceite dos Termos de Uso
+                          - text: juntamente com o e-mail de
+                          - strong [ref=f93e61]: confirmação de inscrição em cursos
+                          - text: ", mesmo após já terem realizado o aceite anteriormente."
+                        - paragraph [ref=f93e62]: "Durante a análise, foi realizado um teste no ambiente utilizando um usuário de teste. O fluxo executado foi:"
+                        - list [ref=f93e63]:
+                          - listitem [ref=f93e64]: Cadastro de um novo aluno.
+                          - listitem [ref=f93e65]: Primeiro acesso à plataforma.
+                          - listitem [ref=f93e66]: Realização do aceite dos Termos de Uso.
+                          - listitem [ref=f93e67]: Aguardar um período de tempo.
+                          - listitem [ref=f93e68]: Inscrição do aluno em um curso.
+                          - listitem [ref=f93e69]: Recebimento do e-mail de inscrição.
+                        - paragraph [ref=f93e70]:
+                          - text: Neste momento, além do e-mail de inscrição, o sistema também reenviou o e-mail referente aos Termos de Uso.
+                          - img [ref=f93e71]
+                        - paragraph [ref=f93e72]:
+                          - strong [ref=f93e73]: Cliente
+                        - list [ref=f93e74]:
+                          - listitem [ref=f93e75]: Carel
+                          - listitem [ref=f93e76]: "ID Ambiente: 36744"
+                          - listitem [ref=f93e77]: "Ambiente: Login - CAREL Ensina"
+                        - paragraph [ref=f93e78]:
+                          - strong [ref=f93e79]: Acesso utilizado para validação
+                        - list [ref=f93e80]:
+                          - listitem [ref=f93e81]:
+                            - text: "Usuário:"
+                            - link "Fabiani.andrade@twygo.com" [ref=f93e82] [cursor=pointer]:
+                              - /url: mailto:Fabiani.andrade@twygo.com
+                        - paragraph [ref=f93e83]:
+                          - strong [ref=f93e84]: Comportamento esperado
+                        - list [ref=f93e85]:
+                          - listitem [ref=f93e86]: Após o aluno realizar o aceite dos Termos de Uso, o e-mail relacionado aos termos não deve ser reenviado em novas ações realizadas na plataforma.
+                          - listitem [ref=f93e87]: Ao efetuar uma inscrição em curso, o usuário deve receber apenas o e-mail referente à inscrição.
+                        - paragraph [ref=f93e88]:
+                          - strong [ref=f93e89]: Comportamento atual
+                        - list [ref=f93e90]:
+                          - listitem [ref=f93e91]:
+                            - text: "Ao realizar uma inscrição em curso, o usuário recebe simultaneamente:"
+                            - list [ref=f93e92]:
+                              - listitem [ref=f93e93]: E-mail de confirmação de inscrição.
+                              - listitem [ref=f93e94]: E-mail de aceite dos Termos de Uso.
+                        - paragraph [ref=f93e95]:
+                          - strong [ref=f93e96]: Impacto
+                        - list [ref=f93e97]:
+                          - listitem [ref=f93e98]: Gera confusão para os usuários.
+                          - listitem [ref=f93e99]: Pode causar a impressão de que os Termos de Uso não foram aceitos corretamente.
+                          - listitem [ref=f93e100]: Aumenta o volume de dúvidas e chamados relacionados aos e-mails da plataforma.
+                        - paragraph [ref=f93e101]:
+                          - strong [ref=f93e102]: Evidências
+                        - list [ref=f93e103]:
+                          - listitem [ref=f93e104]: Prints enviados pelo cliente.
+                          - listitem [ref=f93e105]: Teste realizado internamente reproduzindo o comportamento descrito.
+                          - listitem [ref=f93e106]: Evidência de que o e-mail dos Termos de Uso foi recebido junto ao e-mail de inscrição.
+                        - paragraph [ref=f93e107]:
+                          - strong [ref=f93e108]: Ação necessária
+                        - list [ref=f93e109]:
+                          - listitem [ref=f93e110]: Verificar a regra de disparo dos e-mails de Termos de Uso.
+                          - listitem [ref=f93e111]: Validar por qual motivo o sistema está reenviando o e-mail após o aceite já ter sido realizado.
+                          - listitem [ref=f93e112]: Corrigir o fluxo para que o e-mail de Termos de Uso seja enviado apenas quando aplicável.
+                      - strong [ref=f93e113]: Categorias
+                      - paragraph
+                      - strong [ref=f93e114]: Prioridade
+                      - paragraph
+                      - strong [ref=f93e115]: Tags
+                      - paragraph:
+                        - generic:
+                          - list
+                      - strong [ref=f93e116]: Replanejamentos
+                      - paragraph [ref=f93e117]: "0"
+                      - generic [ref=f93e118]:
+                        - generic [ref=f93e119]:
+                          - strong [ref=f93e120]: Pull request
+                          - paragraph [ref=f93e121]:
+                            - link "https://github.com/Twygo/twyg-app/pull/10715" [ref=f93e122] [cursor=pointer]:
+                              - /url: https://github.com/Twygo/twyg-app/pull/10715
+                        - generic [ref=f93e123]:
+                          - strong [ref=f93e124]: Nº Ticket Movidesk
+                          - paragraph [ref=f93e125]:
+                            - link "https://app.hubspot.com/contacts/44238979/record/0-5/45770438831" [ref=f93e126] [cursor=pointer]:
+                              - /url: https://app.hubspot.com/contacts/44238979/record/0-5/45770438831
+                        - generic [ref=f93e127]:
+                          - strong [ref=f93e128]: Urgência
+                          - paragraph [ref=f93e129]: Alto
+                        - generic [ref=f93e130]:
+                          - strong [ref=f93e131]: Versão
+                          - paragraph
+                        - generic [ref=f93e132]:
+                          - strong [ref=f93e133]: Rebote
+                          - paragraph
+                        - generic [ref=f93e134]:
+                          - strong [ref=f93e135]: Plataforma
+                          - paragraph [ref=f93e136]: ", Desktop"
+                        - generic [ref=f93e137]:
+                          - strong [ref=f93e138]: Funcionalidade
+                          - paragraph [ref=f93e139]: Envio de e-mail
+                        - generic [ref=f93e140]:
+                          - strong [ref=f93e141]: Sub-funcionalidade
+                          - paragraph [ref=f93e142]: Cadastro de usuário
+                        - generic [ref=f93e144]: J
+                        - generic [ref=f93e145]:
+                          - list [ref=f93e146]:
+                            - listitem [ref=f93e147]:
+                              - link "Cliente" [ref=f93e148] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Cliente
+                            - listitem [ref=f93e150]:
+                              - link "Classificação" [ref=f93e151] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Classificação
+                          - generic [ref=f93e154]: J
+                    - generic [ref=f93e155]:
+                      - generic [ref=f93e156]:
+                        - generic [ref=f93e158]: i Prazo
+                        - generic [ref=f93e159]:
+                          - generic [ref=f93e160]:
+                            - generic [ref=f93e161]:
+                              - strong [ref=f93e162]: Início Estimado
+                              - paragraph
+                            - generic [ref=f93e163]:
+                              - strong [ref=f93e164]: Término Estimado
+                              - paragraph
+                          - generic [ref=f93e165]:
+                            - generic [ref=f93e166]:
+                              - strong [ref=f93e167]: Início Real
+                              - paragraph [ref=f93e168]: 15/06/2026 - 17:30h
+                            - generic [ref=f93e169]:
+                              - strong [ref=f93e170]: Término Real
+                              - paragraph [ref=f93e171]: 17/06/2026 - 20:38h
+                          - generic [ref=f93e173]:
+                            - strong [ref=f93e174]: Tendência de Término
+                            - paragraph
+                      - generic [ref=f93e175]:
+                        - generic [ref=f93e177]: h Esforço
+                        - generic [ref=f93e179]:
+                          - generic [ref=f93e180]:
+                            - strong [ref=f93e181]: Esforço Estimado
+                            - paragraph [ref=f93e182]: 0,00h
+                          - generic [ref=f93e183]:
+                            - strong [ref=f93e184]: Esforço Real
+                            - paragraph [ref=f93e185]: 1,18h
+                      - generic [ref=f93e186]:
+                        - generic [ref=f93e188]: e Lançamentos Financeiros
+                        - generic [ref=f93e190]:
+                          - generic [ref=f93e191]:
+                            - strong [ref=f93e192]: Previsto
+                            - paragraph
+                          - generic [ref=f93e193]:
+                            - strong [ref=f93e194]: Realizado
+                            - paragraph
+                      - generic [ref=f93e195]:
+                        - generic [ref=f93e197]:  Andamento
+                        - generic [ref=f93e199]:
+                          - generic [ref=f93e200]:
+                            - strong [ref=f93e201]: "% Completo"
+                            - progressbar [ref=f93e203]
+                            - generic [ref=f93e204]: 100,00%
+                          - img [ref=f93e208]:
+                            - generic [ref=f93e217]: "0"
+                            - generic [ref=f93e220]: 1,18
+                  - strong [ref=f93e226]: "[ Lembrar-me"
+                  - strong [ref=f93e227]: "@ Repetir"
+              - generic [ref=f93e230]:
+                - list [ref=f93e231]:
+                  - listitem [ref=f93e232]:
+                    - link "Arquivos" [ref=f93e233]:
+                      - /url: "#object-show-files"
+                  - listitem [ref=f93e234]:
+                    - link "Atividades Vinculadas" [expanded] [ref=f93e235] [cursor=pointer]:
+                      - /url: "#object-show-dependencies"
+                  - listitem [ref=f93e236]:
+                    - link "Marcos" [ref=f93e237] [cursor=pointer]:
+                      - /url: "#object-show-milestones"
+                  - listitem [ref=f93e238]:
+                    - link "Links" [ref=f93e239] [cursor=pointer]:
+                      - /url: "#object-show-links"
+                  - listitem [ref=f93e240]:
+                    - link "Finanças" [ref=f93e241] [cursor=pointer]:
+                      - /url: "#object-show-finances"
+                  - listitem [ref=f93e242]:
+                    - link "Histórico" [ref=f93e243] [cursor=pointer]:
+                      - /url: "#object-show-timeline"
+                - generic [ref=f93e244]:
+                  - text: J J M P
+                  - generic [ref=f93e245]:
+                    - link "JVincular Arquivo" [ref=f93e246] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f93e248]:
+                      - listitem [ref=f93e249]: Nenhum registro encontrado.
+                      - table:
+                        - rowgroup
+                  - text: J J J
+              - text: $
+            - text: D V
+          - generic:
+            - list
+            - list
+            - list
+            - list
+            - list
+            - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

@@ -1,0 +1,305 @@
+- generic [ref=e1]:
+  - iframe [ref=e41]:
+    - button "Open AI Assistant Launcher" [ref=f90e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f90e8]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Menu" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - group [ref=e12]:
+          - checkbox "Novo visual" [checked] [ref=e14]
+          - paragraph [ref=e18]: Novo visual
+      - generic [ref=e19]:
+        - button "Pesquisar" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - button "Central de ajuda" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+            - button "Central de notificações" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - button "ID:301268 - Richard Sebold" [ref=e36] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - navigation "breadcrumb" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img [ref=e51]
+                  - generic "Tecnologia" [ref=e54] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e55]:
+                  - generic "99 - Sustentação" [ref=e56] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e57]:
+                  - generic "Sustentação" [ref=e58] [cursor=pointer]
+                  - text: /
+                - listitem [ref=e59]:
+                  - generic "N2" [ref=e60] [cursor=pointer]
+            - generic [ref=e61]:
+              - button "Activity" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+              - heading "[Connect] [BUG] Usuário é desconectado ao acessar link magic link em sessão ativa" [level=2] [ref=e66]
+          - generic [ref=e68]:
+            - button "Pessoas" [ref=e69] [cursor=pointer]:
+              - img [ref=e71]
+              - text: Pessoas
+            - group [ref=e72]:
+              - img [ref=e74]
+              - img [ref=e77]
+        - generic [ref=e79]:
+          - tablist [ref=e81]:
+            - tab "Informações" [ref=e85] [cursor=pointer]:
+              - paragraph [ref=e86]: Informações
+          - generic [ref=e87]:
+            - separator
+      - iframe [active] [ref=e90]:
+        - generic [active] [ref=f84e1]:
+          - generic [ref=f84e3]:
+            - generic [ref=f84e5]:
+              - generic [ref=f84e6]:
+                - list [ref=f84e8]:
+                  - listitem [ref=f84e9]:
+                    - link ";Novo" [ref=f84e10] [cursor=pointer]:
+                      - /url: /a/4874953/f/4883952/activities/new
+                  - listitem [ref=f84e11]:
+                    - generic [ref=f84e12]: "%Editar"
+                  - text: 
+                  - listitem [ref=f84e13]:
+                    - generic [ref=f84e14]: "&Apagar"
+                  - listitem [ref=f84e15]:
+                    - button "| Concluido" [ref=f84e18] [cursor=pointer]:
+                      - paragraph [ref=f84e19]:
+                        - generic [ref=f84e20]: "|"
+                        - generic "Concluido" [ref=f84e21]
+                      - img [ref=f84e22]
+                  - listitem [ref=f84e24]
+                  - listitem [ref=f84e25]:
+                    - generic "Comentar" [ref=f84e26] [cursor=pointer]: <
+                  - listitem [ref=f84e27]:
+                    - generic "Apontar" [ref=f84e28] [cursor=pointer]: h
+                  - listitem [ref=f84e29]:
+                    - generic "Tags" [ref=f84e30] [cursor=pointer]: "\""
+                    - text: J y
+                  - listitem [ref=f84e31]:
+                    - generic "Alocação Parcial" [ref=f84e32] [cursor=pointer]: 
+                  - listitem [ref=f84e33]:
+                    - generic "Checklist" [ref=f84e34] [cursor=pointer]: 
+                - generic [ref=f84e35]:
+                  - strong [ref=f84e36]: Título
+                  - paragraph [ref=f84e37]: "[Connect] [BUG] Usuário é desconectado ao acessar link magic link em sessão ativa"
+                  - generic [ref=f84e38]:
+                    - generic [ref=f84e39]:
+                      - text: Projeto / Pasta
+                      - paragraph [ref=f84e40]:
+                        - generic [ref=f84e41]: H
+                        - link "Tecnologia > 99 - Sustentação > Sustentação > N2" [ref=f84e42] [cursor=pointer]:
+                          - /url: /a/4874953/f/4883952/activities/
+                      - strong [ref=f84e43]: ID por Grupo de trabalho
+                      - paragraph [ref=f84e44]: "19686"
+                      - generic [ref=f84e45]:
+                        - generic [ref=f84e46]:
+                          - strong [ref=f84e47]: Criado há
+                          - paragraph [ref=f84e48]: 17 dias 02/06/2026
+                        - generic [ref=f84e49]:
+                          - strong [ref=f84e50]: Solicitante
+                          - paragraph [ref=f84e51]: Ana Paula dos Reis
+                      - paragraph [ref=f84e52]:
+                        - strong [ref=f84e53]: Tipo de Atividade
+                        - generic [ref=f84e54]: M
+                        - text: Tech - Bug Produção
+                      - strong [ref=f84e55]: Descrição
+                      - generic [ref=f84e56]:
+                        - paragraph [ref=f84e57]:
+                          - text: Foi identificado um comportamento inconsistente na funcionalidade de acesso via
+                          - strong [ref=f84e58]: magic link
+                          - text: na plataforma Twygo.
+                        - paragraph [ref=f84e59]: "Ao tentar acessar o conteúdo com o link reenviado:"
+                        - list [ref=f84e60]:
+                          - listitem [ref=f84e61]:
+                            - text: O usuário é
+                            - strong [ref=f84e62]: deslogado automaticamente
+                            - text: ", mesmo realizando acesso apenas em uma aba de navegação;"
+                          - listitem [ref=f84e63]:
+                            - text: O comportamento é
+                            - strong [ref=f84e64]: intermitente
+                            - text: ", ocorrendo de forma pontual, mas se acentuou durante os últimos eventos;"
+                          - listitem [ref=f84e65]: Antes, o acesso pelo magic link direcionava automaticamente para a página do conteúdo, mas atualmente esse fluxo não é consistente.
+                        - paragraph [ref=f84e66]:
+                          - text: O problema pode estar relacionado à melhoria recente que
+                          - strong [ref=f84e67]: impede múltiplos logins simultâneos
+                          - text: ", onde o sistema desconecta automaticamente sessões ativas, mas o comportamento observado sugere que o logout está ocorrendo mesmo sem outra sessão ativa."
+                        - paragraph [ref=f84e68]:
+                          - text: "Evidência:"
+                          - link "https://twygoead.sharepoint.com/sites/Twygo-SquadsComitseGrupos/_layouts/15/stream.aspx?id=%2Fsites%2FTwygo%2DSquadsComitseGrupos%2FDocumentos%20Compartilhados%2F%2D%2D%20QG%20%2E%20Aquisi%C3%A7%C3%A3o%20%28Marketing%29%20%2D%2D%2Fmagic%2Dlink%2Dnao%2Deh%2Dmagic%2Dlink%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee6b0a7a2%2D3db4%2D4a0f%2Da01e%2D9eb6b6ea96c9&ga=1" [ref=f84e69] [cursor=pointer]:
+                            - /url: https://twygoead.sharepoint.com/sites/Twygo-SquadsComitseGrupos/_layouts/15/stream.aspx?id=%2Fsites%2FTwygo%2DSquadsComitseGrupos%2FDocumentos%20Compartilhados%2F%2D%2D%20QG%20%2E%20Aquisi%C3%A7%C3%A3o%20%28Marketing%29%20%2D%2D%2Fmagic%2Dlink%2Dnao%2Deh%2Dmagic%2Dlink%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee6b0a7a2%2D3db4%2D4a0f%2Da01e%2D9eb6b6ea96c9&ga=1
+                        - paragraph [ref=f84e70]:
+                          - strong [ref=f84e71]: "Cenário atual:"
+                        - list [ref=f84e72]:
+                          - listitem [ref=f84e73]: Usuário tenta acessar link reenviado do magic link;
+                          - listitem [ref=f84e74]: O login não mantém o redirecionamento automático para o conteúdo;
+                          - listitem [ref=f84e75]: O usuário é desconectado automaticamente;
+                          - listitem [ref=f84e76]: Comportamento intermitente em diferentes dispositivos ou abas.
+                        - paragraph [ref=f84e77]:
+                          - strong [ref=f84e78]: "Comportamento esperado:"
+                        - list [ref=f84e79]:
+                          - listitem [ref=f84e80]: O usuário deve conseguir acessar o conteúdo diretamente pelo magic link sem ser desconectado;
+                          - listitem [ref=f84e81]: O redirecionamento automático para o conteúdo deve ocorrer de forma consistente;
+                          - listitem [ref=f84e82]: Logout automático só deve acontecer quando outra sessão real estiver ativa.
+                        - paragraph [ref=f84e83]:
+                          - strong [ref=f84e84]: Link do ambiente -
+                          - link "https://td-circle.twygoead.com/users/login" [ref=f84e85] [cursor=pointer]:
+                            - /url: https://td-circle.twygoead.com/users/login
+                      - strong [ref=f84e86]: Categorias
+                      - paragraph [ref=f84e87]: Dogfooding
+                      - strong [ref=f84e88]: Prioridade
+                      - paragraph
+                      - strong [ref=f84e89]: Tags
+                      - paragraph:
+                        - generic:
+                          - list
+                      - strong [ref=f84e90]: Replanejamentos
+                      - paragraph [ref=f84e91]: "0"
+                      - generic [ref=f84e92]:
+                        - generic [ref=f84e93]:
+                          - strong [ref=f84e94]: Pull request
+                          - paragraph [ref=f84e95]:
+                            - link "https://github.com/Twygo/twyg-app/pull/10727" [ref=f84e96] [cursor=pointer]:
+                              - /url: https://github.com/Twygo/twyg-app/pull/10727
+                        - generic [ref=f84e97]:
+                          - strong [ref=f84e98]: Nº Ticket Movidesk
+                          - paragraph [ref=f84e99]:
+                            - link "https://app.hubspot.com/contacts/44238979/record/0-5/45084739983/" [ref=f84e100] [cursor=pointer]:
+                              - /url: https://app.hubspot.com/contacts/44238979/record/0-5/45084739983/
+                        - generic [ref=f84e101]:
+                          - strong [ref=f84e102]: Urgência
+                          - paragraph [ref=f84e103]: Alto
+                        - generic [ref=f84e104]:
+                          - strong [ref=f84e105]: Versão
+                          - paragraph
+                        - generic [ref=f84e106]:
+                          - strong [ref=f84e107]: Rebote
+                          - paragraph
+                        - generic [ref=f84e108]:
+                          - strong [ref=f84e109]: Plataforma
+                          - paragraph [ref=f84e110]: ", Desktop"
+                        - generic [ref=f84e111]:
+                          - strong [ref=f84e112]: Funcionalidade
+                          - paragraph [ref=f84e113]: Login
+                        - generic [ref=f84e114]:
+                          - strong [ref=f84e115]: Sub-funcionalidade
+                          - paragraph [ref=f84e116]: Magic link
+                        - generic [ref=f84e118]: J
+                        - generic [ref=f84e119]:
+                          - list [ref=f84e120]:
+                            - listitem [ref=f84e121]:
+                              - link "Cliente" [ref=f84e122] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Cliente
+                            - listitem [ref=f84e124]:
+                              - link "Classificação" [ref=f84e125] [cursor=pointer]:
+                                - /url: "#"
+                                - text: Classificação
+                          - generic [ref=f84e128]: J
+                    - generic [ref=f84e129]:
+                      - generic [ref=f84e130]:
+                        - generic [ref=f84e132]: i Prazo
+                        - generic [ref=f84e133]:
+                          - generic [ref=f84e134]:
+                            - generic [ref=f84e135]:
+                              - strong [ref=f84e136]: Início Estimado
+                              - paragraph
+                            - generic [ref=f84e137]:
+                              - strong [ref=f84e138]: Término Estimado
+                              - paragraph
+                          - generic [ref=f84e139]:
+                            - generic [ref=f84e140]:
+                              - strong [ref=f84e141]: Início Real
+                              - paragraph [ref=f84e142]: 15/06/2026 - 11:40h
+                            - generic [ref=f84e143]:
+                              - strong [ref=f84e144]: Término Real
+                              - paragraph [ref=f84e145]: 17/06/2026 - 20:37h
+                          - generic [ref=f84e147]:
+                            - strong [ref=f84e148]: Tendência de Término
+                            - paragraph
+                      - generic [ref=f84e149]:
+                        - generic [ref=f84e151]: h Esforço
+                        - generic [ref=f84e153]:
+                          - generic [ref=f84e154]:
+                            - strong [ref=f84e155]: Esforço Estimado
+                            - paragraph [ref=f84e156]: 0,00h
+                          - generic [ref=f84e157]:
+                            - strong [ref=f84e158]: Esforço Real
+                            - paragraph [ref=f84e159]: 3,38h
+                      - generic [ref=f84e160]:
+                        - generic [ref=f84e162]: e Lançamentos Financeiros
+                        - generic [ref=f84e164]:
+                          - generic [ref=f84e165]:
+                            - strong [ref=f84e166]: Previsto
+                            - paragraph
+                          - generic [ref=f84e167]:
+                            - strong [ref=f84e168]: Realizado
+                            - paragraph
+                      - generic [ref=f84e169]:
+                        - generic [ref=f84e171]:  Andamento
+                        - generic [ref=f84e173]:
+                          - generic [ref=f84e174]:
+                            - strong [ref=f84e175]: "% Completo"
+                            - progressbar [ref=f84e177]
+                            - generic [ref=f84e178]: 100,00%
+                          - img [ref=f84e182]:
+                            - generic [ref=f84e191]: "0"
+                            - generic [ref=f84e194]: 3,38
+                  - strong [ref=f84e200]: "[ Lembrar-me"
+                  - strong [ref=f84e201]: "@ Repetir"
+              - generic [ref=f84e204]:
+                - list [ref=f84e205]:
+                  - listitem [ref=f84e206]:
+                    - link "Arquivos" [ref=f84e207]:
+                      - /url: "#object-show-files"
+                  - listitem [ref=f84e208]:
+                    - link "Atividades Vinculadas" [expanded] [ref=f84e209] [cursor=pointer]:
+                      - /url: "#object-show-dependencies"
+                  - listitem [ref=f84e210]:
+                    - link "Marcos" [ref=f84e211] [cursor=pointer]:
+                      - /url: "#object-show-milestones"
+                  - listitem [ref=f84e212]:
+                    - link "Links" [ref=f84e213] [cursor=pointer]:
+                      - /url: "#object-show-links"
+                  - listitem [ref=f84e214]:
+                    - link "Finanças" [ref=f84e215] [cursor=pointer]:
+                      - /url: "#object-show-finances"
+                  - listitem [ref=f84e216]:
+                    - link "Histórico" [ref=f84e217] [cursor=pointer]:
+                      - /url: "#object-show-timeline"
+                - generic [ref=f84e218]:
+                  - text: J J M P
+                  - generic [ref=f84e219]:
+                    - link "JVincular Arquivo" [ref=f84e220] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f84e222]:
+                      - listitem [ref=f84e223]: Nenhum registro encontrado.
+                      - table:
+                        - rowgroup
+                  - text: J J J
+              - text: $
+            - text: D V
+          - generic:
+            - list
+            - list
+            - list
+            - list
+            - list
+            - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

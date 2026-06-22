@@ -1,0 +1,813 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f189e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f189e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - button "toggle" [ref=e447] [cursor=pointer]:
+                        - img [ref=e448]
+                      - link "00 - Arquitetura" [ref=e450] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e451]:
+                          - img [ref=e452]
+                          - paragraph [ref=e455]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e456] [cursor=pointer]:
+                      - img [ref=e457]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e463]:
+                    - generic [ref=e464]:
+                      - button "toggle" [ref=e465] [cursor=pointer]:
+                        - img [ref=e466]
+                      - link "01 - Desenvolvimento" [ref=e468] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e469]:
+                          - img [ref=e470]
+                          - paragraph [ref=e473]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e474] [cursor=pointer]:
+                      - img [ref=e475]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e481]:
+                    - generic [ref=e482]:
+                      - button "toggle" [ref=e483] [cursor=pointer]:
+                        - img [ref=e484]
+                      - link "* Indiretos" [ref=e486] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e487]:
+                          - img [ref=e488]
+                          - paragraph [ref=e491]: "* Indiretos"
+                    - button "Ver mais" [ref=e492] [cursor=pointer]:
+                      - img [ref=e493]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - button "toggle" [ref=e501] [cursor=pointer]:
+                        - img [ref=e502]
+                      - link "Ativos - Desenvolvimento" [ref=e504] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e505]:
+                          - img [ref=e506]
+                          - paragraph [ref=e509]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e510] [cursor=pointer]:
+                      - img [ref=e511]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - button "toggle" [ref=e519] [cursor=pointer]:
+                        - img [ref=e520]
+                      - link "Inativos - Desenvolvimento" [ref=e522] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e523]:
+                          - img [ref=e524]
+                          - paragraph [ref=e527]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e528] [cursor=pointer]:
+                      - img [ref=e529]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e535]:
+                    - generic [ref=e536]:
+                      - button "toggle" [ref=e537] [cursor=pointer]:
+                        - img [ref=e538]
+                      - link "Não iniciados - Desenvolvimento" [ref=e540] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e541]:
+                          - img [ref=e542]
+                          - paragraph [ref=e545]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e546] [cursor=pointer]:
+                      - img [ref=e547]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e553]:
+                    - generic [ref=e554]:
+                      - button "toggle" [ref=e555] [cursor=pointer]:
+                        - img [ref=e556]
+                      - link "02 - Qualidade" [ref=e558] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e559]:
+                          - img [ref=e560]
+                          - paragraph [ref=e563]: 02 - Qualidade
+                    - button "Ver mais" [ref=e564] [cursor=pointer]:
+                      - img [ref=e565]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - button "toggle" [ref=e573] [cursor=pointer]:
+                        - img [ref=e574]
+                      - link "03 - Engenharia de produto" [ref=e576] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e577]:
+                          - img [ref=e578]
+                          - paragraph [ref=e581]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e582] [cursor=pointer]:
+                      - img [ref=e583]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - button "toggle" [ref=e591] [cursor=pointer]:
+                        - img [ref=e592]
+                      - link "04 - Gestão e Projetos" [ref=e594] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e595]:
+                          - img [ref=e596]
+                          - paragraph [ref=e599]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - button "toggle" [ref=e609] [cursor=pointer]:
+                        - img [ref=e610]
+                      - link "05 - DevOps" [ref=e612] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e613]:
+                          - img [ref=e614]
+                          - paragraph [ref=e617]: 05 - DevOps
+                    - button "Ver mais" [ref=e618] [cursor=pointer]:
+                      - img [ref=e619]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]:
+                      - button "toggle" [ref=e627] [cursor=pointer]:
+                        - img [ref=e628]
+                      - link "98 - Backlog" [ref=e630] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e631]:
+                          - img [ref=e632]
+                          - paragraph [ref=e635]: 98 - Backlog
+                    - button "Ver mais" [ref=e636] [cursor=pointer]:
+                      - img [ref=e637]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e643]:
+                    - generic [ref=e644]:
+                      - button "toggle" [ref=e645] [cursor=pointer]:
+                        - img [ref=e646]
+                      - link "99 - Sustentação" [ref=e648] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e649]:
+                          - img [ref=e650]
+                          - paragraph [ref=e653]: 99 - Sustentação
+                    - button "Ver mais" [ref=e654] [cursor=pointer]:
+                      - img [ref=e655]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - button "toggle" [ref=e663] [cursor=pointer]:
+                        - img [ref=e664]
+                      - link "API" [ref=e666] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e667]:
+                          - img [ref=e668]
+                          - paragraph [ref=e671]: API
+                    - button "Ver mais" [ref=e672] [cursor=pointer]:
+                      - img [ref=e673]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - button "toggle" [ref=e681] [cursor=pointer]:
+                        - img [ref=e682]
+                      - link "Histórico" [ref=e684] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e685]:
+                          - img [ref=e686]
+                          - paragraph [ref=e689]: Histórico
+                    - button "Ver mais" [ref=e690] [cursor=pointer]:
+                      - img [ref=e691]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Questionários com IA" [ref=e407] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Agente de importação de questionários com IA F1 - 4.Beta" [ref=e409] [cursor=pointer]: Agente de importação de que...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - heading "Questionário com IA - Ajustar a criação da tabela a medida que os dados são lidos pela IA" [level=2] [ref=e415]
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - img [ref=e423]
+                - img [ref=e426]
+                - img [ref=e429]
+          - generic [ref=e431]:
+            - tablist [ref=e433]:
+              - tab "Informações" [selected] [ref=e437] [cursor=pointer]:
+                - paragraph [ref=e438]: Informações
+            - generic [ref=e439]:
+              - separator
+        - iframe [active] [ref=e442]:
+          - generic [ref=f183e1]:
+            - generic [ref=f183e3]:
+              - generic [ref=f183e5]:
+                - generic [ref=f183e6]:
+                  - list [ref=f183e8]:
+                    - listitem [ref=f183e9]:
+                      - link ";Novo" [ref=f183e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6046529/activities/new
+                    - listitem [ref=f183e11]:
+                      - generic [ref=f183e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f183e13]:
+                      - generic [ref=f183e14]: "&Apagar"
+                    - listitem [ref=f183e15]:
+                      - button "| Concluido" [ref=f183e18] [cursor=pointer]:
+                        - paragraph [ref=f183e19]:
+                          - generic [ref=f183e20]: "|"
+                          - generic "Concluido" [ref=f183e21]
+                        - img [ref=f183e22]
+                    - listitem [ref=f183e24]
+                    - listitem [ref=f183e25]:
+                      - generic "Comentar" [ref=f183e26] [cursor=pointer]: <
+                    - listitem [ref=f183e27]:
+                      - generic "Apontar" [ref=f183e28] [cursor=pointer]: h
+                    - listitem [ref=f183e29]:
+                      - generic "Tags" [ref=f183e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f183e31]:
+                      - generic "Alocação Parcial" [ref=f183e32] [cursor=pointer]: 
+                    - listitem [ref=f183e33]:
+                      - generic "Checklist" [ref=f183e34] [cursor=pointer]: 
+                  - generic [ref=f183e35]:
+                    - strong [ref=f183e36]: Título
+                    - paragraph [ref=f183e37]: Questionário com IA - Ajustar a criação da tabela a medida que os dados são lidos pela IA
+                    - generic [ref=f183e38]:
+                      - generic [ref=f183e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f183e40]:
+                          - generic [ref=f183e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Questionários com IA > Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6046529/activities/
+                        - strong [ref=f183e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f183e44]: "18468"
+                        - generic [ref=f183e45]:
+                          - generic [ref=f183e46]:
+                            - strong [ref=f183e47]: Criado há
+                            - paragraph [ref=f183e48]: 2 meses 16/04/2026
+                          - generic [ref=f183e49]:
+                            - strong [ref=f183e50]: Solicitante
+                            - paragraph [ref=f183e51]: Éverton Gambeta
+                        - paragraph [ref=f183e52]:
+                          - strong [ref=f183e53]: Tipo de Atividade
+                          - generic [ref=f183e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f183e55]: Descrição
+                        - generic [ref=f183e56]:
+                          - paragraph [ref=f183e57]:
+                            - strong [ref=f183e58]: ":: Incidente identificado ::"
+                          - list [ref=f183e59]:
+                            - listitem [ref=f183e60]:
+                              - strong [ref=f183e61]: Antigamente não tínhamos esse problema, então acredito que algo deva ter impactado.
+                            - listitem [ref=f183e62]:
+                              - strong [ref=f183e64]: "Link da evidência do problema:"
+                              - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e65] [cursor=pointer]:
+                                - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                          - paragraph [ref=f183e66]: Quando importamos um documento, a IA está lendo e mostrando todos os registros em linha. Antes, era SEMPRE mostrada uma tabela que facilitava a identificação das perguntas e opções de respostas.
+                          - paragraph [ref=f183e67]:
+                            - img [ref=f183e68]
+                          - paragraph [ref=f183e69]:
+                            - strong [ref=f183e71]: "Observação:"
+                            - text: depois de um tempo considerável, as informações são atualizadas numa tabela.
+                          - paragraph [ref=f183e72]:
+                            - img [ref=f183e73]
+                          - paragraph [ref=f183e74]:
+                            - strong [ref=f183e75]: ":: Passo a passo para reprodução ::"
+                            - text: » Acessar o menu de questionário com a feature flag "analise_de_questionario_por_ia" habilitada
+                            - text: » Importar qualquer documento e verificar que a IA esta mostrando as informações erradas do que foi proposto para esse projeto.
+                          - paragraph [ref=f183e76]:
+                            - strong [ref=f183e77]: ":: Comportamento esperado ::"
+                            - text: A IA deve apresentar as perguntas e respostas em forma de tabela desde o início das exibições dos registros no chat.
+                          - paragraph [ref=f183e78]:
+                            - strong [ref=f183e79]: ":: Informações ::"
+                            - strong [ref=f183e80]: "url:"
+                            - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f183e81] [cursor=pointer]:
+                              - /url: https://testedemigracao.stage.twygoead.com/users/login
+                            - strong [ref=f183e82]: "login:"
+                            - link "evertongambeta@gmail.com" [ref=f183e83] [cursor=pointer]:
+                              - /url: mailto:evertongambeta@gmail.com
+                            - strong [ref=f183e84]: "senha:"
+                            - text: "123456"
+                            - strong [ref=f183e85]: "org_id:"
+                            - text: "19653"
+                          - paragraph [ref=f183e86]:
+                            - strong [ref=f183e87]: ":: Evidência(s) ::"
+                            - strong [ref=f183e89]: "Link da evidência:"
+                            - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e90] [cursor=pointer]:
+                              - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                        - strong [ref=f183e91]: Categorias
+                        - paragraph
+                        - strong [ref=f183e92]: Prioridade
+                        - paragraph [ref=f183e93]: "1"
+                        - strong [ref=f183e94]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f183e95]: Replanejamentos
+                        - paragraph [ref=f183e96]: "4"
+                        - generic [ref=f183e97]:
+                          - generic [ref=f183e98]:
+                            - strong [ref=f183e99]: Pull request
+                            - paragraph [ref=f183e100]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10276" [ref=f183e101] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10276
+                          - generic [ref=f183e102]:
+                            - strong [ref=f183e103]: Nº Ticket Movidesk
+                            - paragraph [ref=f183e104]: .
+                          - generic [ref=f183e105]:
+                            - strong [ref=f183e106]: Urgência
+                            - paragraph [ref=f183e107]: Alto
+                          - generic [ref=f183e108]:
+                            - strong [ref=f183e109]: Versão
+                            - paragraph
+                          - generic [ref=f183e110]:
+                            - strong [ref=f183e111]: Rebote
+                            - paragraph
+                          - generic [ref=f183e112]:
+                            - strong [ref=f183e113]: Plataforma
+                            - paragraph [ref=f183e114]: ", Desktop"
+                          - generic [ref=f183e115]:
+                            - strong [ref=f183e116]: Funcionalidade
+                            - paragraph [ref=f183e117]: Agente de importação
+                          - generic [ref=f183e118]:
+                            - strong [ref=f183e119]: Sub-funcionalidade
+                            - paragraph [ref=f183e120]: Importação de Questionários
+                          - generic [ref=f183e122]: J
+                          - generic [ref=f183e123]:
+                            - list [ref=f183e124]:
+                              - listitem [ref=f183e125]:
+                                - link "Cliente" [ref=f183e126] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f183e128]:
+                                - link "Classificação" [ref=f183e129] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f183e132]: J
+                      - generic [ref=f183e133]:
+                        - generic [ref=f183e134]:
+                          - generic [ref=f183e136]: i Prazo
+                          - generic [ref=f183e137]:
+                            - generic [ref=f183e138]:
+                              - generic [ref=f183e139]:
+                                - strong [ref=f183e140]: Início Estimado
+                                - paragraph
+                              - generic [ref=f183e141]:
+                                - strong [ref=f183e142]: Término Estimado
+                                - paragraph
+                            - generic [ref=f183e143]:
+                              - generic [ref=f183e144]:
+                                - strong [ref=f183e145]: Início Real
+                                - paragraph [ref=f183e146]: 16/04/2026 - 11:10h
+                              - generic [ref=f183e147]:
+                                - strong [ref=f183e148]: Término Real
+                                - paragraph [ref=f183e149]: 18/06/2026 - 20:52h
+                            - generic [ref=f183e151]:
+                              - strong [ref=f183e152]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f183e153]:
+                          - generic [ref=f183e155]: h Esforço
+                          - generic [ref=f183e157]:
+                            - generic [ref=f183e158]:
+                              - strong [ref=f183e159]: Esforço Estimado
+                              - paragraph [ref=f183e160]: 5,50h
+                            - generic [ref=f183e161]:
+                              - strong [ref=f183e162]: Esforço Real
+                              - paragraph [ref=f183e163]: 5,50h
+                        - generic [ref=f183e164]:
+                          - generic [ref=f183e166]: e Lançamentos Financeiros
+                          - generic [ref=f183e168]:
+                            - generic [ref=f183e169]:
+                              - strong [ref=f183e170]: Previsto
+                              - paragraph
+                            - generic [ref=f183e171]:
+                              - strong [ref=f183e172]: Realizado
+                              - paragraph
+                        - generic [ref=f183e173]:
+                          - generic [ref=f183e175]:  Andamento
+                          - generic [ref=f183e177]:
+                            - generic [ref=f183e178]:
+                              - strong [ref=f183e179]: "% Completo"
+                              - progressbar [ref=f183e181]
+                              - generic [ref=f183e182]: 100,00%
+                            - img [ref=f183e186]:
+                              - generic [ref=f183e197]: 5,5
+                              - generic [ref=f183e200]: 5,5
+                    - strong [ref=f183e206]: "[ Lembrar-me"
+                    - strong [ref=f183e207]: "@ Repetir"
+                - generic [ref=f183e210]:
+                  - list [ref=f183e211]:
+                    - listitem [ref=f183e212]:
+                      - link "Arquivos" [ref=f183e213] [cursor=pointer]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f183e214]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f183e215] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f183e216]:
+                      - link "Marcos" [ref=f183e217] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f183e218]:
+                      - link "Links" [ref=f183e219] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f183e220]:
+                      - link "Finanças" [ref=f183e221] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f183e222]:
+                      - link "Histórico" [expanded] [ref=f183e223]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f183e224]:
+                    - generic [ref=f183e230]:
+                      - list [ref=f183e231]:
+                        - strong [ref=f183e232]: Tipos
+                        - listitem [ref=f183e233]:
+                          - checkbox "Comentários" [checked] [ref=f183e234]
+                          - generic [ref=f183e235]: Comentários
+                        - listitem [ref=f183e236]:
+                          - checkbox "Apontamentos" [checked] [ref=f183e237]
+                          - generic [ref=f183e238]: Apontamentos
+                        - listitem [ref=f183e239]:
+                          - checkbox "Atualizações" [checked] [ref=f183e240]
+                          - generic [ref=f183e241]: Atualizações
+                      - list [ref=f183e242]:
+                        - strong [ref=f183e243]: Ver
+                        - listitem [ref=f183e244]:
+                          - radio "Tudo" [checked] [active] [ref=f183e245]
+                          - generic [ref=f183e246]: Tudo
+                        - listitem [ref=f183e247]:
+                          - radio "Estou envolvido" [ref=f183e248]
+                          - generic [ref=f183e249]: Estou envolvido
+                      - list [ref=f183e250]:
+                        - listitem
+                      - generic [ref=f183e252]:
+                        - list [ref=f183e253]:
+                          - listitem [ref=f183e254]:
+                            - generic [ref=f183e255]: 18/06/2026
+                          - listitem [ref=f183e256]:
+                            - generic [ref=f183e257]: c
+                            - generic [ref=f183e258]:
+                              - generic [ref=f183e259]:
+                                - generic [ref=f183e260]: h
+                                - generic "2026-06-18 23:52:10" [ref=f183e261]: 12 horas atrás.
+                              - generic [ref=f183e262]:
+                                - img "Foto" [ref=f183e264]
+                                - generic [ref=f183e265]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e266]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Jeiel Alves de Oliveira" [ref=f183e267] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/279122
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e268]:
+                                - text: "Término Real de: em branco para: 18/06/2026 20:52"
+                                - text: "Situação de: Validação para: Concluido"
+                          - listitem [ref=f183e269]:
+                            - generic [ref=f183e270]: c
+                            - generic [ref=f183e271]:
+                              - generic [ref=f183e272]:
+                                - generic [ref=f183e273]: h
+                                - generic "2026-06-18 15:06:04" [ref=f183e274]: 21 horas atrás.
+                              - generic [ref=f183e275]:
+                                - img "Foto" [ref=f183e277]
+                                - generic [ref=f183e278]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e279]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e280] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: adicionou uma relação na atividade
+                              - generic [ref=f183e281]:
+                                - text: "Uma atividade foi relacionada:"
+                                - link "Questionario com IA - Gerar versão para o Deploy da Twygo - 18/06/2026" [ref=f183e282] [cursor=pointer]:
+                                  - /url: https://app.artia.com/a/4874953/f/6046529/activities/33100740
+                          - listitem [ref=f183e283]:
+                            - generic [ref=f183e284]: c
+                            - generic [ref=f183e285]:
+                              - generic [ref=f183e286]:
+                                - generic [ref=f183e287]: h
+                                - generic "2026-06-18 15:04:42" [ref=f183e288]: 21 horas atrás.
+                              - generic [ref=f183e289]:
+                                - img "Foto" [ref=f183e291]
+                                - generic [ref=f183e292]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e293]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e294] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e295]:
+                                - text: "Esforço Estimado de: 5,00 para: 5,50"
+                                - text: "Replanejamentos de: 3 para: 4"
+                          - listitem [ref=f183e296]:
+                            - generic [ref=f183e297]: c
+                            - generic [ref=f183e298]:
+                              - generic [ref=f183e299]:
+                                - generic [ref=f183e300]: h
+                                - generic "2026-06-18 15:04:11" [ref=f183e301]: 21 horas atrás.
+                              - generic [ref=f183e302]:
+                                - img "Foto" [ref=f183e304]
+                                - generic [ref=f183e305]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e306]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e307] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e308]:
+                                - text: "Término Real de: 18/06/2026 12:01 para: em branco"
+                                - text: "Situação de: Concluido para: Validação"
+                          - listitem [ref=f183e309]:
+                            - generic [ref=f183e310]: c
+                            - generic [ref=f183e311]:
+                              - generic [ref=f183e312]:
+                                - generic [ref=f183e313]: h
+                                - generic "2026-06-18 15:01:07" [ref=f183e314]: 21 horas atrás.
+                              - generic [ref=f183e315]:
+                                - img "Foto" [ref=f183e317]
+                                - generic [ref=f183e318]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e319]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e320] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e321]:
+                                - text: "Término Real de: em branco para: 18/06/2026 12:01"
+                                - text: "Situação de: Em Andamento para: Concluido"
+                                - text: "% Completo de: 0,0% para: 100,0%"
+                          - listitem [ref=f183e322]:
+                            - generic [ref=f183e323]: h
+                            - generic [ref=f183e324]:
+                              - generic [ref=f183e325]:
+                                - generic [ref=f183e326]: h
+                                - generic "2026-06-18 15:01:07" [ref=f183e327]: 21 horas atrás.
+                              - generic [ref=f183e328]:
+                                - img "Foto" [ref=f183e330]
+                                - generic [ref=f183e331]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e332]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e333] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: criou um apontamento na atividade
+                              - generic [ref=f183e334]:
+                                - text: "Horas apontadas: 01:30"
+                                - text: "Data: 18/06/2026"
+                                - text: "Comentário: Revalidação realizada em Stage no Agente de Importação Inteligente de Questionários. Durante a importação de documentos extensos, a tabela é exibida e atualizada progressivamente conforme os dados são processados pela IA, mantendo a estrutura íntegra e sem exibir texto corrompido ou quebra de layout durante o streaming. Cenário validado em múltiplas execuções independentes, sem reprodução do problema reportado. Correção aprovada."
+                                - text: "Situação: Em Andamento"
+                                - text: "Tipo da hora: Hora normal"
+                                - text: "Área: Qualidade"
+                          - listitem [ref=f183e335]:
+                            - generic [ref=f183e336]: f
+                            - generic [ref=f183e337]:
+                              - generic [ref=f183e338]:
+                                - generic [ref=f183e339]: h
+                                - generic "2026-06-18 14:59:53" [ref=f183e340]: 21 horas atrás.
+                              - generic [ref=f183e341]:
+                                - img "Foto" [ref=f183e343]
+                                - generic [ref=f183e344]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e345]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e346] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f183e347]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ✅ Passou
+                                - text: ":: Ambiente ::"
+                                - text: Stage (testedemigracao / org 19653, flag analise_de_questionario_por_ia)
+                                - text: ":: Validação ::"
+                                - text: "Importação Inteligente de questionário com documento grande (~100 perguntas): a IA"
+                                - text: monta a tabela e a mantém íntegra durante todo o streaming, sem virar texto corrido
+                                - text: com pipes. Validado em 5 gerações independentes (conversa nova + doc único cada),
+                                - text: monitorando o DOM — 19 tabelas, 0 linha-virada-texto, 0 tabela quebrada por geração.
+                                - text: ":: Obs ::"
+                                - text: "O Agente cacheia a resposta por conversa: reimportar na MESMA conversa replica o parse"
+                                - text: antigo (foi o que inicialmente parecia "bug" — era uma geração pré-fix em cache). Com
+                                - text: conversa nova, geração fresca sai 100% em tabela.
+                                - text: ":: Evidência(s) ::"
+                                - text: "- evidencias/18468/t1_99-final.png (tabela limpa, doc único)"
+                                - text: "- evidencias/18468/t1_tab19-t49.png (tabela íntegra durante o streaming)"
+                                - text: "- evidencias/18468/cache_pre_fix_tabela_quebrada.png (referência do bug, geração antiga em cache)"
+                                - text: "- evidencias/18468/README.md (método + tabela dos 5 resultados)"
+                                - text: "Evidência no link:"
+                                - link "https://github.com/DantexgerBR/twygo-playwright-tests/commit/20f1f68596bc9a08b73558f980826bffecbeec01" [ref=f183e348] [cursor=pointer]:
+                                  - /url: https://github.com/DantexgerBR/twygo-playwright-tests/commit/20f1f68596bc9a08b73558f980826bffecbeec01
+                                - text: "Usuários associados: Éverton Gambeta"
+                          - listitem [ref=f183e349]:
+                            - generic [ref=f183e350]: c
+                            - generic [ref=f183e351]:
+                              - generic [ref=f183e352]:
+                                - generic [ref=f183e353]: h
+                                - generic "2026-06-18 12:02:16" [ref=f183e354]: 09:02
+                              - generic [ref=f183e355]:
+                                - img "Foto" [ref=f183e357]
+                                - generic [ref=f183e358]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e359]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e360] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e361]:
+                                - text: "Descrição de:"
+                                - paragraph [ref=f183e362]:
+                                  - strong [ref=f183e363]: ":: Incidente identificado ::"
+                                - list [ref=f183e364]:
+                                  - listitem [ref=f183e365]:
+                                    - strong [ref=f183e366]: Antigamente não tínhamos esse problema, então acredito que algo deva ter impactado.
+                                  - listitem [ref=f183e367]:
+                                    - strong [ref=f183e369]: "Link da evidência do problema:"
+                                    - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e370] [cursor=pointer]:
+                                      - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                                - paragraph [ref=f183e371]: Quando importamos um documento, a IA está lendo e mostrando todos os registros em linha. Antes, era SEMPRE mostrada uma tabela que facilitava a identificação das perguntas e opções de respostas.
+                                - paragraph [ref=f183e372]:
+                                  - img [ref=f183e373]
+                                - paragraph [ref=f183e374]:
+                                  - strong [ref=f183e376]: "Observação:"
+                                  - text: depois de um tempo considerável, as informações são atualizadas numa tabela.
+                                - paragraph [ref=f183e377]:
+                                  - img [ref=f183e378]
+                                - paragraph [ref=f183e379]:
+                                  - strong [ref=f183e380]: ":: Passo a passo para reprodução ::"
+                                  - text: » Acessar o menu de questionário com a feature flag "analise_de_questionario_por_ia" habilitada
+                                  - text: » Importar qualquer documento e verificar que a IA esta mostrando as informações erradas do que foi proposto para esse projeto.
+                                - paragraph [ref=f183e381]:
+                                  - strong [ref=f183e382]: ":: Comportamento esperado ::"
+                                  - text: A IA deve apresentar as perguntas e respostas em forma de tabela desde o início das exibições dos registros no chat.
+                                - paragraph [ref=f183e383]:
+                                  - strong [ref=f183e384]: ":: Informações ::"
+                                  - strong [ref=f183e385]: "url:"
+                                  - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f183e386] [cursor=pointer]:
+                                    - /url: https://testedemigracao.stage.twygoead.com/users/login
+                                  - strong [ref=f183e387]: "login:"
+                                  - link "evertongambeta@gmail.com" [ref=f183e388] [cursor=pointer]:
+                                    - /url: mailto:evertongambeta@gmail.com
+                                  - strong [ref=f183e389]: "senha:"
+                                  - text: "123456"
+                                  - strong [ref=f183e390]: "org_id:"
+                                  - text: "19653"
+                                - paragraph [ref=f183e391]:
+                                  - strong [ref=f183e392]: ":: Evidência(s) ::"
+                                  - strong [ref=f183e394]: "Link da evidência:"
+                                  - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e395] [cursor=pointer]:
+                                    - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                                - generic [ref=f183e396]: "Para:"
+                                - paragraph [ref=f183e397]:
+                                  - strong [ref=f183e398]: ":: Incidente identificado ::"
+                                - list [ref=f183e399]:
+                                  - listitem [ref=f183e400]:
+                                    - strong [ref=f183e401]: Antigamente não tínhamos esse problema, então acredito que algo deva ter impactado.
+                                  - listitem [ref=f183e402]:
+                                    - strong [ref=f183e404]: "Link da evidência do problema:"
+                                    - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e405] [cursor=pointer]:
+                                      - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                                - paragraph [ref=f183e406]: Quando importamos um documento, a IA está lendo e mostrando todos os registros em linha. Antes, era SEMPRE mostrada uma tabela que facilitava a identificação das perguntas e opções de respostas.
+                                - paragraph [ref=f183e407]:
+                                  - img [ref=f183e408]
+                                - paragraph [ref=f183e409]:
+                                  - strong [ref=f183e411]: "Observação:"
+                                  - text: depois de um tempo considerável, as informações são atualizadas numa tabela.
+                                - paragraph [ref=f183e412]:
+                                  - img [ref=f183e413]
+                                - paragraph [ref=f183e414]:
+                                  - strong [ref=f183e415]: ":: Passo a passo para reprodução ::"
+                                  - text: » Acessar o menu de questionário com a feature flag "analise_de_questionario_por_ia" habilitada
+                                  - text: » Importar qualquer documento e verificar que a IA esta mostrando as informações erradas do que foi proposto para esse projeto.
+                                - paragraph [ref=f183e416]:
+                                  - strong [ref=f183e417]: ":: Comportamento esperado ::"
+                                  - text: A IA deve apresentar as perguntas e respostas em forma de tabela desde o início das exibições dos registros no chat.
+                                - paragraph [ref=f183e418]:
+                                  - strong [ref=f183e419]: ":: Informações ::"
+                                  - strong [ref=f183e420]: "url:"
+                                  - link "https://testedemigracao.stage.twygoead.com/users/login" [ref=f183e421] [cursor=pointer]:
+                                    - /url: https://testedemigracao.stage.twygoead.com/users/login
+                                  - strong [ref=f183e422]: "login:"
+                                  - link "evertongambeta@gmail.com" [ref=f183e423] [cursor=pointer]:
+                                    - /url: mailto:evertongambeta@gmail.com
+                                  - strong [ref=f183e424]: "senha:"
+                                  - text: "123456"
+                                  - strong [ref=f183e425]: "org_id:"
+                                  - text: "19653"
+                                - paragraph [ref=f183e426]:
+                                  - strong [ref=f183e427]: ":: Evidência(s) ::"
+                                  - strong [ref=f183e429]: "Link da evidência:"
+                                  - link "https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06" [ref=f183e430] [cursor=pointer]:
+                                    - /url: https://jam.dev/c/f3c7ef55-d870-4fb5-aeb8-e94aa66fbe06
+                                - text: "Esforço Estimado de: 4,00 para: 5,00"
+                                - text: "% Completo de: 100,0% para: 0,0%"
+                                - text: "Replanejamentos de: 2 para: 3"
+                          - listitem [ref=f183e431]:
+                            - generic [ref=f183e432]: 17/06/2026
+                          - listitem [ref=f183e433]:
+                            - generic [ref=f183e434]: c
+                            - generic [ref=f183e435]:
+                              - generic [ref=f183e436]:
+                                - generic [ref=f183e437]: h
+                                - generic "2026-06-17 17:14:20" [ref=f183e438]: 14:14
+                              - generic [ref=f183e439]:
+                                - img "Foto" [ref=f183e441]
+                                - generic [ref=f183e442]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e443]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e444] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f183e445]: "Situação de: Validação para: Em Andamento"
+                          - listitem [ref=f183e446]:
+                            - generic [ref=f183e447]: j
+                            - generic [ref=f183e448]:
+                              - generic [ref=f183e449]:
+                                - generic [ref=f183e450]: h
+                                - generic "2026-06-17 17:14:18" [ref=f183e451]: 14:14
+                              - generic [ref=f183e452]:
+                                - img "Foto" [ref=f183e454]
+                                - generic [ref=f183e455]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f183e456]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Dante Tavares" [ref=f183e457] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/301266
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f183e458]: "Responsável: Dante Tavares"
+                        - generic [ref=f183e460]:
+                          - list [ref=f183e461]:
+                            - listitem [ref=f183e462]
+                          - list [ref=f183e463]:
+                            - listitem [ref=f183e464]:
+                              - link "» Mais antigos" [ref=f183e465] [cursor=pointer]:
+                                - /url: "#"
+                    - text: J J M P J J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

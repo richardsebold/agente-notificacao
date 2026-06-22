@@ -1,0 +1,530 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f198e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f198e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]:
+                      - button "toggle" [ref=e128] [cursor=pointer]:
+                        - img [ref=e129]
+                      - link "00 - Arquitetura" [ref=e131] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e132]:
+                          - img [ref=e133]
+                          - paragraph [ref=e136]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e137] [cursor=pointer]:
+                      - img [ref=e138]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]:
+                      - button "toggle" [ref=e147] [cursor=pointer]:
+                        - img [ref=e148]
+                      - link "01 - Desenvolvimento" [ref=e150] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e151]:
+                          - img [ref=e152]
+                          - paragraph [ref=e155]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e156] [cursor=pointer]:
+                      - img [ref=e157]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - button "toggle" [ref=e166] [cursor=pointer]:
+                        - img [ref=e167]
+                      - link "* Indiretos" [ref=e169] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e170]:
+                          - img [ref=e171]
+                          - paragraph [ref=e174]: "* Indiretos"
+                    - button "Ver mais" [ref=e175] [cursor=pointer]:
+                      - img [ref=e176]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e183]:
+                    - generic [ref=e184]:
+                      - button "toggle" [ref=e185] [cursor=pointer]:
+                        - img [ref=e186]
+                      - link "Ativos - Desenvolvimento" [ref=e188] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e189]:
+                          - img [ref=e190]
+                          - paragraph [ref=e193]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e194] [cursor=pointer]:
+                      - img [ref=e195]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e202]:
+                    - generic [ref=e203]:
+                      - button "toggle" [ref=e204] [cursor=pointer]:
+                        - img [ref=e205]
+                      - link "Inativos - Desenvolvimento" [ref=e207] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e208]:
+                          - img [ref=e209]
+                          - paragraph [ref=e212]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e213] [cursor=pointer]:
+                      - img [ref=e214]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]:
+                      - button "toggle" [ref=e223] [cursor=pointer]:
+                        - img [ref=e224]
+                      - link "Não iniciados - Desenvolvimento" [ref=e226] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e227]:
+                          - img [ref=e228]
+                          - paragraph [ref=e231]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e232] [cursor=pointer]:
+                      - img [ref=e233]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - button "toggle" [ref=e242] [cursor=pointer]:
+                        - img [ref=e243]
+                      - link "02 - Qualidade" [ref=e245] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e246]:
+                          - img [ref=e247]
+                          - paragraph [ref=e250]: 02 - Qualidade
+                    - button "Ver mais" [ref=e251] [cursor=pointer]:
+                      - img [ref=e252]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e259]:
+                    - generic [ref=e260]:
+                      - button "toggle" [ref=e261] [cursor=pointer]:
+                        - img [ref=e262]
+                      - link "03 - Engenharia de produto" [ref=e264] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e265]:
+                          - img [ref=e266]
+                          - paragraph [ref=e269]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e270] [cursor=pointer]:
+                      - img [ref=e271]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - button "toggle" [ref=e280] [cursor=pointer]:
+                        - img [ref=e281]
+                      - link "04 - Gestão e Projetos" [ref=e283] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e284]:
+                          - img [ref=e285]
+                          - paragraph [ref=e288]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e289] [cursor=pointer]:
+                      - img [ref=e290]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]:
+                      - button "toggle" [ref=e299] [cursor=pointer]:
+                        - img [ref=e300]
+                      - link "05 - DevOps" [ref=e302] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e303]:
+                          - img [ref=e304]
+                          - paragraph [ref=e307]: 05 - DevOps
+                    - button "Ver mais" [ref=e308] [cursor=pointer]:
+                      - img [ref=e309]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e316]:
+                    - generic [ref=e317]:
+                      - button "toggle" [ref=e318] [cursor=pointer]:
+                        - img [ref=e319]
+                      - link "98 - Backlog" [ref=e321] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e322]:
+                          - img [ref=e323]
+                          - paragraph [ref=e326]: 98 - Backlog
+                    - button "Ver mais" [ref=e327] [cursor=pointer]:
+                      - img [ref=e328]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e335]:
+                    - generic [ref=e336]:
+                      - button "toggle" [ref=e337] [cursor=pointer]:
+                        - img [ref=e338]
+                      - link "99 - Sustentação" [ref=e340] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e341]:
+                          - img [ref=e342]
+                          - paragraph [ref=e345]: 99 - Sustentação
+                    - button "Ver mais" [ref=e346] [cursor=pointer]:
+                      - img [ref=e347]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e354]:
+                    - generic [ref=e355]:
+                      - button "toggle" [ref=e356] [cursor=pointer]:
+                        - img [ref=e357]
+                      - link "API" [ref=e359] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e360]:
+                          - img [ref=e361]
+                          - paragraph [ref=e364]: API
+                    - button "Ver mais" [ref=e365] [cursor=pointer]:
+                      - img [ref=e366]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - button "toggle" [ref=e375] [cursor=pointer]:
+                        - img [ref=e376]
+                      - link "Histórico" [ref=e378] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e379]:
+                          - img [ref=e380]
+                          - paragraph [ref=e383]: Histórico
+                    - button "Ver mais" [ref=e384] [cursor=pointer]:
+                      - img [ref=e385]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Evolução UI e novo design system" [ref=e407] [cursor=pointer]: Evolução UI e novo design s...
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Facelift - Conteúdos - Editar - 4.Beta" [ref=e409] [cursor=pointer]: Facelift - Conteúdos - Edit...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - heading "Facelift - Categoria \"Mais visualizados\" não reflete o tipo de experiência" [level=2] [ref=e415]
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - generic [ref=e422]: "+2"
+                - img [ref=e424]
+                - img [ref=e427]
+                - img [ref=e430]
+          - generic [ref=e432]:
+            - tablist [ref=e434]:
+              - tab "Informações" [selected] [ref=e438] [cursor=pointer]:
+                - paragraph [ref=e439]: Informações
+            - generic [ref=e440]:
+              - separator
+        - iframe [active] [ref=e443]:
+          - generic [active] [ref=f192e1]:
+            - generic [ref=f192e3]:
+              - generic [ref=f192e5]:
+                - generic [ref=f192e6]:
+                  - list [ref=f192e8]:
+                    - listitem [ref=f192e9]:
+                      - link ";Novo" [ref=f192e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6273562/activities/new
+                    - listitem [ref=f192e11]:
+                      - generic [ref=f192e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f192e13]:
+                      - generic [ref=f192e14]: "&Apagar"
+                    - listitem [ref=f192e15]:
+                      - button "| Concluido" [ref=f192e18] [cursor=pointer]:
+                        - paragraph [ref=f192e19]:
+                          - generic [ref=f192e20]: "|"
+                          - generic "Concluido" [ref=f192e21]
+                        - img [ref=f192e22]
+                    - listitem [ref=f192e24]
+                    - listitem [ref=f192e25]:
+                      - generic "Comentar" [ref=f192e26] [cursor=pointer]: <
+                    - listitem [ref=f192e27]:
+                      - generic "Apontar" [ref=f192e28] [cursor=pointer]: h
+                    - listitem [ref=f192e29]:
+                      - generic "Tags" [ref=f192e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f192e31]:
+                      - generic "Alocação Parcial" [ref=f192e32] [cursor=pointer]: 
+                    - listitem [ref=f192e33]:
+                      - generic "Checklist" [ref=f192e34] [cursor=pointer]: 
+                  - generic [ref=f192e35]:
+                    - strong [ref=f192e36]: Título
+                    - paragraph [ref=f192e37]: Facelift - Categoria "Mais visualizados" não reflete o tipo de experiência
+                    - generic [ref=f192e38]:
+                      - generic [ref=f192e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f192e40]:
+                          - generic [ref=f192e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Evolução UI e novo design system > Facelift - Conteúdos - Editar - 4.Beta" [ref=f192e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6273562/activities/
+                        - strong [ref=f192e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f192e44]: "18465"
+                        - generic [ref=f192e45]:
+                          - generic [ref=f192e46]:
+                            - strong [ref=f192e47]: Criado há
+                            - paragraph [ref=f192e48]: 2 meses 16/04/2026
+                          - generic [ref=f192e49]:
+                            - strong [ref=f192e50]: Solicitante
+                            - paragraph [ref=f192e51]: Éverton Gambeta
+                        - paragraph [ref=f192e52]:
+                          - strong [ref=f192e53]: Tipo de Atividade
+                          - generic [ref=f192e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f192e55]: Descrição
+                        - generic [ref=f192e56]:
+                          - list [ref=f192e57]:
+                            - listitem [ref=f192e58]:
+                              - strong [ref=f192e59]: "Observação:"
+                              - generic [ref=f192e60]:
+                                - text: o problema na categoria "
+                                - strong [ref=f192e61]: Veja novamente
+                                - text: "\" foi corrigido em outra atividade; desta forma, estou abrindo esse item para resolver o problema da categoria \""
+                                - strong [ref=f192e62]: Mas visualizados
+                                - text: "\"."
+                          - paragraph [ref=f192e63]:
+                            - text: Foi identificado um comportamento inconsistente no
+                            - strong [ref=f192e64]: Play do Aluno
+                            - text: ", especificamente na categoria"
+                            - strong [ref=f192e65]: Mais visualizados
+                            - text: dentro do catálogo de conteúdos.
+                          - paragraph [ref=f192e66]:
+                            - text: Ao acessar essa visualização, alguns cursos não estão exibindo corretamente o
+                            - strong [ref=f192e67]: tipo de experiência
+                            - text: cadastrado, sendo apresentados como
+                            - strong [ref=f192e68]: Curso
+                            - text: ", mesmo quando possuem outros tipos configurados, como"
+                            - strong [ref=f192e69]: Artigo, Pílula ou Mapa de Conhecimento
+                            - text: .
+                          - paragraph [ref=f192e70]:
+                            - img [ref=f192e71]
+                          - paragraph [ref=f192e72]:
+                            - strong [ref=f192e73]: "Comportamento esperado:"
+                            - text: O tipo de experiência exibido na categoria
+                            - strong [ref=f192e74]: Mais visualizados
+                            - text: deve refletir corretamente o tipo cadastrado para cada conteúdo.
+                          - paragraph [ref=f192e75]:
+                            - strong [ref=f192e77]: "Atividade parecida e corrigida:"
+                            - link "https://app.artia.com/a/4874953/f/6273562/activities/32469207" [ref=f192e78] [cursor=pointer]:
+                              - /url: https://app.artia.com/a/4874953/f/6273562/activities/32469207
+                        - strong [ref=f192e79]: Categorias
+                        - paragraph [ref=f192e80]: Dogfooding
+                        - strong [ref=f192e81]: Prioridade
+                        - paragraph [ref=f192e82]: "3"
+                        - strong [ref=f192e83]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f192e84]: Replanejamentos
+                        - paragraph [ref=f192e85]: "5"
+                        - generic [ref=f192e86]:
+                          - generic [ref=f192e87]:
+                            - strong [ref=f192e88]: Pull request
+                            - paragraph [ref=f192e89]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10074" [ref=f192e90] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10074
+                          - generic [ref=f192e91]:
+                            - strong [ref=f192e92]: Nº Ticket Movidesk
+                            - paragraph [ref=f192e93]: .
+                          - generic [ref=f192e94]:
+                            - strong [ref=f192e95]: Urgência
+                            - paragraph [ref=f192e96]: Alto
+                          - generic [ref=f192e97]:
+                            - strong [ref=f192e98]: Versão
+                            - paragraph
+                          - generic [ref=f192e99]:
+                            - strong [ref=f192e100]: Rebote
+                            - paragraph
+                          - generic [ref=f192e101]:
+                            - strong [ref=f192e102]: Plataforma
+                            - paragraph [ref=f192e103]: Desktop
+                          - generic [ref=f192e104]:
+                            - strong [ref=f192e105]: Funcionalidade
+                            - paragraph [ref=f192e106]: Catálogo de cursos
+                          - generic [ref=f192e107]:
+                            - strong [ref=f192e108]: Sub-funcionalidade
+                            - paragraph [ref=f192e109]: Catálogo - visão aluno
+                          - generic [ref=f192e111]: J
+                          - generic [ref=f192e112]:
+                            - list [ref=f192e113]:
+                              - listitem [ref=f192e114]:
+                                - link "Cliente" [ref=f192e115] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f192e117]:
+                                - link "Classificação" [ref=f192e118] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f192e121]: J
+                      - generic [ref=f192e122]:
+                        - generic [ref=f192e123]:
+                          - generic [ref=f192e125]: i Prazo
+                          - generic [ref=f192e126]:
+                            - generic [ref=f192e127]:
+                              - generic [ref=f192e128]:
+                                - strong [ref=f192e129]: Início Estimado
+                                - paragraph
+                              - generic [ref=f192e130]:
+                                - strong [ref=f192e131]: Término Estimado
+                                - paragraph
+                            - generic [ref=f192e132]:
+                              - generic [ref=f192e133]:
+                                - strong [ref=f192e134]: Início Real
+                                - paragraph [ref=f192e135]: 16/04/2026 - 10:55h
+                              - generic [ref=f192e136]:
+                                - strong [ref=f192e137]: Término Real
+                                - paragraph [ref=f192e138]: 18/06/2026 - 20:51h
+                            - generic [ref=f192e140]:
+                              - strong [ref=f192e141]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f192e142]:
+                          - generic [ref=f192e144]: h Esforço
+                          - generic [ref=f192e146]:
+                            - generic [ref=f192e147]:
+                              - strong [ref=f192e148]: Esforço Estimado
+                              - paragraph [ref=f192e149]: 3,00h
+                            - generic [ref=f192e150]:
+                              - strong [ref=f192e151]: Esforço Real
+                              - paragraph [ref=f192e152]: 3,14h
+                        - generic [ref=f192e153]:
+                          - generic [ref=f192e155]: e Lançamentos Financeiros
+                          - generic [ref=f192e157]:
+                            - generic [ref=f192e158]:
+                              - strong [ref=f192e159]: Previsto
+                              - paragraph
+                            - generic [ref=f192e160]:
+                              - strong [ref=f192e161]: Realizado
+                              - paragraph
+                        - generic [ref=f192e162]:
+                          - generic [ref=f192e164]:  Andamento
+                          - generic [ref=f192e166]:
+                            - generic [ref=f192e167]:
+                              - strong [ref=f192e168]: "% Completo"
+                              - progressbar [ref=f192e170]
+                              - generic [ref=f192e171]: 100,00%
+                            - img [ref=f192e175]:
+                              - generic [ref=f192e186]: "3"
+                              - generic [ref=f192e189]: 3,14
+                    - strong [ref=f192e195]: "[ Lembrar-me"
+                    - strong [ref=f192e196]: "@ Repetir"
+                - generic [ref=f192e199]:
+                  - list [ref=f192e200]:
+                    - listitem [ref=f192e201]:
+                      - link "Arquivos 1" [ref=f192e202]:
+                        - /url: "#object-show-files"
+                        - text: Arquivos
+                        - generic [ref=f192e203]: "1"
+                    - listitem [ref=f192e204]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f192e205] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f192e206]:
+                      - link "Marcos" [ref=f192e207] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f192e208]:
+                      - link "Links" [ref=f192e209] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f192e210]:
+                      - link "Finanças" [ref=f192e211] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f192e212]:
+                      - link "Histórico" [ref=f192e213] [cursor=pointer]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f192e214]:
+                    - text: J J M P M P
+                    - generic [ref=f192e215]:
+                      - link "JVincular Arquivo" [ref=f192e216] [cursor=pointer]:
+                        - /url: "#"
+                      - list [ref=f192e218]:
+                        - table [ref=f192e219]:
+                          - rowgroup [ref=f192e220]:
+                            - row "Novo Arquivo < B  &" [ref=f192e221]:
+                              - cell "Novo Arquivo" [ref=f192e222]:
+                                - link "Novo Arquivo" [ref=f192e223] [cursor=pointer]:
+                                  - /url: /a/4874953/f/6273562/files/2159464
+                              - cell "< B  &" [ref=f192e224]:
+                                - link "<" [ref=f192e225] [cursor=pointer]:
+                                  - /url: javascript:void
+                                  - generic [ref=f192e226]: <
+                                - link "B" [ref=f192e227] [cursor=pointer]:
+                                  - /url: javascript:void
+                                  - generic [ref=f192e228]: B
+                                - link "" [ref=f192e229] [cursor=pointer]:
+                                  - /url: /a/4874953/f/6273562/activities/32603487/access_file/2159464?download=true&layout=page_shell_content
+                                  - generic [ref=f192e230]: 
+                                - link "&" [ref=f192e231] [cursor=pointer]:
+                                  - /url: javascript:void
+                                  - generic [ref=f192e232]: "&"
+                    - text: J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

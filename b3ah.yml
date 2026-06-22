@@ -1,0 +1,676 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f180e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f180e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - button "toggle" [ref=e444] [cursor=pointer]:
+                        - img [ref=e445]
+                      - link "00 - Arquitetura" [ref=e447] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e448]:
+                          - img [ref=e449]
+                          - paragraph [ref=e452]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e453] [cursor=pointer]:
+                      - img [ref=e454]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - button "toggle" [ref=e462] [cursor=pointer]:
+                        - img [ref=e463]
+                      - link "01 - Desenvolvimento" [ref=e465] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e466]:
+                          - img [ref=e467]
+                          - paragraph [ref=e470]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e471] [cursor=pointer]:
+                      - img [ref=e472]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e478]:
+                    - generic [ref=e479]:
+                      - button "toggle" [ref=e480] [cursor=pointer]:
+                        - img [ref=e481]
+                      - link "* Indiretos" [ref=e483] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e484]:
+                          - img [ref=e485]
+                          - paragraph [ref=e488]: "* Indiretos"
+                    - button "Ver mais" [ref=e489] [cursor=pointer]:
+                      - img [ref=e490]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e496]:
+                    - generic [ref=e497]:
+                      - button "toggle" [ref=e498] [cursor=pointer]:
+                        - img [ref=e499]
+                      - link "Ativos - Desenvolvimento" [ref=e501] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e502]:
+                          - img [ref=e503]
+                          - paragraph [ref=e506]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e507] [cursor=pointer]:
+                      - img [ref=e508]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e514]:
+                    - generic [ref=e515]:
+                      - button "toggle" [ref=e516] [cursor=pointer]:
+                        - img [ref=e517]
+                      - link "Inativos - Desenvolvimento" [ref=e519] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e520]:
+                          - img [ref=e521]
+                          - paragraph [ref=e524]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e525] [cursor=pointer]:
+                      - img [ref=e526]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e532]:
+                    - generic [ref=e533]:
+                      - button "toggle" [ref=e534] [cursor=pointer]:
+                        - img [ref=e535]
+                      - link "Não iniciados - Desenvolvimento" [ref=e537] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e538]:
+                          - img [ref=e539]
+                          - paragraph [ref=e542]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e543] [cursor=pointer]:
+                      - img [ref=e544]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e550]:
+                    - generic [ref=e551]:
+                      - button "toggle" [ref=e552] [cursor=pointer]:
+                        - img [ref=e553]
+                      - link "02 - Qualidade" [ref=e555] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e556]:
+                          - img [ref=e557]
+                          - paragraph [ref=e560]: 02 - Qualidade
+                    - button "Ver mais" [ref=e561] [cursor=pointer]:
+                      - img [ref=e562]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e568]:
+                    - generic [ref=e569]:
+                      - button "toggle" [ref=e570] [cursor=pointer]:
+                        - img [ref=e571]
+                      - link "03 - Engenharia de produto" [ref=e573] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e574]:
+                          - img [ref=e575]
+                          - paragraph [ref=e578]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e579] [cursor=pointer]:
+                      - img [ref=e580]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e586]:
+                    - generic [ref=e587]:
+                      - button "toggle" [ref=e588] [cursor=pointer]:
+                        - img [ref=e589]
+                      - link "04 - Gestão e Projetos" [ref=e591] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e592]:
+                          - img [ref=e593]
+                          - paragraph [ref=e596]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e597] [cursor=pointer]:
+                      - img [ref=e598]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - button "toggle" [ref=e606] [cursor=pointer]:
+                        - img [ref=e607]
+                      - link "05 - DevOps" [ref=e609] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e610]:
+                          - img [ref=e611]
+                          - paragraph [ref=e614]: 05 - DevOps
+                    - button "Ver mais" [ref=e615] [cursor=pointer]:
+                      - img [ref=e616]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - button "toggle" [ref=e624] [cursor=pointer]:
+                        - img [ref=e625]
+                      - link "98 - Backlog" [ref=e627] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e628]:
+                          - img [ref=e629]
+                          - paragraph [ref=e632]: 98 - Backlog
+                    - button "Ver mais" [ref=e633] [cursor=pointer]:
+                      - img [ref=e634]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e640]:
+                    - generic [ref=e641]:
+                      - button "toggle" [ref=e642] [cursor=pointer]:
+                        - img [ref=e643]
+                      - link "99 - Sustentação" [ref=e645] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e646]:
+                          - img [ref=e647]
+                          - paragraph [ref=e650]: 99 - Sustentação
+                    - button "Ver mais" [ref=e651] [cursor=pointer]:
+                      - img [ref=e652]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e658]:
+                    - generic [ref=e659]:
+                      - button "toggle" [ref=e660] [cursor=pointer]:
+                        - img [ref=e661]
+                      - link "API" [ref=e663] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e664]:
+                          - img [ref=e665]
+                          - paragraph [ref=e668]: API
+                    - button "Ver mais" [ref=e669] [cursor=pointer]:
+                      - img [ref=e670]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e676]:
+                    - generic [ref=e677]:
+                      - button "toggle" [ref=e678] [cursor=pointer]:
+                        - img [ref=e679]
+                      - link "Histórico" [ref=e681] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e682]:
+                          - img [ref=e683]
+                          - paragraph [ref=e686]: Histórico
+                    - button "Ver mais" [ref=e687] [cursor=pointer]:
+                      - img [ref=e688]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Questionários com IA" [ref=e407] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Agente de importação de questionários com IA F1 - 4.Beta" [ref=e409] [cursor=pointer]: Agente de importação de que...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - heading "Importação inteligente - As vezes o nome do chat é criado como \"Nova conversa\"" [level=2] [ref=e415]
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - img [ref=e423]
+                - img [ref=e426]
+          - generic [ref=e428]:
+            - tablist [ref=e430]:
+              - tab "Informações" [selected] [ref=e434] [cursor=pointer]:
+                - paragraph [ref=e435]: Informações
+            - generic [ref=e436]:
+              - separator
+        - iframe [active] [ref=e439]:
+          - generic [ref=f174e1]:
+            - generic [ref=f174e3]:
+              - generic [ref=f174e5]:
+                - generic [ref=f174e6]:
+                  - list [ref=f174e8]:
+                    - listitem [ref=f174e9]:
+                      - link ";Novo" [ref=f174e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6046529/activities/new
+                    - listitem [ref=f174e11]:
+                      - generic [ref=f174e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f174e13]:
+                      - generic [ref=f174e14]: "&Apagar"
+                    - listitem [ref=f174e15]:
+                      - button "| Concluido" [ref=f174e18] [cursor=pointer]:
+                        - paragraph [ref=f174e19]:
+                          - generic [ref=f174e20]: "|"
+                          - generic "Concluido" [ref=f174e21]
+                        - img [ref=f174e22]
+                    - listitem [ref=f174e24]
+                    - listitem [ref=f174e25]:
+                      - generic "Comentar" [ref=f174e26] [cursor=pointer]: <
+                    - listitem [ref=f174e27]:
+                      - generic "Apontar" [ref=f174e28] [cursor=pointer]: h
+                    - listitem [ref=f174e29]:
+                      - generic "Tags" [ref=f174e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f174e31]:
+                      - generic "Alocação Parcial" [ref=f174e32] [cursor=pointer]: 
+                    - listitem [ref=f174e33]:
+                      - generic "Checklist" [ref=f174e34] [cursor=pointer]: 
+                  - generic [ref=f174e35]:
+                    - strong [ref=f174e36]: Título
+                    - paragraph [ref=f174e37]: Importação inteligente - As vezes o nome do chat é criado como "Nova conversa"
+                    - generic [ref=f174e38]:
+                      - generic [ref=f174e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f174e40]:
+                          - generic [ref=f174e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Questionários com IA > Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6046529/activities/
+                        - strong [ref=f174e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f174e44]: "18454"
+                        - generic [ref=f174e45]:
+                          - generic [ref=f174e46]:
+                            - strong [ref=f174e47]: Criado há
+                            - paragraph [ref=f174e48]: 2 meses 15/04/2026
+                          - generic [ref=f174e49]:
+                            - strong [ref=f174e50]: Solicitante
+                            - paragraph [ref=f174e51]: Éverton Gambeta
+                        - paragraph [ref=f174e52]:
+                          - strong [ref=f174e53]: Tipo de Atividade
+                          - generic [ref=f174e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f174e55]: Descrição
+                        - generic [ref=f174e56]:
+                          - paragraph [ref=f174e57]:
+                            - strong [ref=f174e58]: ":: Incidente identificado ::"
+                          - list [ref=f174e59]:
+                            - listitem [ref=f174e60]: Na importação inteligente, quando é importado um questionário, às vezes não é criado um título para o chat, dificultando a localização do chat posteriormente.
+                          - paragraph [ref=f174e61]:
+                            - img [ref=f174e62]
+                          - paragraph [ref=f174e63]:
+                            - strong [ref=f174e64]: ":: Passo a passo para reprodução ::"
+                            - text: » Acessar o menu de Questionário.
+                            - text: » Importar um documento e verificar o nome do chat.
+                          - paragraph [ref=f174e65]:
+                            - strong [ref=f174e66]: ":: Comportamento esperado ::"
+                          - paragraph [ref=f174e67]:
+                            - strong [ref=f174e69]: SEMPRE
+                            - text: devemos criar um novo para o chat de acordo com o documento importado.
+                        - strong [ref=f174e70]: Categorias
+                        - paragraph
+                        - strong [ref=f174e71]: Prioridade
+                        - paragraph [ref=f174e72]: "2"
+                        - strong [ref=f174e73]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f174e74]: Replanejamentos
+                        - paragraph [ref=f174e75]: "2"
+                        - generic [ref=f174e76]:
+                          - generic [ref=f174e77]:
+                            - strong [ref=f174e78]: Pull request
+                            - paragraph [ref=f174e79]:
+                              - link "https://github.com/Twygo/twygo-ai-knowledge-agent/pull/349" [ref=f174e80] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twygo-ai-knowledge-agent/pull/349
+                          - generic [ref=f174e81]:
+                            - strong [ref=f174e82]: Nº Ticket Movidesk
+                            - paragraph [ref=f174e83]: .
+                          - generic [ref=f174e84]:
+                            - strong [ref=f174e85]: Urgência
+                            - paragraph [ref=f174e86]: Medio
+                          - generic [ref=f174e87]:
+                            - strong [ref=f174e88]: Versão
+                            - paragraph
+                          - generic [ref=f174e89]:
+                            - strong [ref=f174e90]: Rebote
+                            - paragraph
+                          - generic [ref=f174e91]:
+                            - strong [ref=f174e92]: Plataforma
+                            - paragraph [ref=f174e93]: ", Desktop"
+                          - generic [ref=f174e94]:
+                            - strong [ref=f174e95]: Funcionalidade
+                            - paragraph [ref=f174e96]: Soph.ia
+                          - generic [ref=f174e97]:
+                            - strong [ref=f174e98]: Sub-funcionalidade
+                            - paragraph [ref=f174e99]: Questionário
+                          - generic [ref=f174e101]: J
+                          - generic [ref=f174e102]:
+                            - list [ref=f174e103]:
+                              - listitem [ref=f174e104]:
+                                - link "Cliente" [ref=f174e105] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f174e107]:
+                                - link "Classificação" [ref=f174e108] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f174e111]: J
+                      - generic [ref=f174e112]:
+                        - generic [ref=f174e113]:
+                          - generic [ref=f174e115]: i Prazo
+                          - generic [ref=f174e116]:
+                            - generic [ref=f174e117]:
+                              - generic [ref=f174e118]:
+                                - strong [ref=f174e119]: Início Estimado
+                                - paragraph
+                              - generic [ref=f174e120]:
+                                - strong [ref=f174e121]: Término Estimado
+                                - paragraph
+                            - generic [ref=f174e122]:
+                              - generic [ref=f174e123]:
+                                - strong [ref=f174e124]: Início Real
+                                - paragraph [ref=f174e125]: 15/04/2026 - 14:55h
+                              - generic [ref=f174e126]:
+                                - strong [ref=f174e127]: Término Real
+                                - paragraph [ref=f174e128]: 18/06/2026 - 20:52h
+                            - generic [ref=f174e130]:
+                              - strong [ref=f174e131]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f174e132]:
+                          - generic [ref=f174e134]: h Esforço
+                          - generic [ref=f174e136]:
+                            - generic [ref=f174e137]:
+                              - strong [ref=f174e138]: Esforço Estimado
+                              - paragraph [ref=f174e139]: 2,00h
+                            - generic [ref=f174e140]:
+                              - strong [ref=f174e141]: Esforço Real
+                              - paragraph [ref=f174e142]: 2,25h
+                        - generic [ref=f174e143]:
+                          - generic [ref=f174e145]: e Lançamentos Financeiros
+                          - generic [ref=f174e147]:
+                            - generic [ref=f174e148]:
+                              - strong [ref=f174e149]: Previsto
+                              - paragraph
+                            - generic [ref=f174e150]:
+                              - strong [ref=f174e151]: Realizado
+                              - paragraph
+                        - generic [ref=f174e152]:
+                          - generic [ref=f174e154]:  Andamento
+                          - generic [ref=f174e156]:
+                            - generic [ref=f174e157]:
+                              - strong [ref=f174e158]: "% Completo"
+                              - progressbar [ref=f174e160]
+                              - generic [ref=f174e161]: 100,00%
+                            - img [ref=f174e165]:
+                              - generic [ref=f174e176]: "2"
+                              - generic [ref=f174e179]: 2,25
+                    - strong [ref=f174e185]: "[ Lembrar-me"
+                    - strong [ref=f174e186]: "@ Repetir"
+                - generic [ref=f174e189]:
+                  - list [ref=f174e190]:
+                    - listitem [ref=f174e191]:
+                      - link "Arquivos" [ref=f174e192] [cursor=pointer]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f174e193]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f174e194] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f174e195]:
+                      - link "Marcos" [ref=f174e196] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f174e197]:
+                      - link "Links" [ref=f174e198] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f174e199]:
+                      - link "Finanças" [ref=f174e200] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f174e201]:
+                      - link "Histórico" [expanded] [ref=f174e202]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f174e203]:
+                    - generic [ref=f174e209]:
+                      - list [ref=f174e210]:
+                        - strong [ref=f174e211]: Tipos
+                        - listitem [ref=f174e212]:
+                          - checkbox "Comentários" [checked] [ref=f174e213]
+                          - generic [ref=f174e214]: Comentários
+                        - listitem [ref=f174e215]:
+                          - checkbox "Apontamentos" [checked] [ref=f174e216]
+                          - generic [ref=f174e217]: Apontamentos
+                        - listitem [ref=f174e218]:
+                          - checkbox "Atualizações" [checked] [ref=f174e219]
+                          - generic [ref=f174e220]: Atualizações
+                      - list [ref=f174e221]:
+                        - strong [ref=f174e222]: Ver
+                        - listitem [ref=f174e223]:
+                          - radio "Tudo" [checked] [active] [ref=f174e224]
+                          - generic [ref=f174e225]: Tudo
+                        - listitem [ref=f174e226]:
+                          - radio "Estou envolvido" [ref=f174e227]
+                          - generic [ref=f174e228]: Estou envolvido
+                      - list [ref=f174e229]:
+                        - listitem
+                      - generic [ref=f174e231]:
+                        - list [ref=f174e232]:
+                          - listitem [ref=f174e233]:
+                            - generic [ref=f174e234]: 18/06/2026
+                          - listitem [ref=f174e235]:
+                            - generic [ref=f174e236]: c
+                            - generic [ref=f174e237]:
+                              - generic [ref=f174e238]:
+                                - generic [ref=f174e239]: h
+                                - generic "2026-06-18 23:52:05" [ref=f174e240]: 12 horas atrás.
+                              - generic [ref=f174e241]:
+                                - img "Foto" [ref=f174e243]
+                                - generic [ref=f174e244]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e245]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Jeiel Alves de Oliveira" [ref=f174e246] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/279122
+                                  - text: atualizou a atividade
+                              - generic [ref=f174e247]:
+                                - text: "Término Real de: em branco para: 18/06/2026 20:52"
+                                - text: "Situação de: Validação para: Concluido"
+                          - listitem [ref=f174e248]:
+                            - generic [ref=f174e249]: j
+                            - generic [ref=f174e250]:
+                              - generic [ref=f174e251]:
+                                - generic [ref=f174e252]: h
+                                - generic "2026-06-18 15:34:47" [ref=f174e253]: 21 horas atrás.
+                              - generic [ref=f174e254]:
+                                - img "Foto" [ref=f174e256]
+                                - generic [ref=f174e257]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e258]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e259] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f174e260]: "Responsável: Jeiel Alves de Oliveira"
+                          - listitem [ref=f174e261]:
+                            - generic [ref=f174e262]: c
+                            - generic [ref=f174e263]:
+                              - generic [ref=f174e264]:
+                                - generic [ref=f174e265]: h
+                                - generic "2026-06-18 12:59:58" [ref=f174e266]: 23 horas atrás.
+                              - generic [ref=f174e267]:
+                                - img "Foto" [ref=f174e269]
+                                - generic [ref=f174e270]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e271]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e272] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f174e273]: "Situação de: Em Andamento para: Validação"
+                          - listitem [ref=f174e274]:
+                            - generic [ref=f174e275]: f
+                            - generic [ref=f174e276]:
+                              - generic [ref=f174e277]:
+                                - generic [ref=f174e278]: h
+                                - generic "2026-06-18 12:57:02" [ref=f174e279]: 23 horas atrás.
+                              - generic [ref=f174e280]:
+                                - img "Foto" [ref=f174e282]
+                                - generic [ref=f174e283]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e284]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e285] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f174e286]:
+                                - text: "Testado em Stage:"
+                                - text: Validado a correcao solicitada.
+                          - listitem [ref=f174e287]:
+                            - generic [ref=f174e288]: h
+                            - generic [ref=f174e289]:
+                              - generic [ref=f174e290]:
+                                - generic [ref=f174e291]: h
+                                - generic "2026-06-18 12:56:37" [ref=f174e292]: 23 horas atrás.
+                              - generic [ref=f174e293]:
+                                - img "Foto" [ref=f174e295]
+                                - generic [ref=f174e296]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e297]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e298] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: criou um apontamento na atividade
+                              - generic [ref=f174e299]:
+                                - text: "Horas apontadas: 00:20"
+                                - text: "Data: 18/06/2026"
+                                - text: "Hora de início: 09:25"
+                                - text: "Comentário: Testando"
+                                - text: "Situação: Em Andamento"
+                                - text: "Tipo da hora: Hora normal"
+                                - text: "Área: Qualidade"
+                          - listitem [ref=f174e300]:
+                            - generic [ref=f174e301]: c
+                            - generic [ref=f174e302]:
+                              - generic [ref=f174e303]:
+                                - generic [ref=f174e304]: h
+                                - generic "2026-06-18 12:50:05" [ref=f174e305]: 23 horas atrás.
+                              - generic [ref=f174e306]:
+                                - img "Foto" [ref=f174e308]
+                                - generic [ref=f174e309]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e310]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e311] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: adicionou uma relação na atividade
+                              - generic [ref=f174e312]:
+                                - text: "Uma atividade foi relacionada:"
+                                - link "Questionaria com IA - Gerar versão para o Deploy da Twygo - 18/06/2026" [ref=f174e313] [cursor=pointer]:
+                                  - /url: https://app.artia.com/a/4874953/f/6046529/activities/33100740
+                          - listitem [ref=f174e314]:
+                            - generic [ref=f174e315]: c
+                            - generic [ref=f174e316]:
+                              - generic [ref=f174e317]:
+                                - generic [ref=f174e318]: h
+                                - generic "2026-06-18 12:20:53" [ref=f174e319]: 09:20
+                              - generic [ref=f174e320]:
+                                - img "Foto" [ref=f174e322]
+                                - generic [ref=f174e323]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e324]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e325] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f174e326]: "Situação de: Validação para: Em Andamento"
+                          - listitem [ref=f174e327]:
+                            - generic [ref=f174e328]: j
+                            - generic [ref=f174e329]:
+                              - generic [ref=f174e330]:
+                                - generic [ref=f174e331]: h
+                                - generic "2026-06-18 12:20:47" [ref=f174e332]: 09:20
+                              - generic [ref=f174e333]:
+                                - img "Foto" [ref=f174e335]
+                                - generic [ref=f174e336]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e337]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e338] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f174e339]:
+                                - text: "Usuários removidos: Gabriel Coelho"
+                                - text: "Responsável: Éverton Gambeta"
+                          - listitem [ref=f174e340]:
+                            - generic [ref=f174e341]: 17/06/2026
+                          - listitem [ref=f174e342]:
+                            - generic [ref=f174e343]: c
+                            - generic [ref=f174e344]:
+                              - generic [ref=f174e345]:
+                                - generic [ref=f174e346]: h
+                                - generic "2026-06-17 13:39:50" [ref=f174e347]: 10:39
+                              - generic [ref=f174e348]:
+                                - img "Foto" [ref=f174e350]
+                                - generic [ref=f174e351]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e352]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Éverton Gambeta" [ref=f174e353] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f174e354]: "Situação de: Pronto para stage para: Validação"
+                          - listitem [ref=f174e355]:
+                            - generic [ref=f174e356]: 10/06/2026
+                          - listitem [ref=f174e357]:
+                            - generic [ref=f174e358]: c
+                            - generic [ref=f174e359]:
+                              - generic [ref=f174e360]:
+                                - generic [ref=f174e361]: h
+                                - generic "2026-06-10 14:08:19" [ref=f174e362]: 11:08
+                              - generic [ref=f174e363]:
+                                - img "Foto" [ref=f174e365]
+                                - generic [ref=f174e366]:
+                                  - generic "Tecnologia | Agente de importação de questionários com IA F1 - 4.Beta" [ref=f174e367]: Tecnologia | Agente de importação de questionários com IA F1 - ...
+                                  - link "Vinicius Lisboa" [ref=f174e368] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6046529/timeline/200535
+                                  - text: atualizou a atividade
+                              - generic [ref=f174e369]: "Situação de: Em Revisão para: Pronto para stage"
+                        - generic [ref=f174e371]:
+                          - list [ref=f174e372]:
+                            - listitem [ref=f174e373]
+                          - list [ref=f174e374]:
+                            - listitem [ref=f174e375]:
+                              - link "» Mais antigos" [ref=f174e376] [cursor=pointer]:
+                                - /url: "#"
+                    - text: J J M P M P J J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

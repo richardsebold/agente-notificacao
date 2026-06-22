@@ -1,0 +1,790 @@
+- generic [ref=e1]:
+  - iframe [ref=e68]:
+    - button "Open AI Assistant Launcher" [ref=f234e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f234e8]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e69]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Analytics" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Sprint" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+          - separator [ref=e14]
+          - button "Ver tudo" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+          - button "Tecnologia" [ref=e88] [cursor=pointer]:
+            - paragraph [ref=e89]: T
+        - button "Filtrar" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - complementary [ref=e18]:
+      - generic [ref=e19]:
+        - group "ID:136701 - Twygo" [ref=e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+      - generic [ref=e23]:
+        - button "Criação rápida" [ref=e25] [cursor=pointer]:
+          - img [ref=e27]
+          - paragraph [ref=e28]: Criação rápida
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - textbox "Pesquisar por nome" [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - button "Filtrar" [expanded] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106]
+                - link "Tecnologia" [ref=e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=e110]: Tecnologia
+              - button "Ver mais" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - region "Filtrar" [ref=e117]:
+              - generic [ref=e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=e123]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - button "toggle" [ref=e447] [cursor=pointer]:
+                        - img [ref=e448]
+                      - link "00 - Arquitetura" [ref=e450] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=e451]:
+                          - img [ref=e452]
+                          - paragraph [ref=e455]: 00 - Arquitetura
+                    - button "Ver mais" [ref=e456] [cursor=pointer]:
+                      - img [ref=e457]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=e142]:
+                  - generic [ref=e463]:
+                    - generic [ref=e464]:
+                      - button "toggle" [ref=e465] [cursor=pointer]:
+                        - img [ref=e466]
+                      - link "01 - Desenvolvimento" [ref=e468] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=e469]:
+                          - img [ref=e470]
+                          - paragraph [ref=e473]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=e474] [cursor=pointer]:
+                      - img [ref=e475]
+                - treeitem "toggle * Indiretos Ver mais" [level=1] [ref=e161]:
+                  - generic [ref=e481]:
+                    - generic [ref=e482]:
+                      - button "toggle" [ref=e483] [cursor=pointer]:
+                        - img [ref=e484]
+                      - link "* Indiretos" [ref=e486] [cursor=pointer]:
+                        - /url: /a/4874953/f/6382301/activities
+                        - generic [ref=e487]:
+                          - img [ref=e488]
+                          - paragraph [ref=e491]: "* Indiretos"
+                    - button "Ver mais" [ref=e492] [cursor=pointer]:
+                      - img [ref=e493]
+                - treeitem "toggle Ativos - Desenvolvimento Ver mais" [level=1] [ref=e180]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - button "toggle" [ref=e501] [cursor=pointer]:
+                        - img [ref=e502]
+                      - link "Ativos - Desenvolvimento" [ref=e504] [cursor=pointer]:
+                        - /url: /a/4874953/f/6379092/activities
+                        - generic [ref=e505]:
+                          - img [ref=e506]
+                          - paragraph [ref=e509]: Ativos - Desenvolvimento
+                    - button "Ver mais" [ref=e510] [cursor=pointer]:
+                      - img [ref=e511]
+                - treeitem "toggle Inativos - Desenvolvimento Ver mais" [level=1] [ref=e199]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - button "toggle" [ref=e519] [cursor=pointer]:
+                        - img [ref=e520]
+                      - link "Inativos - Desenvolvimento" [ref=e522] [cursor=pointer]:
+                        - /url: /a/4874953/f/6368614/activities
+                        - generic [ref=e523]:
+                          - img [ref=e524]
+                          - paragraph [ref=e527]: Inativos - Desenvolvimento
+                    - button "Ver mais" [ref=e528] [cursor=pointer]:
+                      - img [ref=e529]
+                - treeitem "toggle Não iniciados - Desenvolvimento Ver mais" [level=1] [ref=e218]:
+                  - generic [ref=e535]:
+                    - generic [ref=e536]:
+                      - button "toggle" [ref=e537] [cursor=pointer]:
+                        - img [ref=e538]
+                      - link "Não iniciados - Desenvolvimento" [ref=e540] [cursor=pointer]:
+                        - /url: /a/4874953/f/6434636/activities
+                        - generic [ref=e541]:
+                          - img [ref=e542]
+                          - paragraph [ref=e545]: Não iniciados - Desenvolvimento
+                    - button "Ver mais" [ref=e546] [cursor=pointer]:
+                      - img [ref=e547]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=e237]:
+                  - generic [ref=e553]:
+                    - generic [ref=e554]:
+                      - button "toggle" [ref=e555] [cursor=pointer]:
+                        - img [ref=e556]
+                      - link "02 - Qualidade" [ref=e558] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=e559]:
+                          - img [ref=e560]
+                          - paragraph [ref=e563]: 02 - Qualidade
+                    - button "Ver mais" [ref=e564] [cursor=pointer]:
+                      - img [ref=e565]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=e256]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - button "toggle" [ref=e573] [cursor=pointer]:
+                        - img [ref=e574]
+                      - link "03 - Engenharia de produto" [ref=e576] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=e577]:
+                          - img [ref=e578]
+                          - paragraph [ref=e581]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=e582] [cursor=pointer]:
+                      - img [ref=e583]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=e275]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - button "toggle" [ref=e591] [cursor=pointer]:
+                        - img [ref=e592]
+                      - link "04 - Gestão e Projetos" [ref=e594] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=e595]:
+                          - img [ref=e596]
+                          - paragraph [ref=e599]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=e294]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - button "toggle" [ref=e609] [cursor=pointer]:
+                        - img [ref=e610]
+                      - link "05 - DevOps" [ref=e612] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=e613]:
+                          - img [ref=e614]
+                          - paragraph [ref=e617]: 05 - DevOps
+                    - button "Ver mais" [ref=e618] [cursor=pointer]:
+                      - img [ref=e619]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=e313]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]:
+                      - button "toggle" [ref=e627] [cursor=pointer]:
+                        - img [ref=e628]
+                      - link "98 - Backlog" [ref=e630] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=e631]:
+                          - img [ref=e632]
+                          - paragraph [ref=e635]: 98 - Backlog
+                    - button "Ver mais" [ref=e636] [cursor=pointer]:
+                      - img [ref=e637]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=e332]:
+                  - generic [ref=e643]:
+                    - generic [ref=e644]:
+                      - button "toggle" [ref=e645] [cursor=pointer]:
+                        - img [ref=e646]
+                      - link "99 - Sustentação" [ref=e648] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=e649]:
+                          - img [ref=e650]
+                          - paragraph [ref=e653]: 99 - Sustentação
+                    - button "Ver mais" [ref=e654] [cursor=pointer]:
+                      - img [ref=e655]
+                - treeitem "toggle API Ver mais" [ref=e351]:
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - button "toggle" [ref=e663] [cursor=pointer]:
+                        - img [ref=e664]
+                      - link "API" [ref=e666] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=e667]:
+                          - img [ref=e668]
+                          - paragraph [ref=e671]: API
+                    - button "Ver mais" [ref=e672] [cursor=pointer]:
+                      - img [ref=e673]
+                - treeitem "toggle Histórico Ver mais" [ref=e370]:
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - button "toggle" [ref=e681] [cursor=pointer]:
+                        - img [ref=e682]
+                      - link "Histórico" [ref=e684] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=e685]:
+                          - img [ref=e686]
+                          - paragraph [ref=e689]: Histórico
+                    - button "Ver mais" [ref=e690] [cursor=pointer]:
+                      - img [ref=e691]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - group [ref=e39]:
+          - checkbox "Novo visual" [checked] [ref=e41]
+          - paragraph [ref=e45]: Novo visual
+        - generic [ref=e46]:
+          - button "Pesquisar" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Central de ajuda" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+              - button "Central de notificações" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+            - button "ID:301268 - Richard Sebold" [ref=e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - navigation "breadcrumb" [ref=e395]:
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - img [ref=e398]
+                    - generic "Tecnologia" [ref=e401] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e402]:
+                    - generic "01 - Desenvolvimento" [ref=e403] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e404]:
+                    - generic "Ativos - Desenvolvimento" [ref=e405] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=e406]:
+                    - generic "Registro de treinamentos externos" [ref=e407] [cursor=pointer]: Registro de treinamentos ex...
+                    - text: /
+                  - listitem [ref=e408]:
+                    - generic "Registro de treinamentos externos - 4.Beta" [ref=e409] [cursor=pointer]: Registro de treinamentos ex...
+              - generic [ref=e410]:
+                - button "Activity" [ref=e411] [cursor=pointer]:
+                  - img [ref=e412]
+                - heading "[UniTwygo] [BUG] Registros externo" [level=2] [ref=e415]
+            - generic [ref=e417]:
+              - button "Pessoas" [ref=e418] [cursor=pointer]:
+                - img [ref=e420]
+                - text: Pessoas
+              - group [ref=e421]:
+                - img [ref=e423]
+                - img [ref=e426]
+                - img [ref=e429]
+          - generic [ref=e431]:
+            - tablist [ref=e433]:
+              - tab "Informações" [selected] [ref=e437] [cursor=pointer]:
+                - paragraph [ref=e438]: Informações
+            - generic [ref=e439]:
+              - separator
+        - iframe [active] [ref=e442]:
+          - generic [ref=f228e1]:
+            - generic [ref=f228e3]:
+              - generic [ref=f228e5]:
+                - generic [ref=f228e6]:
+                  - list [ref=f228e8]:
+                    - listitem [ref=f228e9]:
+                      - link ";Novo" [ref=f228e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/6225755/activities/new
+                    - listitem [ref=f228e11]:
+                      - generic [ref=f228e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f228e13]:
+                      - generic [ref=f228e14]: "&Apagar"
+                    - listitem [ref=f228e15]:
+                      - button "| Concluido" [ref=f228e18] [cursor=pointer]:
+                        - paragraph [ref=f228e19]:
+                          - generic [ref=f228e20]: "|"
+                          - generic "Concluido" [ref=f228e21]
+                        - img [ref=f228e22]
+                    - listitem [ref=f228e24]
+                    - listitem [ref=f228e25]:
+                      - generic "Comentar" [ref=f228e26] [cursor=pointer]: <
+                    - listitem [ref=f228e27]:
+                      - generic "Apontar" [ref=f228e28] [cursor=pointer]: h
+                    - listitem [ref=f228e29]:
+                      - generic "Tags" [ref=f228e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f228e31]:
+                      - generic "Alocação Parcial" [ref=f228e32] [cursor=pointer]: 
+                    - listitem [ref=f228e33]:
+                      - generic "Checklist" [ref=f228e34] [cursor=pointer]: 
+                  - generic [ref=f228e35]:
+                    - strong [ref=f228e36]: Título
+                    - paragraph [ref=f228e37]: "[UniTwygo] [BUG] Registros externo"
+                    - generic [ref=f228e38]:
+                      - generic [ref=f228e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f228e40]:
+                          - generic [ref=f228e41]: H
+                          - link "Tecnologia > 01 - Desenvolvimento > Ativos - Desenvolvimento > Registro de treinamentos externos > Registro de treinamentos externos - 4.Beta" [ref=f228e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/6225755/activities/
+                        - strong [ref=f228e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f228e44]: "18120"
+                        - generic [ref=f228e45]:
+                          - generic [ref=f228e46]:
+                            - strong [ref=f228e47]: Criado há
+                            - paragraph [ref=f228e48]: 2 meses 08/04/2026
+                          - generic [ref=f228e49]:
+                            - strong [ref=f228e50]: Solicitante
+                            - paragraph [ref=f228e51]: Raisa Frederico Gomes
+                        - paragraph [ref=f228e52]:
+                          - strong [ref=f228e53]: Tipo de Atividade
+                          - generic [ref=f228e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f228e55]: Descrição
+                        - generic [ref=f228e56]:
+                          - paragraph [ref=f228e57]:
+                            - strong [ref=f228e58]: "Categoria ou Menu:"
+                            - text: Registros
+                          - paragraph [ref=f228e59]:
+                            - strong [ref=f228e60]: Caminho
+                            - text: ": Aprendizagem>Registros"
+                          - paragraph [ref=f228e61]:
+                            - strong [ref=f228e62]: Visão
+                            - text: ": ADM"
+                          - paragraph [ref=f228e63]:
+                            - strong [ref=f228e64]: "Prioridade: Alta"
+                          - paragraph [ref=f228e65]:
+                            - strong [ref=f228e66]: "Cenário atual:"
+                          - paragraph [ref=f228e67]: "Ao inserir certificado de registros de treinamentos externos e optar pelo preenchimento com IA, alguns dados do arquivo não estão sendo puxados:"
+                          - list [ref=f228e68]:
+                            - listitem [ref=f228e69]:
+                              - paragraph [ref=f228e70]: Nome (crítico)
+                            - listitem [ref=f228e71]:
+                              - paragraph [ref=f228e72]: Tipo de experiência (aceitável não gerar)
+                            - listitem [ref=f228e73]:
+                              - paragraph [ref=f228e74]: Categoria (aceitável não gerar)
+                            - listitem [ref=f228e75]:
+                              - paragraph [ref=f228e76]: Carga horária (crítico)
+                          - paragraph [ref=f228e77]
+                          - paragraph [ref=f228e78]: Ao inserir link de conteúdo do youtube e pedir para gerar com IA, nenhuma informação é puxada.
+                          - paragraph [ref=f228e79]:
+                            - text: "Link:"
+                            - link "https://www.youtube.com/watch?v=k_rYoyLEZKg" [ref=f228e80] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=k_rYoyLEZKg
+                          - paragraph [ref=f228e81]
+                          - paragraph [ref=f228e82]: "Evidencias (várias):"
+                          - paragraph [ref=f228e83]:
+                            - link "https://jam.dev/c/9d60cb63-9808-4ae3-8123-ada483e4a0f7" [ref=f228e84] [cursor=pointer]:
+                              - /url: https://jam.dev/c/9d60cb63-9808-4ae3-8123-ada483e4a0f7
+                          - paragraph [ref=f228e85]:
+                            - link "https://jam.dev/c/030df7ec-e1f0-4bc0-b85a-297dc34fc926" [ref=f228e86] [cursor=pointer]:
+                              - /url: https://jam.dev/c/030df7ec-e1f0-4bc0-b85a-297dc34fc926
+                          - paragraph [ref=f228e87]:
+                            - link "https://jam.dev/c/831bc476-ea29-4336-8f1a-89f1dfa940e1" [ref=f228e88] [cursor=pointer]:
+                              - /url: https://jam.dev/c/831bc476-ea29-4336-8f1a-89f1dfa940e1
+                          - paragraph [ref=f228e89]:
+                            - link "https://jam.dev/c/a54c23ae-41b7-4bbc-89f8-6f93ca52cdac" [ref=f228e90] [cursor=pointer]:
+                              - /url: https://jam.dev/c/a54c23ae-41b7-4bbc-89f8-6f93ca52cdac
+                          - paragraph [ref=f228e91]:
+                            - link "https://jam.dev/c/8bcfbf4e-b83e-49b9-8b90-6a33173b119b" [ref=f228e92] [cursor=pointer]:
+                              - /url: https://jam.dev/c/8bcfbf4e-b83e-49b9-8b90-6a33173b119b
+                          - paragraph [ref=f228e93]:
+                            - link "https://jam.dev/c/31589ae8-b5a0-4c1d-87c4-119d8533d20c" [ref=f228e94] [cursor=pointer]:
+                              - /url: https://jam.dev/c/31589ae8-b5a0-4c1d-87c4-119d8533d20c
+                          - paragraph [ref=f228e95]
+                          - paragraph [ref=f228e96]: Arquivos usados em anexo.
+                          - paragraph [ref=f228e97]
+                          - paragraph [ref=f228e98]:
+                            - strong [ref=f228e99]: Link do ambiente
+                            - text: ":"
+                            - link "https://universidadetwygeers.twygoead.com/o/19830/records/new" [ref=f228e100] [cursor=pointer]:
+                              - /url: https://universidadetwygeers.twygoead.com/o/19830/records/new
+                        - strong [ref=f228e101]: Categorias
+                        - paragraph [ref=f228e102]: Dogfooding
+                        - strong [ref=f228e103]: Prioridade
+                        - paragraph
+                        - strong [ref=f228e104]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f228e105]: Replanejamentos
+                        - paragraph [ref=f228e106]: "0"
+                        - generic [ref=f228e107]:
+                          - generic [ref=f228e108]:
+                            - strong [ref=f228e109]: Pull request
+                            - paragraph [ref=f228e110]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10262" [ref=f228e111] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10262
+                              - text: "&&"
+                              - link "https://github.com/Twygo/twygo-ai-knowledge-agent/pull/348" [ref=f228e112] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twygo-ai-knowledge-agent/pull/348
+                          - generic [ref=f228e113]:
+                            - strong [ref=f228e114]: Nº Ticket Movidesk
+                            - paragraph [ref=f228e115]:
+                              - link "https://app.hubspot.com/contacts/44238979/record/0-5/44227493649" [ref=f228e116] [cursor=pointer]:
+                                - /url: https://app.hubspot.com/contacts/44238979/record/0-5/44227493649
+                          - generic [ref=f228e117]:
+                            - strong [ref=f228e118]: Urgência
+                            - paragraph [ref=f228e119]: Alto
+                          - generic [ref=f228e120]:
+                            - strong [ref=f228e121]: Versão
+                            - paragraph
+                          - generic [ref=f228e122]:
+                            - strong [ref=f228e123]: Rebote
+                            - paragraph
+                          - generic [ref=f228e124]:
+                            - strong [ref=f228e125]: Plataforma
+                            - paragraph [ref=f228e126]: Desktop
+                          - generic [ref=f228e127]:
+                            - strong [ref=f228e128]: Funcionalidade
+                            - paragraph [ref=f228e129]: Conteúdos
+                          - generic [ref=f228e130]:
+                            - strong [ref=f228e131]: Sub-funcionalidade
+                            - paragraph [ref=f228e132]: Estúdio de criação
+                          - generic [ref=f228e134]: J
+                          - generic [ref=f228e135]:
+                            - list [ref=f228e136]:
+                              - listitem [ref=f228e137]:
+                                - link "Cliente" [ref=f228e138] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f228e140]:
+                                - link "Classificação" [ref=f228e141] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f228e144]: J
+                      - generic [ref=f228e145]:
+                        - generic [ref=f228e146]:
+                          - generic [ref=f228e148]: i Prazo
+                          - generic [ref=f228e149]:
+                            - generic [ref=f228e150]:
+                              - generic [ref=f228e151]:
+                                - strong [ref=f228e152]: Início Estimado
+                                - paragraph
+                              - generic [ref=f228e153]:
+                                - strong [ref=f228e154]: Término Estimado
+                                - paragraph
+                            - generic [ref=f228e155]:
+                              - generic [ref=f228e156]:
+                                - strong [ref=f228e157]: Início Real
+                                - paragraph [ref=f228e158]: 19/05/2026 - 14:00h
+                              - generic [ref=f228e159]:
+                                - strong [ref=f228e160]: Término Real
+                                - paragraph [ref=f228e161]: 18/06/2026 - 20:51h
+                            - generic [ref=f228e163]:
+                              - strong [ref=f228e164]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f228e165]:
+                          - generic [ref=f228e167]: h Esforço
+                          - generic [ref=f228e169]:
+                            - generic [ref=f228e170]:
+                              - strong [ref=f228e171]: Esforço Estimado
+                              - paragraph [ref=f228e172]: 0,00h
+                            - generic [ref=f228e173]:
+                              - strong [ref=f228e174]: Esforço Real
+                              - paragraph [ref=f228e175]: 2,92h
+                        - generic [ref=f228e176]:
+                          - generic [ref=f228e178]: e Lançamentos Financeiros
+                          - generic [ref=f228e180]:
+                            - generic [ref=f228e181]:
+                              - strong [ref=f228e182]: Previsto
+                              - paragraph
+                            - generic [ref=f228e183]:
+                              - strong [ref=f228e184]: Realizado
+                              - paragraph
+                        - generic [ref=f228e185]:
+                          - generic [ref=f228e187]:  Andamento
+                          - generic [ref=f228e189]:
+                            - generic [ref=f228e190]:
+                              - strong [ref=f228e191]: "% Completo"
+                              - progressbar [ref=f228e193]
+                              - generic [ref=f228e194]: 100,00%
+                            - img [ref=f228e198]:
+                              - generic [ref=f228e207]: "0"
+                              - generic [ref=f228e210]: 2,92
+                    - strong [ref=f228e216]: "[ Lembrar-me"
+                    - strong [ref=f228e217]: "@ Repetir"
+                - generic [ref=f228e220]:
+                  - list [ref=f228e221]:
+                    - listitem [ref=f228e222]:
+                      - link "Arquivos" [ref=f228e223] [cursor=pointer]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f228e224]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f228e225] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f228e226]:
+                      - link "Marcos" [ref=f228e227] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f228e228]:
+                      - link "Links" [ref=f228e229] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f228e230]:
+                      - link "Finanças" [ref=f228e231] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f228e232]:
+                      - link "Histórico" [expanded] [ref=f228e233]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f228e234]:
+                    - generic [ref=f228e240]:
+                      - list [ref=f228e241]:
+                        - strong [ref=f228e242]: Tipos
+                        - listitem [ref=f228e243]:
+                          - checkbox "Comentários" [checked] [ref=f228e244]
+                          - generic [ref=f228e245]: Comentários
+                        - listitem [ref=f228e246]:
+                          - checkbox "Apontamentos" [checked] [ref=f228e247]
+                          - generic [ref=f228e248]: Apontamentos
+                        - listitem [ref=f228e249]:
+                          - checkbox "Atualizações" [checked] [ref=f228e250]
+                          - generic [ref=f228e251]: Atualizações
+                      - list [ref=f228e252]:
+                        - strong [ref=f228e253]: Ver
+                        - listitem [ref=f228e254]:
+                          - radio "Tudo" [checked] [active] [ref=f228e255]
+                          - generic [ref=f228e256]: Tudo
+                        - listitem [ref=f228e257]:
+                          - radio "Estou envolvido" [ref=f228e258]
+                          - generic [ref=f228e259]: Estou envolvido
+                      - list [ref=f228e260]:
+                        - listitem
+                      - generic [ref=f228e262]:
+                        - list [ref=f228e263]:
+                          - listitem [ref=f228e264]:
+                            - generic [ref=f228e265]: 18/06/2026
+                          - listitem [ref=f228e266]:
+                            - generic [ref=f228e267]: c
+                            - generic [ref=f228e268]:
+                              - generic [ref=f228e269]:
+                                - generic [ref=f228e270]: h
+                                - generic "2026-06-18 23:51:08" [ref=f228e271]: 12 horas atrás.
+                              - generic [ref=f228e272]:
+                                - img "Foto" [ref=f228e274]
+                                - generic [ref=f228e275]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e276]
+                                  - link "Jeiel Alves de Oliveira" [ref=f228e277] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/279122
+                                  - text: atualizou a atividade
+                              - generic [ref=f228e278]:
+                                - text: "Término Real de: em branco para: 18/06/2026 20:51"
+                                - text: "Situação de: Validação para: Concluido"
+                                - text: "% Completo de: 0,0% para: 100,0%"
+                          - listitem [ref=f228e279]:
+                            - generic [ref=f228e280]: c
+                            - generic [ref=f228e281]:
+                              - generic [ref=f228e282]:
+                                - generic [ref=f228e283]: h
+                                - generic "2026-06-18 18:36:30" [ref=f228e284]: 18 horas atrás.
+                              - generic [ref=f228e285]:
+                                - img "Foto" [ref=f228e287]
+                                - generic [ref=f228e288]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e289]
+                                  - link "Dante Tavares" [ref=f228e290] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: adicionou uma relação na atividade
+                              - generic [ref=f228e291]:
+                                - text: "Uma atividade foi relacionada:"
+                                - link "[UniTwygo] Gerar versão para o Deploy da Twygo - 18/06/2026" [ref=f228e292] [cursor=pointer]:
+                                  - /url: https://app.artia.com/a/4874953/f/6225755/activities/33104591
+                          - listitem [ref=f228e293]:
+                            - generic [ref=f228e294]: c
+                            - generic [ref=f228e295]:
+                              - generic [ref=f228e296]:
+                                - generic [ref=f228e297]: h
+                                - generic "2026-06-18 18:34:53" [ref=f228e298]: 18 horas atrás.
+                              - generic [ref=f228e299]:
+                                - img "Foto" [ref=f228e301]
+                                - generic [ref=f228e302]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e303]
+                                  - link "Dante Tavares" [ref=f228e304] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f228e305]: "Situação de: Em Andamento para: Validação"
+                          - listitem [ref=f228e306]:
+                            - generic [ref=f228e307]: h
+                            - generic [ref=f228e308]:
+                              - generic [ref=f228e309]:
+                                - generic [ref=f228e310]: h
+                                - generic "2026-06-18 18:34:53" [ref=f228e311]: 18 horas atrás.
+                              - generic [ref=f228e312]:
+                                - img "Foto" [ref=f228e314]
+                                - generic [ref=f228e315]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e316]
+                                  - link "Dante Tavares" [ref=f228e317] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: criou um apontamento na atividade
+                              - generic [ref=f228e318]:
+                                - text: "Horas apontadas: 00:30"
+                                - text: "Data: 18/06/2026"
+                                - text: "Comentário: Revalidação realizada em Stage para o preenchimento com IA de Registros de Treinamentos Externos. Foi efetuado upload de certificado e acionado o recurso \"Preencher com IA\". Os campos Nome, Carga Horária, Categorias, Descrição e Data do Certificado foram preenchidos corretamente conforme o conteúdo do documento, sem divergências nos dados críticos validados. O cenário informado no card referente a vídeos do YouTube permanece fora do escopo da funcionalidade. Problema não reproduzido. Correção aprovada."
+                                - text: "Situação: Em Andamento"
+                                - text: "Tipo da hora: Hora normal"
+                                - text: "Área: Qualidade"
+                          - listitem [ref=f228e319]:
+                            - generic [ref=f228e320]: f
+                            - generic [ref=f228e321]:
+                              - generic [ref=f228e322]:
+                                - generic [ref=f228e323]: h
+                                - generic "2026-06-18 18:23:01" [ref=f228e324]: 18 horas atrás.
+                              - generic [ref=f228e325]:
+                                - img "Foto" [ref=f228e327]
+                                - generic [ref=f228e328]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e329]
+                                  - link "Dante Tavares" [ref=f228e330] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f228e331]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ✅ Passou
+                                - text: ":: Ambiente ::"
+                                - text: Stage (org 36675)
+                                - text: ":: Validação ::"
+                                - text: "\"Preencher com IA\" do Registro externo. Upload de certificado claro (João da Silva /"
+                                - text: "Liderança Ágil / 480 min / emitido 15/03/2024): a IA preencheu Nome (\"Liderança Ágil e"
+                                - text: Gestão de Times"), Carga horária 8h (converteu 480 min → 8h), Categorias (Gestão/Soft
+                                - text: Skills), Descrição, e só a Data de certificado (sem inventar as demais datas). Os itens
+                                - text: "críticos do card (Nome e Carga horária) foram corrigidos — bate com os 4 casos do PR #348."
+                                - text: ":: Obs ::"
+                                - text: "O cenário do link do YouTube está fora do escopo: conforme o dev esclareceu no card"
+                                - text: (19/05/2026), o campo "Website" é extrator de conteúdo de páginas e não suporta vídeos do
+                                - text: YouTube — fazer funcionar exigiria implementação nova. Logo não é defeito desta correção.
+                                - text: ":: Evidência(s) ::"
+                                - text: "- certificado_teste.png"
+                                - text: "- A4_pos_ia_preenchido.png (Nome, 8h, categorias, data só de certificado)"
+                                - text: "- resultado_dom.txt / LAUDO.md"
+                                - text: "Evidência no link:"
+                                - link "https://github.com/DantexgerBR/twygo-playwright-tests/commit/b5f1fdb4e55b6a2513dd616923001b299e15f0ec" [ref=f228e332] [cursor=pointer]:
+                                  - /url: https://github.com/DantexgerBR/twygo-playwright-tests/commit/b5f1fdb4e55b6a2513dd616923001b299e15f0ec
+                                - text: "Usuários associados: Raisa Frederico Gomes"
+                          - listitem [ref=f228e333]:
+                            - generic [ref=f228e334]: f
+                            - generic [ref=f228e335]:
+                              - generic [ref=f228e336]:
+                                - generic [ref=f228e337]: h
+                                - generic "2026-06-18 18:21:42" [ref=f228e338]: 18 horas atrás.
+                              - generic [ref=f228e339]:
+                                - img "Foto" [ref=f228e341]
+                                - generic [ref=f228e342]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e343]
+                                  - link "Dante Tavares" [ref=f228e344] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: apagou um comentário na atividade
+                              - generic [ref=f228e345]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ❌ Falhou
+                                - text: ":: Ambiente ::"
+                                - text: Stage (org 36675)
+                                - text: ":: Validação ::"
+                                - text: "\"Preencher com IA\" do Registro externo, 2 cenários. A) Upload de certificado claro"
+                                - text: "(João da Silva / Liderança Ágil / 480 min / emitido 15/03/2024): a IA preencheu Nome"
+                                - text: ("Liderança Ágil e Gestão de Times"), Carga horária 8h (converteu 480 min), Categorias
+                                - text: (Gestão/Soft Skills), Descrição, e só a Data de certificado (sem inventar as demais).
+                                - text: "B) Link do YouTube no Website: a IA só inferiu a modalidade \"Online\"; Nome, Descrição"
+                                - text: e Carga horária ficaram vazios.
+                                - text: ":: Obs ::"
+                                - text: "Cenário A (certificado) está corrigido. Cenário B (link do YouTube) continua falhando:"
+                                - text: o conteúdo do vídeo não é extraído do link — só a modalidade. Como o cenário B é um
+                                - text: defeito declarado no card e segue sem resolver, o retrabalho falhou.
+                                - text: ":: Evidência(s) ::"
+                                - text: "- certificado_teste.png"
+                                - text: "- A4_pos_ia_preenchido.png (cenário A: Nome, 8h, categorias, data só de certificado)"
+                                - text: "- B3_pos_ia_preenchido.png (cenário B: só \"Online\")"
+                                - text: "- resultado_dom.txt / LAUDO.md"
+                                - text: "Evidência no link:"
+                                - link "https://github.com/DantexgerBR/twygo-playwright-tests/commit/848e8764c3362db9cc4d0dc776593522ae174a20" [ref=f228e346] [cursor=pointer]:
+                                  - /url: https://github.com/DantexgerBR/twygo-playwright-tests/commit/848e8764c3362db9cc4d0dc776593522ae174a20
+                          - listitem [ref=f228e347]:
+                            - generic [ref=f228e348]: f
+                            - generic [ref=f228e349]:
+                              - generic [ref=f228e350]:
+                                - generic [ref=f228e351]: h
+                                - generic "2026-06-18 18:21:38" [ref=f228e352]: 18 horas atrás.
+                              - generic [ref=f228e353]:
+                                - img "Foto" [ref=f228e355]
+                                - generic [ref=f228e356]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e357]
+                                  - link "Dante Tavares" [ref=f228e358] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: fez um comentário na atividade
+                              - generic [ref=f228e359]:
+                                - text: ⇝ QA ⇜
+                                - text: ":: Teste ::"
+                                - text: ❌ Falhou
+                                - text: ":: Ambiente ::"
+                                - text: Stage (org 36675)
+                                - text: ":: Validação ::"
+                                - text: "\"Preencher com IA\" do Registro externo, 2 cenários. A) Upload de certificado claro"
+                                - text: "(João da Silva / Liderança Ágil / 480 min / emitido 15/03/2024): a IA preencheu Nome"
+                                - text: ("Liderança Ágil e Gestão de Times"), Carga horária 8h (converteu 480 min), Categorias
+                                - text: (Gestão/Soft Skills), Descrição, e só a Data de certificado (sem inventar as demais).
+                                - text: "B) Link do YouTube no Website: a IA só inferiu a modalidade \"Online\"; Nome, Descrição"
+                                - text: e Carga horária ficaram vazios.
+                                - text: ":: Obs ::"
+                                - text: "Cenário A (certificado) está corrigido. Cenário B (link do YouTube) continua falhando:"
+                                - text: o conteúdo do vídeo não é extraído do link — só a modalidade. Como o cenário B é um
+                                - text: defeito declarado no card e segue sem resolver, o retrabalho falhou.
+                                - text: ":: Evidência(s) ::"
+                                - text: "- certificado_teste.png"
+                                - text: "- A4_pos_ia_preenchido.png (cenário A: Nome, 8h, categorias, data só de certificado)"
+                                - text: "- B3_pos_ia_preenchido.png (cenário B: só \"Online\")"
+                                - text: "- resultado_dom.txt / LAUDO.md"
+                                - text: "Evidência no link:"
+                                - link "https://github.com/DantexgerBR/twygo-playwright-tests/commit/848e8764c3362db9cc4d0dc776593522ae174a20" [ref=f228e360] [cursor=pointer]:
+                                  - /url: https://github.com/DantexgerBR/twygo-playwright-tests/commit/848e8764c3362db9cc4d0dc776593522ae174a20
+                                - text: "Usuários associados: Raisa Frederico Gomes"
+                          - listitem [ref=f228e361]:
+                            - generic [ref=f228e362]: c
+                            - generic [ref=f228e363]:
+                              - generic [ref=f228e364]:
+                                - generic [ref=f228e365]: h
+                                - generic "2026-06-18 15:07:23" [ref=f228e366]: 21 horas atrás.
+                              - generic [ref=f228e367]:
+                                - img "Foto" [ref=f228e369]
+                                - generic [ref=f228e370]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e371]
+                                  - link "Dante Tavares" [ref=f228e372] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: atualizou a atividade
+                              - generic [ref=f228e373]: "Situação de: Validação para: Em Andamento"
+                          - listitem [ref=f228e374]:
+                            - generic [ref=f228e375]: j
+                            - generic [ref=f228e376]:
+                              - generic [ref=f228e377]:
+                                - generic [ref=f228e378]: h
+                                - generic "2026-06-18 15:07:19" [ref=f228e379]: 21 horas atrás.
+                              - generic [ref=f228e380]:
+                                - img "Foto" [ref=f228e382]
+                                - generic [ref=f228e383]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e384]
+                                  - link "Dante Tavares" [ref=f228e385] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/301266
+                                  - text: alterou os participantes da atividade
+                              - generic [ref=f228e386]: "Responsável: Dante Tavares"
+                          - listitem [ref=f228e387]:
+                            - generic [ref=f228e388]: 17/06/2026
+                          - listitem [ref=f228e389]:
+                            - generic [ref=f228e390]: c
+                            - generic [ref=f228e391]:
+                              - generic [ref=f228e392]:
+                                - generic [ref=f228e393]: h
+                                - generic "2026-06-17 13:39:30" [ref=f228e394]: 10:39
+                              - generic [ref=f228e395]:
+                                - img "Foto" [ref=f228e397]
+                                - generic [ref=f228e398]:
+                                  - generic "Tecnologia | Registro de treinamentos externos - 4.Beta" [ref=f228e399]
+                                  - link "Éverton Gambeta" [ref=f228e400] [cursor=pointer]:
+                                    - /url: /a/4874953/f/6225755/timeline/200317
+                                  - text: atualizou a atividade
+                              - generic [ref=f228e401]: "Situação de: Pronto para stage para: Validação"
+                        - generic [ref=f228e403]:
+                          - list [ref=f228e404]:
+                            - listitem [ref=f228e405]
+                          - list [ref=f228e406]:
+                            - listitem [ref=f228e407]:
+                              - link "» Mais antigos" [ref=f228e408] [cursor=pointer]:
+                                - /url: "#"
+                    - text: J J M P J J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
