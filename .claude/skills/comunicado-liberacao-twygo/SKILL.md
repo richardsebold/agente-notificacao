@@ -56,6 +56,7 @@ Para cada projeto:
    - **Link** (URL da atividade — copie exatamente, preservando o domínio `app.artia.com` ou `app2.artia.com`).
    - **Descrição** da atividade → vira o campo *Descrição* (o problema / contexto).
    - **Comentários** da atividade → fonte do campo *Solução* (o que foi feito e a validação em stage). Leia o(s) comentário(s) mais relevante(s), normalmente o que descreve a correção/validação.
+   - **Pull Request** (se houver link de PR na atividade) → **leia o PR** (descrição + diff) para detalhar o que de fato mudou. Descrição/Solução derivadas só do título ficam rasas; o PR é a fonte do detalhe técnico real. Use `gh pr view <url>` ou abra a URL no navegador.
 
 Capture esses dados de forma organizada por projeto antes de montar o texto. Se uma atividade não tiver descrição ou comentário suficientes, registre o que houver e siga em frente — não invente solução.
 
@@ -114,6 +115,7 @@ Siga o padrão do exemplo de referência fielmente — é o tom que a equipe esp
 - **Descrição**: explica o problema/contexto. Em correções (Sustentação/Garantia/N2), comece tipicamente com "Problema:" — ex.: `Descrição: Problema: Menus de links customizados perdiam o nome configurado e assumiam o texto genérico "Link customizado" durante a cópia para novas contas trial.`
 - **Solução**: diz o que foi feito e que foi validado, normalmente em stage. Use frases no padrão do exemplo, como `Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido durante a criação do trial.` ou `Solução: Correção foi realizada e testada em stage com sucesso.`
 - Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido técnico. Não copie textão do Artia.
+- **Detalhe importa:** não parafraseie só o título — diga o que de fato mudou. Quando houver Pull Request, baseie Descrição/Solução no conteúdo do PR (o que foi alterado e como), não numa reformulação do título.
 - Mantenha os links exatamente como estão no Artia.
 - Não invente atividades, links ou soluções. Se faltar informação, sinalize ao usuário.
 
