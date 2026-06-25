@@ -50,7 +50,7 @@ Para cada projeto:
 
 1. **Abra a URL** fornecida (a atividade "Gerar versão para deploy").
 2. **Navegue até o quadro/pasta do projeto** (`/f/<id>/`) para ver a lista de atividades.
-3. **Identifique as atividades concluídas e validadas.** No Artia, são as que estão na coluna/status de concluído + validado. São essas que entraram em produção e devem aparecer no comunicado. Ignore atividades em andamento, em teste ou não validadas.
+3. **Identifique as atividades concluídas e validadas.** No Artia, são as que estão na coluna/status de concluído + validado. São essas que entraram em produção e devem aparecer no comunicado. Ignore atividades em andamento, em teste ou não validadas. A existência (ou não) de um Pull Request **não** é o critério: uma atividade concluída e validada entra no comunicado mesmo sem PR de código próprio (ex.: ajuste de configuração ou correção embarcada em outro PR) — nesse caso a *Solução* segue normalmente como "Correção validada em stage".
 4. **Para cada atividade concluída e validada, abra-a e leia:**
    - **Título** da atividade.
    - **Link** (URL da atividade — copie exatamente, preservando o domínio `app.artia.com` ou `app2.artia.com`).
@@ -113,6 +113,7 @@ Siga o padrão do exemplo de referência fielmente — é o tom que a equipe esp
 
 - **Descrição**: explica o problema/contexto. Em correções (Sustentação/Garantia/N2), comece tipicamente com "Problema:" — ex.: `Descrição: Problema: Menus de links customizados perdiam o nome configurado e assumiam o texto genérico "Link customizado" durante a cópia para novas contas trial.`
 - **Solução**: diz o que foi feito e que foi validado, normalmente em stage. Use frases no padrão do exemplo, como `Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido durante a criação do trial.` ou `Solução: Correção foi realizada e testada em stage com sucesso.`
+- **Detalhe técnico na Descrição**: quando a atividade trouxer dados objetivos, inclua-os para deixar o problema inequívoco — mensagem/stack de erro exata (ex.: `Cannot read properties of null (reading 'filter_columns')`), valor configurado vs. comportamento observado (ex.: "mínimo de pares era 2, mas aprovou com 1"), tela/aba e ação exatas. Detalhe esclarece; não vira textão.
 - Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido técnico. Não copie textão do Artia.
 - Mantenha os links exatamente como estão no Artia.
 - Não invente atividades, links ou soluções. Se faltar informação, sinalize ao usuário.
@@ -156,6 +157,8 @@ Créditos de IA
 https://app2.artia.com/a/4874953/f/6392535/activities
 Descrição: O projeto tem como objetivo desenvolver um sistema centralizado de gestão e acompanhamento dos créditos de Inteligência Artificial contratados pelos clientes da plataforma Twygo, permitindo monitoramento em tempo real do consumo, configuração e políticas de uso.
 ```
+
+Para um exemplo mais completo e detalhado (várias atividades por projeto, com descrições técnicas e subdivisão por projeto em Garantia), veja `outputs/comunicado-liberacao-2026-06-24.md`.
 
 ---
 
