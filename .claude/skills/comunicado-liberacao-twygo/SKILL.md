@@ -57,6 +57,9 @@ Para cada projeto:
    - **Descrição** da atividade → vira o campo *Descrição* (o problema / contexto).
    - **Comentários** da atividade → fonte do campo *Solução* (o que foi feito e a validação em stage). Leia o(s) comentário(s) mais relevante(s), normalmente o que descreve a correção/validação.
    - **Pull Request** (se houver link de PR na atividade) → **leia o PR** (descrição + diff) para detalhar o que de fato mudou. Descrição/Solução derivadas só do título ficam rasas; o PR é a fonte do detalhe técnico real. Use `gh pr view <url>` ou abra a URL no navegador.
+   - **Solicitante** da atividade → vira o campo *Solicitante* (quem pediu a atividade). **Onde procurar depende da categoria do projeto:**
+     - **Sustentação/N2 e Garantia** → use o campo **"Solicitante"** da própria atividade no Artia (o campo/rótulo que marca quem é o solicitante). É esse nome que vai para o comunicado.
+     - **DHO** → o solicitante **não** é quem criou nem quem está marcado como solicitante da atividade. Ele está escrito **na descrição da atividade** — leia a descrição e extraia o nome da pessoa que de fato solicitou. Use esse nome, ignorando o campo "Solicitante" do Artia. Se a descrição não deixar claro quem solicitou, registre o que houver e sinalize ao usuário em vez de assumir o criador da atividade.
 
 Capture esses dados de forma organizada por projeto antes de montar o texto. Se uma atividade não tiver descrição ou comentário suficientes, registre o que houver e siga em frente — não invente solução.
 
@@ -90,21 +93,28 @@ Há dois formatos, e a categoria define qual usar — porque cada tipo de trabal
 **A) Sustentação, Garantia, N2 e correções em geral** → formato **por atividade**, porque o time quer saber qual problema foi resolvido e que está validado. Para cada atividade:
 
 ```
-Título: <título da atividade>
-Link: <url da atividade>
-Descrição: <o problema / contexto, de forma objetiva>
-Solução: <o que foi feito e a validação em stage>
+**Título: <título da atividade>**
+**Link:** <url da atividade>
+**Descrição:** <o problema / contexto, em linguagem simples>
+**Solução:** <o que foi feito e a validação em stage, em linguagem simples>
+**Solicitante:** <nome da pessoa solicitante da atividade>
 ```
+
+**Negrito:** apenas a **linha do Título** fica inteira em negrito (rótulo + texto no mesmo `**...**`). Em **Link, Descrição, Solução e Solicitante**, só o **rótulo** (a palavra antes dos dois pontos) fica em negrito — ex.: `**Link:** https://...`; o texto que vem depois fica normal. O subtítulo de projeto (ex.: "Sustentação / N2") e o título de categoria seguem como estão, sem negrito extra.
+
+O campo **Solicitante** aparece **abaixo da Solução**. A origem do nome depende da categoria (veja o Passo 2): em **Sustentação/N2** e **Garantia** vem do campo "Solicitante" da própria atividade; em **DHO** vem da **descrição** da atividade (não do criador nem do campo "Solicitante"). Se não for possível determinar o solicitante, deixe o campo sinalizado (ex.: `Solicitante: (não identificado)`) e avise o usuário.
 
 **Subdivisão por projeto:** quando uma categoria tiver atividades de **mais de um projeto**, separe os itens por projeto, com uma linha de subtítulo (o nome do projeto) antes de cada grupo. Use como subtítulo o **nome do projeto exatamente como veio na mensagem de liberações** (ex.: "Competências", "Kit de marca", "Migrar API V1 > V2"). O texto **entre colchetes** no título da atividade serve para **identificar a qual projeto** cada item pertence (ex.: `P1 [Kit de Marca] Alterar componente de filtro` → projeto "Kit de marca"), mas o subtítulo deve seguir o nome da mensagem, não o texto cru do colchete. Em N2/Sustentação isso normalmente aparece como o subtítulo "Sustentação / N2". Se houver só um projeto na categoria, não precisa do subtítulo.
 
 **B) Inovação e projetos novos** → formato **por projeto** (visão de alto nível), porque são iniciativas novas, não correções pontuais — não há "problema/solução", e sim um objetivo:
 
 ```
-<Nome do projeto>
+**<Nome do projeto>**
 <url do projeto>
-Descrição: <objetivo do projeto, resumido>
+**Descrição:** <objetivo do projeto, resumido, em linguagem simples>
 ```
+
+Aqui o **Nome do projeto** faz o papel do Título (linha inteira em negrito), a URL fica normal e em **Descrição** só o rótulo é negrito.
 
 Separe cada atividade/projeto e cada seção com uma linha em branco, como no exemplo de referência.
 
@@ -112,11 +122,14 @@ Separe cada atividade/projeto e cada seção com uma linha em branco, como no ex
 
 Siga o padrão do exemplo de referência fielmente — é o tom que a equipe espera:
 
-- **Descrição**: explica o problema/contexto. Em correções (Sustentação/Garantia/N2), comece tipicamente com "Problema:" — ex.: `Descrição: Problema: Menus de links customizados perdiam o nome configurado e assumiam o texto genérico "Link customizado" durante a cópia para novas contas trial.`
-- **Solução**: diz o que foi feito e que foi validado, normalmente em stage. Use frases no padrão do exemplo, como `Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido durante a criação do trial.` ou `Solução: Correção foi realizada e testada em stage com sucesso.`
-- **Detalhe técnico na Descrição**: quando a atividade trouxer dados objetivos, inclua-os para deixar o problema inequívoco — mensagem/stack de erro exata (ex.: `Cannot read properties of null (reading 'filter_columns')`), valor configurado vs. comportamento observado (ex.: "mínimo de pares era 2, mas aprovou com 1"), tela/aba e ação exatas. Detalhe esclarece; não vira textão.
-- Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido técnico. Não copie textão do Artia.
-- **Detalhe importa:** não parafraseie só o título — diga o que de fato mudou. Quando houver Pull Request, baseie Descrição/Solução no conteúdo do PR (o que foi alterado e como), não numa reformulação do título.
+- **Sem termos técnicos (regra principal):** o comunicado é lido por toda a equipe, não só por devs. **Não use jargão técnico** — nomes de código, classes, métodos, tabelas, campos internos, bibliotecas, siglas de implementação, mensagens/stack de erro cruas etc. Prefira sempre a palavra do dia a dia e descreva o efeito para o usuário (o que ele passou a ver funcionando), não o "como" da implementação.
+- **Quando um termo técnico for realmente inevitável**, escreva-o de forma simples e coloque ao lado uma **explicação muito breve entre parênteses**, ex.: `a indexação (etapa em que o conteúdo do vídeo é preparado para a IA conseguir consultá-lo)` ou `a conta de teste (trial)`. A explicação é curta — uma frase, no máximo.
+- **Título:** copie-o exatamente como está no Artia (não invente/traduza o título). Se o próprio título tiver um termo técnico, mantenha-o assim mesmo, mas escreva a Descrição e a Solução em linguagem simples.
+- **Descrição**: explica o problema/contexto em linguagem simples. Em correções (Sustentação/Garantia/N2), comece tipicamente com "Problema:" — ex.: `Descrição: Problema: Menus de links personalizados perdiam o nome configurado e ficavam com o texto genérico "Link customizado" ao criar novas contas de teste (trial).`
+- **Solução**: diz o que foi feito e que foi validado, normalmente em stage, também em linguagem simples. Use frases no padrão do exemplo, como `Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido na criação da conta de teste.` ou `Solução: Correção foi realizada e testada em stage com sucesso.`
+- **Detalhe objetivo na Descrição, sem jargão**: quando a atividade trouxer dados que deixam o problema inequívoco, inclua-os — mas descreva o **sintoma que o usuário via** (ex.: "a tela travava e não carregava a lista"), o valor configurado vs. o observado (ex.: "mínimo de pares era 2, mas aprovou com 1") e a tela/ação exatas. Não cole mensagem/stack de erro crua; se o erro for essencial, resuma o que ele significava em palavras simples. Detalhe esclarece; não vira textão.
+- Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido. Não copie textão do Artia.
+- **Baseie-se no Pull Request para entender o que de fato mudou** — mas traduza isso para o efeito prático ao usuário, não para o detalhe de implementação. Não parafraseie só o título.
 - Mantenha os links exatamente como estão no Artia.
 - Não invente atividades, links ou soluções. Se faltar informação, sinalize ao usuário.
 
@@ -138,26 +151,29 @@ Atividades referente a data do dia 11/05/2026.
 
 Sustentação / N2
 
-Título: Agente de atendimento - Vídeos grandes não indexava no Pinecone
-Link: https://app2.artia.com/a/4874953/f/4883952/activities/32713273
-Descrição: A indexação de vídeos grandes (≈1GB) no Pinecone travava em looping infinito e gerava erro no processamento.
-Solução: Correção validada em stage, garantindo a indexação completa do vídeo e confirmada pelo retorno de respostas coerentes pela IA de atendimento.
+**Título: Agente de atendimento - Vídeos grandes não indexava no Pinecone**
+**Link:** https://app2.artia.com/a/4874953/f/4883952/activities/32713273
+**Descrição:** Vídeos muito grandes (cerca de 1 GB) não conseguiam ser preparados para consulta (indexação — etapa em que o conteúdo do vídeo é organizado para a IA conseguir buscá-lo), travando o processo e gerando erro.
+**Solução:** Correção validada em stage: os vídeos grandes passaram a ser preparados por completo e a IA de atendimento voltou a responder corretamente sobre eles.
+**Solicitante:** Christofer Bastos
 
-Título: [BUG] Aumento no valor ao realizar parcelamento em cursos pagos
-Link: https://app2.artia.com/a/4874953/f/4883952/activities/32840466
-Descrição: Problema: Erro no checkout de cursos pagos onde o valor das parcelas estava incorreto e era aplicado em duplicidade o desconto.
-Solução: Correção foi realizada e testada e stage com sucesso.
+**Título: [BUG] Aumento no valor ao realizar parcelamento em cursos pagos**
+**Link:** https://app2.artia.com/a/4874953/f/4883952/activities/32840466
+**Descrição:** Problema: No pagamento de cursos pagos, o valor das parcelas saía errado e o desconto era aplicado duas vezes.
+**Solução:** Correção realizada e testada em stage com sucesso.
+**Solicitante:** Vinicius Lisboa
 
-Título: [Cópia trial] Menu com "link customizado" está sendo copiado com nome incorreto
-Link: https://app.artia.com/a/4874953/f/4883952/activities/32835983
-Descrição: Problema: Menus de links customizados perdiam o nome configurado e assumiam o texto genérico "Link customizado" durante a cópia para novas contas trial.
-Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido durante a criação do trial.
+**Título: [Cópia trial] Menu com "link customizado" está sendo copiado com nome incorreto**
+**Link:** https://app.artia.com/a/4874953/f/4883952/activities/32835983
+**Descrição:** Problema: Ao criar novas contas de teste (trial), os menus de link personalizado perdiam o nome configurado e ficavam com o texto genérico "Link customizado".
+**Solução:** Correção validada em stage, garantindo que o nome original do menu seja mantido na criação da conta de teste.
+**Solicitante:** Christofer Bastos
 
         Inovação
 
-Créditos de IA
+**Créditos de IA**
 https://app2.artia.com/a/4874953/f/6392535/activities
-Descrição: O projeto tem como objetivo desenvolver um sistema centralizado de gestão e acompanhamento dos créditos de Inteligência Artificial contratados pelos clientes da plataforma Twygo, permitindo monitoramento em tempo real do consumo, configuração e políticas de uso.
+**Descrição:** O projeto cria um painel central para acompanhar os créditos de Inteligência Artificial contratados pelos clientes da Twygo, permitindo ver o consumo em tempo real e configurar as regras de uso.
 ```
 
 Para um exemplo mais completo e detalhado (várias atividades por projeto, com descrições técnicas e subdivisão por projeto em Garantia), veja `outputs/comunicado-liberacao-2026-06-24.md`.
@@ -166,4 +182,39 @@ Para um exemplo mais completo e detalhado (várias atividades por projeto, com d
 
 ## Ao final
 
-Entregue o comunicado pronto em texto, dentro de um bloco para fácil cópia. Se algum projeto ficou sem atividades validadas ou sem dados suficientes, avise o usuário separadamente para ele decidir se inclui ou não.
+Entregue o comunicado pronto em texto, dentro de um bloco para fácil cópia, e **sempre** salve em `outputs/comunicado-liberacao-<AAAA-MM-DD>.md` (data de ontem, formato ISO).
+
+### Versão para colar no Teams (negrito de verdade, sem asteriscos)
+
+O comunicado é colado no **Microsoft Teams**, que **não interpreta os `**` do Markdown** ao colar texto puro — os asteriscos apareceriam literalmente. Por isso, além do `.md`, **sempre** gere uma versão em **texto rico (HTML)** e coloque-a na **área de transferência** no formato CF_HTML, para o usuário colar direto no Teams com o negrito preservado e **sem nenhum asterisco**.
+
+1. Gere `outputs/comunicado-liberacao-<AAAA-MM-DD>.html` com o mesmo conteúdo, convertendo a formatação para HTML:
+   - Cada linha vira um `<div>...</div>`. As **linhas em branco** viram `<div>&#10240;</div>` — o caractere *braille blank* (U+2800). É o único separador que o Teams **não colapsa**: `&nbsp;`, `<br>`, `<div></div>` e margens de `<p>` são todos removidos pelo Teams ao colar e o espaçamento some.
+   - **Negrito** (mesma regra do comunicado): a **linha do Título** inteira dentro de `<strong>...</strong>`; em **Link, Descrição, Solução e Solicitante** apenas o rótulo em `<strong>` (ex.: `<strong>Link:</strong> https://...`). O **Nome do projeto** (Inovação) inteiro em `<strong>`.
+   - Indentação dos títulos de categoria com `&nbsp;` (4×). Não use `**` no HTML.
+2. Copie esse HTML para a área de transferência no formato CF_HTML com PowerShell (é o que faz o Teams manter o negrito e descartar os asteriscos):
+
+   ```powershell
+   Add-Type -AssemblyName System.Windows.Forms
+   $path = 'outputs/comunicado-liberacao-<AAAA-MM-DD>.html'  # caminho absoluto
+   $raw = Get-Content -Raw -Encoding UTF8 $path
+   # IMPORTANTE: converte todo caractere acentuado/não-ASCII em entidade HTML numérica.
+   # Sem isso, o clipboard HTML do .NET corrompe acentos (á, ç, ã viram "diamante").
+   $sb = New-Object System.Text.StringBuilder
+   foreach ($ch in $raw.ToCharArray()) {
+     $code = [int][char]$ch
+     if ($code -gt 127) { [void]$sb.Append("&#$code;") } else { [void]$sb.Append($ch) }
+   }
+   $html = $sb.ToString()
+   $pre  = "<html><body><!--StartFragment-->"
+   $post = "<!--EndFragment--></body></html>"
+   $body = $pre + $html + $post
+   $enc = [System.Text.Encoding]::UTF8
+   $tmpl = "Version:0.9`r`nStartHTML:{0:0000000000}`r`nEndHTML:{1:0000000000}`r`nStartFragment:{2:0000000000}`r`nEndFragment:{3:0000000000}`r`n"
+   $hlen = $enc.GetByteCount(($tmpl -f 0,0,0,0))
+   $cf = ($tmpl -f $hlen, ($hlen + $enc.GetByteCount($body)), ($hlen + $enc.GetByteCount($pre)), ($hlen + $enc.GetByteCount($pre) + $enc.GetByteCount($html))) + $body
+   [System.Windows.Forms.Clipboard]::SetText($cf, [System.Windows.Forms.TextDataFormat]::Html)
+   ```
+3. Avise o usuário que o comunicado já está na área de transferência: basta colar (Ctrl+V) no Teams, sem copiar outra coisa antes.
+
+Se algum projeto ficou sem atividades validadas ou sem dados suficientes, avise o usuário separadamente para ele decidir se inclui ou não.
