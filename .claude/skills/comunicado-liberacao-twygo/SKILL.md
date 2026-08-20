@@ -8,14 +8,34 @@ description: >
   o usuário pedir: "comunicado de liberação", "notificação de liberação", "monta o comunicado
   das liberações", "gerar comunicado da Twygo", "liberações de ontem", "comunicado de produção",
   ou colar uma lista de projetos com URLs do Artia pedindo o comunicado. Use mesmo que o usuário
-  só cole a mensagem de "segue algumas liberações para hoje" com links do Artia.
+  só cole a mensagem de "segue algumas liberações para hoje" com links do Artia. Use TAMBÉM
+  quando o usuário pedir apenas "faça a notificação de liberação" / "comunicado de ontem"
+  SEM colar nenhum link: nesse caso os links são buscados automaticamente no grupo "Deploy"
+  do Microsoft Teams, pelo MCP do Microsoft 365 (Passo 0).
 ---
 
 # Comunicado de liberação na Twygo
 
 Você vai transformar uma lista de projetos + URLs do Artia em um **Comunicado de liberação** padronizado, descrevendo as atividades que foram para o ambiente de produção. O comunicado é lido por toda a equipe ("Twygeers"), então precisa ser claro, objetivo e seguir exatamente a estrutura abaixo.
 
-O fluxo tem três partes: **(1)** entender a entrada, **(2)** ler as atividades no Artia pelo navegador, **(3)** montar o comunicado.
+O fluxo tem quatro partes: **(0)** obter os links das liberações no grupo "Deploy" do Teams, quando o usuário não os colar, **(1)** entender a entrada, **(2)** ler as atividades no Artia pelo navegador, **(3)** montar o comunicado.
+
+---
+
+## Passo 0 — Buscar as liberações no grupo "Deploy" do Teams (quando o usuário não colar os links)
+
+Se o pedido vier **sem links** — "faça a notificação de liberação", "monta o comunicado de ontem", "comunicado de liberação" e nada mais — **não pergunte os links ao usuário**. Busque você mesmo, no grupo **"Deploy"** do Microsoft Teams, usando o **MCP do Microsoft 365**:
+
+1. **Ache o chat.** `teams_list_chats` e procure o item com `chatType: "group"` e `topic: "Deploy"`. Em 20/08/2026 o id era `19:d34e93a31bd64e1ba0beafc8c5bf698b@thread.v2` — pode tentar direto por ele, mas **confirme pelo topic**, porque o id muda se o grupo for recriado.
+2. **Liste as mensagens.** `read_resource` com a URI `teams:///chats/<chatId>/messages` (a URI **precisa** terminar em `/messages`; sem isso o MCP rejeita com `VALIDATION_ERROR`). A listagem traz as ~20 mensagens mais recentes, com `from`, `createdDateTime` e um `bodyPreview` **truncado**.
+3. **Abra cada mensagem candidata.** O `bodyPreview` corta a lista de links, então leia o corpo completo de cada mensagem de deploy com `teams:///chats/<chatId>/messages/<messageId>` — é de lá que saem todos os links, a OBS e a assinatura.
+4. **Filtre pelo dia anterior, no horário de Brasília.** `createdDateTime` vem em **UTC**: converta para UTC−3 antes de decidir o dia (uma mensagem de `2026-08-18T00:42Z` é de **17/08** à noite no horário local). Interessam as mensagens postadas **ontem** (data atual − 1 dia) que contenham links de atividade do Artia (`app.artia.com` / `app2.artia.com` com `/activities/<id>`) — em geral as de "Segue atividade para deploy" / "Segue atividade para liberação". Junte **todas** as mensagens de ontem: é comum o pedido vir em partes, com projetos acrescentados ao longo do dia. Ignore o bate-papo do grupo ("deploy concluído com sucesso", combinações de horário).
+5. **Extraia de cada bloco** o que o Passo 1 espera: nome do projeto (o texto entre colchetes ou o título antes de "Gerar versão para deploy"), a URL da atividade, o **solicitante** (quem assinou/postou a mensagem, quando não houver o campo na atividade) e eventuais OBS (ex.: "realizar deploy assim que possível").
+6. **Deduplique.** O mesmo link costuma aparecer em mais de uma mensagem/deploy do dia — cada atividade entra **uma única vez** no comunicado.
+7. **Se der 429 (rate limit)**, o erro traz `graphRetryAfterSeconds`: aguarde esse tempo e repita. Como alternativa existe `chat_message_search` (`query: "artia.com"` + `afterDateTime`/`beforeDateTime`), mas ele varre chat por chat e pode não alcançar o grupo Deploy — o `read_resource` direto é o caminho confiável.
+8. **Se não houver mensagem de ontem** com links do Artia, mostre ao usuário o que encontrou (as mensagens mais recentes e suas datas) e pergunte como seguir. **Nunca invente links ou atividades.**
+
+Quando o usuário **colar** os links na mensagem, pule este passo e use o que ele mandou.
 
 ---
 
@@ -36,7 +56,11 @@ https://app2.artia.com/a/4874953/f/6414891/activities/32866954
 Para cada bloco, extraia:
 - **Nome do projeto** (ex.: "Competências", "Kit de marca", "Migrar API V1 > V2").
 - **URL** da atividade "Gerar versão para deploy" (é o link de entrada para chegar no projeto).
-- **Categoria**: o usuário informa a categoria de cada projeto (ex.: Sustentação/N2, Garantia, Inovação). Se a categoria não estiver clara, **pergunte** antes de continuar — a categoria define como a seção é formatada (veja o Passo 3). Não adivinhe silenciosamente.
+- **Categoria**: quando o usuário informar a categoria de cada projeto (ex.: Sustentação/N2, Garantia, Inovação), use a dele. Quando não informar — o caso normal do Passo 0 —, **deduza pelo campo "Projeto / Pasta" da atividade no Artia**, sem parar para perguntar:
+  - pasta `99 - Sustentação > ... > N2` → **Sustentação / N2**;
+  - pasta `01 - Desenvolvimento > 05 - Em Beta > <projeto>` → **Garantia**, subdividida pelo nome do projeto;
+  - pasta `01 - Desenvolvimento > 04 - Em Desenvolvimento > <projeto>` ou projeto novo → **Inovação**, no formato de alto nível.
+  Só pergunte se a pasta não permitir decidir. A categoria define como a seção é formatada (veja o Passo 3) — não adivinhe silenciosamente fora dessas regras.
 
 A URL aponta para uma atividade específica dentro de uma **pasta de projeto** (`/f/<id>/`). O que interessa para o comunicado **não é** a atividade "Gerar versão para deploy" em si, e sim as **outras atividades do mesmo projeto que estão concluídas e validadas** — essas são as que efetivamente foram para produção.
 
@@ -55,8 +79,8 @@ Para cada projeto:
    - **Título** da atividade.
    - **Link** (URL da atividade — copie exatamente, preservando o domínio `app.artia.com` ou `app2.artia.com`).
    - **Descrição** da atividade → vira o campo *Descrição* (o problema / contexto).
+   - **Pull Request** (quando a atividade trouxer link de PR) → **leia o PR** (descrição + diff) para entender o que de fato mudou; Descrição/Solução derivadas só do título ficam rasas. Traduza o achado para o efeito prático ao usuário, nunca para o detalhe de implementação. **Realidade atual:** `github.com/Twygo/twyg-app` é repositório privado, o `gh` não está instalado nesta máquina e o perfil do navegador não tem sessão do GitHub (retorna 404) — então, na prática, o PR quase sempre fica ilegível. Nesse caso **não force**: use a descrição e os comentários do Artia, que normalmente já traçam causa, correção e validação. Se o `gh` estiver disponível e autenticado, `gh pr view <url>` é o caminho mais rápido.
    - **Comentários** da atividade → fonte do campo *Solução* (o que foi feito e a validação em stage). Leia o(s) comentário(s) mais relevante(s), normalmente o que descreve a correção/validação.
-   - **Pull Request** (se houver link de PR na atividade) → **leia o PR** (descrição + diff) para detalhar o que de fato mudou. Descrição/Solução derivadas só do título ficam rasas; o PR é a fonte do detalhe técnico real. Use `gh pr view <url>` ou abra a URL no navegador.
    - **Solicitante** da atividade → vira o campo *Solicitante* (quem pediu a atividade). **Onde procurar depende da categoria do projeto:**
      - **Sustentação/N2 e Garantia** → use o campo **"Solicitante"** da própria atividade no Artia (o campo/rótulo que marca quem é o solicitante). É esse nome que vai para o comunicado.
      - **DHO** → o solicitante **não** é quem criou nem quem está marcado como solicitante da atividade. Ele está escrito **na descrição da atividade** — leia a descrição e extraia o nome da pessoa que de fato solicitou. Use esse nome, ignorando o campo "Solicitante" do Artia. Se a descrição não deixar claro quem solicitou, registre o que houver e sinalize ao usuário em vez de assumir o criador da atividade.
@@ -69,7 +93,7 @@ Capture esses dados de forma organizada por projeto antes de montar o texto. Se 
 
 Use **sempre** a saudação "Bom dia" e a **data de ontem** (data atual − 1 dia, formato `DD/MM/YYYY`) em todos os lugares de data do cabeçalho e dos títulos de seção, a menos que o usuário peça outra data explicitamente.
 
-Estrutura geral (preserve a indentação dos títulos de seção, que usam recuo):
+Estrutura geral:
 
 ```
 Comunicado de liberação na Twygo - <DATA>
@@ -79,12 +103,18 @@ Twygeers - A toca da coruja!
 
 Atividades referente a data do dia <DATA>.
 
-        <Categoria> (Liberações <DATA>).
+<Categoria> (Liberações <DATA>).
 
 <subseções e atividades da categoria>
 ```
 
-Onde `<DATA>` é a data de ontem. Agrupe as atividades por categoria e ordene as seções **sempre** nesta ordem fixa: **Sustentação/N2 → Garantia → Inovação**. Omita as categorias que não tiverem atividades. Cada categoria vira um bloco com seu título recuado.
+Onde `<DATA>` é a data de ontem. Agrupe as atividades por categoria e ordene as seções **sempre** nesta ordem fixa: **Sustentação/N2 → Garantia → Inovação**. Omita as categorias que não tiverem atividades.
+
+### Espaçamento e indentação (siga exatamente)
+
+- **Nenhuma linha leva recuo.** Tudo alinhado à esquerda, na coluna 1: a saudação, "Twygeers - A toca da coruja!", "Atividades referente...", os **títulos de categoria** (ex.: `Sustentação / N2 (Liberações <DATA>).` e `Inovação`), os subtítulos de projeto e todos os campos das atividades (Título/Link/Descrição/Solução/Solicitante) e blocos de Inovação.
+- Não use espaços, tabulação ou `&nbsp;` no início de nenhuma linha — nem nos títulos de categoria.
+- A separação entre blocos é feita **só** com linha em branco: uma linha em branco entre cada atividade/projeto e entre cada seção.
 
 ### Como formatar cada categoria
 
@@ -128,7 +158,7 @@ Siga o padrão do exemplo de referência fielmente — é o tom que a equipe esp
 - **Descrição**: explica o problema/contexto em linguagem simples. Em correções (Sustentação/Garantia/N2), comece tipicamente com "Problema:" — ex.: `Descrição: Problema: Menus de links personalizados perdiam o nome configurado e ficavam com o texto genérico "Link customizado" ao criar novas contas de teste (trial).`
 - **Solução**: diz o que foi feito e que foi validado, normalmente em stage, também em linguagem simples. Use frases no padrão do exemplo, como `Solução: Correção validada em stage, garantindo que o nome original do menu seja mantido na criação da conta de teste.` ou `Solução: Correção foi realizada e testada em stage com sucesso.`
 - **Detalhe objetivo na Descrição, sem jargão**: quando a atividade trouxer dados que deixam o problema inequívoco, inclua-os — mas descreva o **sintoma que o usuário via** (ex.: "a tela travava e não carregava a lista"), o valor configurado vs. o observado (ex.: "mínimo de pares era 2, mas aprovou com 1") e a tela/ação exatas. Não cole mensagem/stack de erro crua; se o erro for essencial, resuma o que ele significava em palavras simples. Detalhe esclarece; não vira textão.
-- Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido. Não copie textão do Artia.
+- Seja conciso e factual: resuma em 1–2 frases por campo, mantendo o sentido, em linguagem acessível. Não copie textão do Artia.
 - **Baseie-se no Pull Request para entender o que de fato mudou** — mas traduza isso para o efeito prático ao usuário, não para o detalhe de implementação. Não parafraseie só o título.
 - Mantenha os links exatamente como estão no Artia.
 - Não invente atividades, links ou soluções. Se faltar informação, sinalize ao usuário.
@@ -144,6 +174,10 @@ Comunicado de liberação na Twygo - 11/05/2026
 Bom dia, pessoal, segue a lista das atividades liberadas para ambiente de produção do dia de ontem 
 
 Twygeers - A toca da coruja!
+
+Atividades referente a data do dia 11/05/2026.
+
+Sustentação (Liberações 11/05/2026).
 
 Sustentação / N2
 
@@ -172,13 +206,15 @@ https://app2.artia.com/a/4874953/f/6392535/activities
 **Descrição:** O projeto cria um painel central para acompanhar os créditos de Inteligência Artificial contratados pelos clientes da Twygo, permitindo ver o consumo em tempo real e configurar as regras de uso.
 ```
 
-Para um exemplo mais completo e detalhado (várias atividades por projeto, com descrições técnicas e subdivisão por projeto em Garantia), veja `outputs/comunicado-liberacao-2026-06-24.md`.
-
 ---
 
 ## Ao final
 
-Entregue o comunicado pronto em texto, dentro de um bloco para fácil cópia, e **sempre** salve em `outputs/comunicado-liberacao-<AAAA-MM-DD>.md` (data de ontem, formato ISO).
+**Sempre** salve o comunicado em um arquivo e retorne o caminho dele ao usuário no final de cada execução:
+
+1. Escreva o comunicado completo em `outputs/comunicado-liberacao-<AAAA-MM-DD>.md`, na raiz do projeto, onde `<AAAA-MM-DD>` é a data de ontem (a mesma `<DATA>` do comunicado, no formato ISO). Crie a pasta `outputs/` se ela não existir.
+2. O conteúdo do arquivo deve ser **exatamente** o comunicado, já seguindo o padrão de espaçamento definido acima (todas as linhas alinhadas à esquerda, sem recuo). Não adicione cercas de código (```) nem texto extra dentro do arquivo.
+3. Na sua resposta, informe o caminho do arquivo gerado e cole o conteúdo do comunicado em um bloco para fácil cópia.
 
 ### Versão para colar no Teams (negrito de verdade, sem asteriscos)
 
@@ -187,7 +223,7 @@ O comunicado é colado no **Microsoft Teams**, que **não interpreta os `**` do 
 1. Gere `outputs/comunicado-liberacao-<AAAA-MM-DD>.html` com o mesmo conteúdo, convertendo a formatação para HTML:
    - Cada linha vira um `<div>...</div>`. As **linhas em branco** viram `<div>&#10240;</div>` — o caractere *braille blank* (U+2800). É o único separador que o Teams **não colapsa**: `&nbsp;`, `<br>`, `<div></div>` e margens de `<p>` são todos removidos pelo Teams ao colar e o espaçamento some.
    - **Negrito** (mesma regra do comunicado): a **linha do Título** inteira dentro de `<strong>...</strong>`; em **Link, Descrição, Solução e Solicitante** apenas o rótulo em `<strong>` (ex.: `<strong>Link:</strong> https://...`). O **Nome do projeto** (Inovação) inteiro em `<strong>`.
-   - Indentação dos títulos de categoria com `&nbsp;` (4×). Não use `**` no HTML.
+   - Nenhum recuo: não gere `&nbsp;` no início das linhas, nem nos títulos de categoria. Não use `**` no HTML.
 2. Copie esse HTML para a área de transferência no formato CF_HTML com PowerShell (é o que faz o Teams manter o negrito e descartar os asteriscos):
 
    ```powershell
