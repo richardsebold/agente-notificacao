@@ -145,10 +145,6 @@ Bom dia, pessoal, segue a lista das atividades liberadas para ambiente de produ�
 
 Twygeers - A toca da coruja!
 
-Atividades referente a data do dia 11/05/2026.
-
-        Sustentação (Liberações 11/05/2026).
-
 Sustentação / N2
 
 **Título: Agente de atendimento - Vídeos grandes não indexava no Pinecone**
@@ -169,7 +165,7 @@ Sustentação / N2
 **Solução:** Correção validada em stage, garantindo que o nome original do menu seja mantido na criação da conta de teste.
 **Solicitante:** Christofer Bastos
 
-        Inovação
+Inovação
 
 **Créditos de IA**
 https://app2.artia.com/a/4874953/f/6392535/activities

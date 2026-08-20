@@ -1,0 +1,302 @@
+- generic [ref=f63e1]:
+  - iframe [ref=f63e68]:
+    - button "Open AI Assistant Launcher" [ref=f71e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f71e8]
+  - generic [ref=f63e4]:
+    - generic [ref=f63e5]:
+      - img [ref=f63e69]
+      - generic [ref=f63e7]:
+        - generic [ref=f63e8]:
+          - button "Analytics" [ref=f63e11] [cursor=pointer]:
+            - img [ref=f63e12]
+          - button "Sprint" [ref=f63e72] [cursor=pointer]:
+            - img [ref=f63e73]
+          - separator [ref=f63e14]
+          - button "Ver tudo" [ref=f63e77] [cursor=pointer]:
+            - img [ref=f63e78]
+          - button "Tecnologia" [ref=f63e88] [cursor=pointer]:
+            - paragraph [ref=f63e89]: T
+        - button "Filtrar" [ref=f63e15] [cursor=pointer]:
+          - img [ref=f63e16]
+    - complementary [ref=f63e18]:
+      - button "Toggle sidebar visibility" [active] [ref=f63e20] [cursor=pointer]:
+        - img [ref=f63e422]
+    - generic [ref=f63e36]:
+      - generic [ref=f63e37]:
+        - group [ref=f63e39]:
+          - checkbox "Novo visual" [checked] [ref=f63e41]
+          - paragraph [ref=f63e45]: Novo visual
+        - generic [ref=f63e46]:
+          - button "Pesquisar" [ref=f63e47] [cursor=pointer]:
+            - img [ref=f63e48]
+          - generic [ref=f63e51]:
+            - generic [ref=f63e52]:
+              - button "Central de ajuda" [ref=f63e53] [cursor=pointer]:
+                - img [ref=f63e54]
+              - button "Central de notificações" [ref=f63e58] [cursor=pointer]:
+                - img [ref=f63e59]
+            - button "ID:301268 - Richard Sebold" [ref=f63e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=f63e374]:
+        - generic [ref=f63e376]:
+          - generic [ref=f63e377]:
+            - generic [ref=f63e378]:
+              - navigation "breadcrumb" [ref=f63e379]:
+                - list [ref=f63e380]:
+                  - listitem [ref=f63e381]:
+                    - img [ref=f63e382]
+                    - generic "Tecnologia" [ref=f63e385] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f63e386]:
+                    - generic "99 - Sustentação" [ref=f63e387] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f63e388]:
+                    - generic "Sustentação" [ref=f63e389] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f63e390]:
+                    - generic "N2" [ref=f63e391] [cursor=pointer]
+              - generic [ref=f63e392]:
+                - button "Activity" [ref=f63e393] [cursor=pointer]:
+                  - img [ref=f63e394]
+                - heading "[BUG] Trial da plataforma redireciona incorretamente ao acessar pelo link do e-mail" [level=2] [ref=f63e397]
+            - generic [ref=f63e399]:
+              - button "Pessoas" [ref=f63e400] [cursor=pointer]:
+                - img [ref=f63e402]
+                - text: Pessoas
+              - group [ref=f63e403]:
+                - img [ref=f63e405]
+                - img [ref=f63e408]
+          - generic [ref=f63e410]:
+            - tablist [ref=f63e412]:
+              - tab "Informações" [selected] [ref=f63e416] [cursor=pointer]:
+                - paragraph [ref=f63e417]: Informações
+            - generic [ref=f63e418]:
+              - separator
+        - iframe [ref=f63e421]:
+          - generic [active] [ref=f65e1]:
+            - generic [ref=f65e3]:
+              - generic [ref=f65e5]:
+                - generic [ref=f65e6]:
+                  - list [ref=f65e8]:
+                    - listitem [ref=f65e9]:
+                      - link ";Novo" [ref=f65e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883952/activities/new
+                    - listitem [ref=f65e11]:
+                      - generic [ref=f65e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f65e13]:
+                      - generic [ref=f65e14]: "&Apagar"
+                    - listitem [ref=f65e15]:
+                      - button "| Concluido" [ref=f65e18] [cursor=pointer]:
+                        - paragraph [ref=f65e19]:
+                          - generic [ref=f65e20]: "|"
+                          - generic "Concluido" [ref=f65e21]
+                        - img [ref=f65e22]
+                    - listitem [ref=f65e24]
+                    - listitem [ref=f65e25]:
+                      - generic "Comentar" [ref=f65e26] [cursor=pointer]: <
+                    - listitem [ref=f65e27]:
+                      - generic "Apontar" [ref=f65e28] [cursor=pointer]: h
+                    - listitem [ref=f65e29]:
+                      - generic "Tags" [ref=f65e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f65e31]:
+                      - generic "Alocação Parcial" [ref=f65e32] [cursor=pointer]: 
+                    - listitem [ref=f65e33]:
+                      - generic "Checklist" [ref=f65e34] [cursor=pointer]: 
+                  - generic [ref=f65e35]:
+                    - strong [ref=f65e36]: Título
+                    - paragraph [ref=f65e37]: "[BUG] Trial da plataforma redireciona incorretamente ao acessar pelo link do e-mail"
+                    - generic [ref=f65e38]:
+                      - generic [ref=f65e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f65e40]:
+                          - generic [ref=f65e41]: H
+                          - link "Tecnologia > 99 - Sustentação > Sustentação > N2" [ref=f65e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/4883952/activities/
+                        - strong [ref=f65e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f65e44]: "20489"
+                        - generic [ref=f65e45]:
+                          - generic [ref=f65e46]:
+                            - strong [ref=f65e47]: Criado há
+                            - paragraph [ref=f65e48]: 1 dia 02/07/2026
+                          - generic [ref=f65e49]:
+                            - strong [ref=f65e50]: Solicitante
+                            - paragraph [ref=f65e51]: Gabriel Donato
+                        - paragraph [ref=f65e52]:
+                          - strong [ref=f65e53]: Tipo de Atividade
+                          - generic [ref=f65e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f65e55]: Descrição
+                        - generic [ref=f65e56]:
+                          - paragraph [ref=f65e57]:
+                            - text: Cliente reportou que, ao tentar acessar o teste/trial da plataforma pelo link enviado por e-mail, o usuário é inicialmente redirecionado para uma tela de imagem incorreta (print enviado pelo cliente). Ao clicar em voltar, o usuário retorna à tela normal, mas o comportamento não está correto e causa confusão para os leads/testadores.
+                            - img [ref=f65e58]
+                            - img [ref=f65e59]
+                          - paragraph [ref=f65e60]:
+                            - strong [ref=f65e61]: "Impacto:"
+                          - list [ref=f65e62]:
+                            - listitem [ref=f65e63]: Experiência do usuário comprometida durante a fase de trial.
+                            - listitem [ref=f65e64]: Potencial confusão para novos leads ao tentar acessar o teste.
+                            - listitem [ref=f65e65]: Risco de desistência ou percepção negativa do produto.
+                          - paragraph [ref=f65e66]:
+                            - strong [ref=f65e67]: "Passos para reproduzir:"
+                          - list [ref=f65e68]:
+                            - listitem [ref=f65e69]: Receber o link de teste do e-mail enviado pela plataforma.
+                            - listitem [ref=f65e70]: Clicar no link para acessar o trial.
+                            - listitem [ref=f65e71]: Usuário é redirecionado para a tela com a imagem incorreta.
+                            - listitem [ref=f65e72]: Clicar em voltar para retornar à tela normal.
+                          - paragraph [ref=f65e73]:
+                            - strong [ref=f65e74]: "Resultado esperado:"
+                            - text: O link de e-mail deve direcionar o usuário diretamente para a tela de acesso/trial correta, sem exibir telas intermediárias ou imagens indevidas.
+                          - paragraph [ref=f65e75]:
+                            - strong [ref=f65e76]: "Resultado observado:"
+                            - text: O link inicial redireciona para uma imagem/tela incorreta antes de permitir o acesso à tela de trial real.
+                        - strong [ref=f65e77]: Categorias
+                        - paragraph
+                        - strong [ref=f65e78]: Prioridade
+                        - paragraph [ref=f65e79]: "0"
+                        - strong [ref=f65e80]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f65e81]: Replanejamentos
+                        - paragraph [ref=f65e82]: "0"
+                        - generic [ref=f65e83]:
+                          - generic [ref=f65e84]:
+                            - strong [ref=f65e85]: Pull request
+                            - paragraph [ref=f65e86]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10976" [ref=f65e87] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10976
+                          - generic [ref=f65e88]:
+                            - strong [ref=f65e89]: Nº Ticket Movidesk
+                            - paragraph [ref=f65e90]: n-a
+                          - generic [ref=f65e91]:
+                            - strong [ref=f65e92]: Urgência
+                            - paragraph [ref=f65e93]: Alto
+                          - generic [ref=f65e94]:
+                            - strong [ref=f65e95]: Versão
+                            - paragraph
+                          - generic [ref=f65e96]:
+                            - strong [ref=f65e97]: Rebote
+                            - paragraph
+                          - generic [ref=f65e98]:
+                            - strong [ref=f65e99]: Plataforma
+                            - paragraph [ref=f65e100]: Desktop
+                          - generic [ref=f65e101]:
+                            - strong [ref=f65e102]: Funcionalidade
+                            - paragraph [ref=f65e103]: Trial
+                          - generic [ref=f65e104]:
+                            - strong [ref=f65e105]: Sub-funcionalidade
+                            - paragraph [ref=f65e106]: Acesso
+                          - generic [ref=f65e108]: J
+                          - generic [ref=f65e109]:
+                            - list [ref=f65e110]:
+                              - listitem [ref=f65e111]:
+                                - link "Cliente" [ref=f65e112] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f65e114]:
+                                - link "Classificação" [ref=f65e115] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f65e118]: J
+                      - generic [ref=f65e119]:
+                        - generic [ref=f65e120]:
+                          - generic [ref=f65e122]: i Prazo
+                          - generic [ref=f65e123]:
+                            - generic [ref=f65e124]:
+                              - generic [ref=f65e125]:
+                                - strong [ref=f65e126]: Início Estimado
+                                - paragraph
+                              - generic [ref=f65e127]:
+                                - strong [ref=f65e128]: Término Estimado
+                                - paragraph
+                            - generic [ref=f65e129]:
+                              - generic [ref=f65e130]:
+                                - strong [ref=f65e131]: Início Real
+                                - paragraph [ref=f65e132]: 02/07/2026 - 13:50h
+                              - generic [ref=f65e133]:
+                                - strong [ref=f65e134]: Término Real
+                                - paragraph [ref=f65e135]: 03/07/2026 - 11:37h
+                            - generic [ref=f65e137]:
+                              - strong [ref=f65e138]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f65e139]:
+                          - generic [ref=f65e141]: h Esforço
+                          - generic [ref=f65e143]:
+                            - generic [ref=f65e144]:
+                              - strong [ref=f65e145]: Esforço Estimado
+                              - paragraph [ref=f65e146]: 0,00h
+                            - generic [ref=f65e147]:
+                              - strong [ref=f65e148]: Esforço Real
+                              - paragraph [ref=f65e149]: 3,67h
+                        - generic [ref=f65e150]:
+                          - generic [ref=f65e152]: e Lançamentos Financeiros
+                          - generic [ref=f65e154]:
+                            - generic [ref=f65e155]:
+                              - strong [ref=f65e156]: Previsto
+                              - paragraph
+                            - generic [ref=f65e157]:
+                              - strong [ref=f65e158]: Realizado
+                              - paragraph
+                        - generic [ref=f65e159]:
+                          - generic [ref=f65e161]:  Andamento
+                          - generic [ref=f65e163]:
+                            - generic [ref=f65e164]:
+                              - strong [ref=f65e165]: "% Completo"
+                              - progressbar [ref=f65e167]
+                              - generic [ref=f65e168]: 100,00%
+                            - img [ref=f65e172]:
+                              - generic [ref=f65e181]: "0"
+                              - generic [ref=f65e184]: 3,67
+                    - strong [ref=f65e190]: "[ Lembrar-me"
+                    - strong [ref=f65e191]: "@ Repetir"
+                - generic [ref=f65e194]:
+                  - list [ref=f65e195]:
+                    - listitem [ref=f65e196]:
+                      - link "Arquivos" [ref=f65e197]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f65e198]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f65e199] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f65e200]:
+                      - link "Marcos" [ref=f65e201] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f65e202]:
+                      - link "Links" [ref=f65e203] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f65e204]:
+                      - link "Finanças" [ref=f65e205] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f65e206]:
+                      - link "Histórico" [ref=f65e207] [cursor=pointer]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f65e208]:
+                    - text: J J
+                    - generic [ref=f65e209]:
+                      - link "JVincular Arquivo" [ref=f65e210] [cursor=pointer]:
+                        - /url: "#"
+                      - list [ref=f65e212]:
+                        - listitem [ref=f65e213]: Nenhum registro encontrado.
+                        - table:
+                          - rowgroup
+                    - text: J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

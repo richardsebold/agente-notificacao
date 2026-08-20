@@ -1,0 +1,484 @@
+- generic [ref=f42e1]:
+  - iframe [ref=f42e68]:
+    - button "Open AI Assistant Launcher" [ref=f50e6] [cursor=pointer]:
+      - img "launcher-image-alternative-text" [ref=f50e8]
+  - generic [ref=f42e4]:
+    - generic [ref=f42e5]:
+      - img [ref=f42e69]
+      - generic [ref=f42e7]:
+        - generic [ref=f42e8]:
+          - button "Analytics" [ref=f42e11] [cursor=pointer]:
+            - img [ref=f42e12]
+          - button "Sprint" [ref=f42e72] [cursor=pointer]:
+            - img [ref=f42e73]
+          - separator [ref=f42e14]
+          - button "Ver tudo" [ref=f42e77] [cursor=pointer]:
+            - img [ref=f42e78]
+          - button "Tecnologia" [ref=f42e88] [cursor=pointer]:
+            - paragraph [ref=f42e89]: T
+        - button "Filtrar" [ref=f42e15] [cursor=pointer]:
+          - img [ref=f42e16]
+    - complementary [ref=f42e18]:
+      - generic [ref=f42e19]:
+        - group "ID:136701 - Twygo" [ref=f42e90] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Twygo
+              - img
+        - button "Toggle sidebar visibility" [ref=f42e20] [cursor=pointer]:
+          - img [ref=f42e21]
+      - generic [ref=f42e23]:
+        - button "Criação rápida" [ref=f42e25] [cursor=pointer]:
+          - img [ref=f42e27]
+          - paragraph [ref=f42e28]: Criação rápida
+        - generic [ref=f42e92]:
+          - generic [ref=f42e93]:
+            - img [ref=f42e95]
+            - textbox "Pesquisar por nome" [ref=f42e98]
+          - generic [ref=f42e100]:
+            - generic [ref=f42e102]:
+              - generic [ref=f42e103]:
+                - button "Filtrar" [expanded] [ref=f42e105] [cursor=pointer]:
+                  - img [ref=f42e106]
+                - link "Tecnologia" [ref=f42e108] [cursor=pointer]:
+                  - /url: /a/4874953/f/4874953/activities
+                  - paragraph [ref=f42e110]: Tecnologia
+              - button "Ver mais" [ref=f42e111] [cursor=pointer]:
+                - img [ref=f42e112]
+            - region "Filtrar" [ref=f42e117]:
+              - generic [ref=f42e122]:
+                - treeitem "toggle 00 - Arquitetura Ver mais" [ref=f42e123]:
+                  - generic [ref=f42e126]:
+                    - generic [ref=f42e127]:
+                      - button "toggle" [ref=f42e128] [cursor=pointer]:
+                        - img [ref=f42e129]
+                      - link "00 - Arquitetura" [ref=f42e131] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883941/activities
+                        - generic [ref=f42e132]:
+                          - img [ref=f42e133]
+                          - paragraph [ref=f42e136]: 00 - Arquitetura
+                    - button "Ver mais" [ref=f42e137] [cursor=pointer]:
+                      - img [ref=f42e138]
+                - treeitem "toggle 01 - Desenvolvimento Ver mais" [ref=f42e142]:
+                  - generic [ref=f42e145]:
+                    - generic [ref=f42e146]:
+                      - button "toggle" [ref=f42e147] [cursor=pointer]:
+                        - img [ref=f42e148]
+                      - link "01 - Desenvolvimento" [ref=f42e150] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883942/activities
+                        - generic [ref=f42e151]:
+                          - img [ref=f42e152]
+                          - paragraph [ref=f42e155]: 01 - Desenvolvimento
+                    - button "Ver mais" [ref=f42e156] [cursor=pointer]:
+                      - img [ref=f42e157]
+                - treeitem "toggle 02 - Qualidade Ver mais" [ref=f42e161]:
+                  - generic [ref=f42e164]:
+                    - generic [ref=f42e165]:
+                      - button "toggle" [ref=f42e166] [cursor=pointer]:
+                        - img [ref=f42e167]
+                      - link "02 - Qualidade" [ref=f42e169] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391799/activities
+                        - generic [ref=f42e170]:
+                          - img [ref=f42e171]
+                          - paragraph [ref=f42e174]: 02 - Qualidade
+                    - button "Ver mais" [ref=f42e175] [cursor=pointer]:
+                      - img [ref=f42e176]
+                - treeitem "toggle 03 - Engenharia de produto Ver mais" [ref=f42e180]:
+                  - generic [ref=f42e183]:
+                    - generic [ref=f42e184]:
+                      - button "toggle" [ref=f42e185] [cursor=pointer]:
+                        - img [ref=f42e186]
+                      - link "03 - Engenharia de produto" [ref=f42e188] [cursor=pointer]:
+                        - /url: /a/4874953/f/6392189/activities
+                        - generic [ref=f42e189]:
+                          - img [ref=f42e190]
+                          - paragraph [ref=f42e193]: 03 - Engenharia de produto
+                    - button "Ver mais" [ref=f42e194] [cursor=pointer]:
+                      - img [ref=f42e195]
+                - treeitem "toggle 04 - Gestão e Projetos Ver mais" [ref=f42e199]:
+                  - generic [ref=f42e202]:
+                    - generic [ref=f42e203]:
+                      - button "toggle" [ref=f42e204] [cursor=pointer]:
+                        - img [ref=f42e205]
+                      - link "04 - Gestão e Projetos" [ref=f42e207] [cursor=pointer]:
+                        - /url: /a/4874953/f/6344630/activities
+                        - generic [ref=f42e208]:
+                          - img [ref=f42e209]
+                          - paragraph [ref=f42e212]: 04 - Gestão e Projetos
+                    - button "Ver mais" [ref=f42e213] [cursor=pointer]:
+                      - img [ref=f42e214]
+                - treeitem "toggle 05 - DevOps Ver mais" [ref=f42e218]:
+                  - generic [ref=f42e221]:
+                    - generic [ref=f42e222]:
+                      - button "toggle" [ref=f42e223] [cursor=pointer]:
+                        - img [ref=f42e224]
+                      - link "05 - DevOps" [ref=f42e226] [cursor=pointer]:
+                        - /url: /a/4874953/f/6443905/activities
+                        - generic [ref=f42e227]:
+                          - img [ref=f42e228]
+                          - paragraph [ref=f42e231]: 05 - DevOps
+                    - button "Ver mais" [ref=f42e232] [cursor=pointer]:
+                      - img [ref=f42e233]
+                - treeitem "toggle 98 - Backlog Ver mais" [ref=f42e237]:
+                  - generic [ref=f42e240]:
+                    - generic [ref=f42e241]:
+                      - button "toggle" [ref=f42e242] [cursor=pointer]:
+                        - img [ref=f42e243]
+                      - link "98 - Backlog" [ref=f42e245] [cursor=pointer]:
+                        - /url: /a/4874953/f/5767138/activities
+                        - generic [ref=f42e246]:
+                          - img [ref=f42e247]
+                          - paragraph [ref=f42e250]: 98 - Backlog
+                    - button "Ver mais" [ref=f42e251] [cursor=pointer]:
+                      - img [ref=f42e252]
+                - treeitem "toggle 99 - Sustentação Ver mais" [ref=f42e256]:
+                  - generic [ref=f42e259]:
+                    - generic [ref=f42e260]:
+                      - button "toggle" [ref=f42e261] [cursor=pointer]:
+                        - img [ref=f42e262]
+                      - link "99 - Sustentação" [ref=f42e264] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883945/activities
+                        - generic [ref=f42e265]:
+                          - img [ref=f42e266]
+                          - paragraph [ref=f42e269]: 99 - Sustentação
+                    - button "Ver mais" [ref=f42e270] [cursor=pointer]:
+                      - img [ref=f42e271]
+                - treeitem "toggle Aplicativos Mobile Ver mais" [level=1] [ref=f42e275]:
+                  - generic [ref=f42e278]:
+                    - generic [ref=f42e279]:
+                      - button "toggle" [ref=f42e280] [cursor=pointer]:
+                        - img [ref=f42e281]
+                      - link "Aplicativos Mobile" [ref=f42e283] [cursor=pointer]:
+                        - /url: /a/4874953/f/5548051/activities
+                        - generic [ref=f42e284]:
+                          - img [ref=f42e285]
+                          - paragraph [ref=f42e289]: Aplicativos Mobile
+                    - button "Ver mais" [ref=f42e290] [cursor=pointer]:
+                      - img [ref=f42e291]
+                - treeitem "toggle Indiretos - Sustentação Ver mais" [level=1] [ref=f42e295]:
+                  - generic [ref=f42e298]:
+                    - generic [ref=f42e299]:
+                      - button "toggle" [ref=f42e300] [cursor=pointer]:
+                        - img [ref=f42e301]
+                      - link "Indiretos - Sustentação" [ref=f42e303] [cursor=pointer]:
+                        - /url: /a/4874953/f/6430893/activities
+                        - generic [ref=f42e304]:
+                          - img [ref=f42e305]
+                          - paragraph [ref=f42e309]: Indiretos - Sustentação
+                    - button "Ver mais" [ref=f42e310] [cursor=pointer]:
+                      - img [ref=f42e311]
+                - treeitem "toggle Sustentação Ver mais" [level=1] [ref=f42e315]:
+                  - generic [ref=f42e318]:
+                    - generic [ref=f42e319]:
+                      - button "toggle" [ref=f42e320] [cursor=pointer]:
+                        - img [ref=f42e321]
+                      - link "Sustentação" [ref=f42e323] [cursor=pointer]:
+                        - /url: /a/4874953/f/6414687/activities
+                        - generic [ref=f42e324]:
+                          - img [ref=f42e325]
+                          - paragraph [ref=f42e329]: Sustentação
+                    - button "Ver mais" [ref=f42e330] [cursor=pointer]:
+                      - img [ref=f42e331]
+                - treeitem "toggle API Ver mais" [ref=f42e335]:
+                  - generic [ref=f42e338]:
+                    - generic [ref=f42e339]:
+                      - button "toggle" [ref=f42e340] [cursor=pointer]:
+                        - img [ref=f42e341]
+                      - link "API" [ref=f42e343] [cursor=pointer]:
+                        - /url: /a/4874953/f/6377959/activities
+                        - generic [ref=f42e344]:
+                          - img [ref=f42e345]
+                          - paragraph [ref=f42e348]: API
+                    - button "Ver mais" [ref=f42e349] [cursor=pointer]:
+                      - img [ref=f42e350]
+                - treeitem "toggle Histórico Ver mais" [ref=f42e354]:
+                  - generic [ref=f42e357]:
+                    - generic [ref=f42e358]:
+                      - button "toggle" [ref=f42e359] [cursor=pointer]:
+                        - img [ref=f42e360]
+                      - link "Histórico" [ref=f42e362] [cursor=pointer]:
+                        - /url: /a/4874953/f/6391800/activities
+                        - generic [ref=f42e363]:
+                          - img [ref=f42e364]
+                          - paragraph [ref=f42e367]: Histórico
+                    - button "Ver mais" [ref=f42e368] [cursor=pointer]:
+                      - img [ref=f42e369]
+    - generic [ref=f42e36]:
+      - generic [ref=f42e37]:
+        - group [ref=f42e39]:
+          - checkbox "Novo visual" [checked] [ref=f42e41]
+          - paragraph [ref=f42e45]: Novo visual
+        - generic [ref=f42e46]:
+          - button "Pesquisar" [ref=f42e47] [cursor=pointer]:
+            - img [ref=f42e48]
+          - generic [ref=f42e51]:
+            - generic [ref=f42e52]:
+              - button "Central de ajuda" [ref=f42e53] [cursor=pointer]:
+                - img [ref=f42e54]
+              - button "Central de notificações" [ref=f42e58] [cursor=pointer]:
+                - img [ref=f42e59]
+            - button "ID:301268 - Richard Sebold" [ref=f42e63] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=f42e374]:
+        - generic [ref=f42e376]:
+          - generic [ref=f42e377]:
+            - generic [ref=f42e378]:
+              - navigation "breadcrumb" [ref=f42e379]:
+                - list [ref=f42e380]:
+                  - listitem [ref=f42e381]:
+                    - img [ref=f42e382]
+                    - generic "Tecnologia" [ref=f42e385] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f42e386]:
+                    - generic "99 - Sustentação" [ref=f42e387] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f42e388]:
+                    - generic "Sustentação" [ref=f42e389] [cursor=pointer]
+                    - text: /
+                  - listitem [ref=f42e390]:
+                    - generic "N2" [ref=f42e391] [cursor=pointer]
+              - generic [ref=f42e392]:
+                - button "Activity" [ref=f42e393] [cursor=pointer]:
+                  - img [ref=f42e394]
+                - heading "[BUG] Trial da plataforma redireciona incorretamente ao acessar pelo link do e-mail" [level=2] [ref=f42e397]
+            - generic [ref=f42e399]:
+              - button "Pessoas" [ref=f42e400] [cursor=pointer]:
+                - img [ref=f42e402]
+                - text: Pessoas
+              - group [ref=f42e403]:
+                - img [ref=f42e405]
+                - img [ref=f42e408]
+          - generic [ref=f42e410]:
+            - tablist [ref=f42e412]:
+              - tab "Informações" [selected] [ref=f42e416] [cursor=pointer]:
+                - paragraph [ref=f42e417]: Informações
+            - generic [ref=f42e418]:
+              - separator
+        - iframe [active] [ref=f42e421]:
+          - generic [active] [ref=f44e1]:
+            - generic [ref=f44e3]:
+              - generic [ref=f44e5]:
+                - generic [ref=f44e6]:
+                  - list [ref=f44e8]:
+                    - listitem [ref=f44e9]:
+                      - link ";Novo" [ref=f44e10] [cursor=pointer]:
+                        - /url: /a/4874953/f/4883952/activities/new
+                    - listitem [ref=f44e11]:
+                      - generic [ref=f44e12]: "%Editar"
+                    - text: 
+                    - listitem [ref=f44e13]:
+                      - generic [ref=f44e14]: "&Apagar"
+                    - listitem [ref=f44e15]:
+                      - button "| Concluido" [ref=f44e18] [cursor=pointer]:
+                        - paragraph [ref=f44e19]:
+                          - generic [ref=f44e20]: "|"
+                          - generic "Concluido" [ref=f44e21]
+                        - img [ref=f44e22]
+                    - listitem [ref=f44e24]
+                    - listitem [ref=f44e25]:
+                      - generic "Comentar" [ref=f44e26] [cursor=pointer]: <
+                    - listitem [ref=f44e27]:
+                      - generic "Apontar" [ref=f44e28] [cursor=pointer]: h
+                    - listitem [ref=f44e29]:
+                      - generic "Tags" [ref=f44e30] [cursor=pointer]: "\""
+                      - text: J y
+                    - listitem [ref=f44e31]:
+                      - generic "Alocação Parcial" [ref=f44e32] [cursor=pointer]: 
+                    - listitem [ref=f44e33]:
+                      - generic "Checklist" [ref=f44e34] [cursor=pointer]: 
+                  - generic [ref=f44e35]:
+                    - strong [ref=f44e36]: Título
+                    - paragraph [ref=f44e37]: "[BUG] Trial da plataforma redireciona incorretamente ao acessar pelo link do e-mail"
+                    - generic [ref=f44e38]:
+                      - generic [ref=f44e39]:
+                        - text: Projeto / Pasta
+                        - paragraph [ref=f44e40]:
+                          - generic [ref=f44e41]: H
+                          - link "Tecnologia > 99 - Sustentação > Sustentação > N2" [ref=f44e42] [cursor=pointer]:
+                            - /url: /a/4874953/f/4883952/activities/
+                        - strong [ref=f44e43]: ID por Grupo de trabalho
+                        - paragraph [ref=f44e44]: "20489"
+                        - generic [ref=f44e45]:
+                          - generic [ref=f44e46]:
+                            - strong [ref=f44e47]: Criado há
+                            - paragraph [ref=f44e48]: 1 dia 02/07/2026
+                          - generic [ref=f44e49]:
+                            - strong [ref=f44e50]: Solicitante
+                            - paragraph [ref=f44e51]: Gabriel Donato
+                        - paragraph [ref=f44e52]:
+                          - strong [ref=f44e53]: Tipo de Atividade
+                          - generic [ref=f44e54]: M
+                          - text: Tech - Bug Produção
+                        - strong [ref=f44e55]: Descrição
+                        - generic [ref=f44e56]:
+                          - paragraph [ref=f44e57]:
+                            - text: Cliente reportou que, ao tentar acessar o teste/trial da plataforma pelo link enviado por e-mail, o usuário é inicialmente redirecionado para uma tela de imagem incorreta (print enviado pelo cliente). Ao clicar em voltar, o usuário retorna à tela normal, mas o comportamento não está correto e causa confusão para os leads/testadores.
+                            - img [ref=f44e58]
+                            - img [ref=f44e59]
+                          - paragraph [ref=f44e60]:
+                            - strong [ref=f44e61]: "Impacto:"
+                          - list [ref=f44e62]:
+                            - listitem [ref=f44e63]: Experiência do usuário comprometida durante a fase de trial.
+                            - listitem [ref=f44e64]: Potencial confusão para novos leads ao tentar acessar o teste.
+                            - listitem [ref=f44e65]: Risco de desistência ou percepção negativa do produto.
+                          - paragraph [ref=f44e66]:
+                            - strong [ref=f44e67]: "Passos para reproduzir:"
+                          - list [ref=f44e68]:
+                            - listitem [ref=f44e69]: Receber o link de teste do e-mail enviado pela plataforma.
+                            - listitem [ref=f44e70]: Clicar no link para acessar o trial.
+                            - listitem [ref=f44e71]: Usuário é redirecionado para a tela com a imagem incorreta.
+                            - listitem [ref=f44e72]: Clicar em voltar para retornar à tela normal.
+                          - paragraph [ref=f44e73]:
+                            - strong [ref=f44e74]: "Resultado esperado:"
+                            - text: O link de e-mail deve direcionar o usuário diretamente para a tela de acesso/trial correta, sem exibir telas intermediárias ou imagens indevidas.
+                          - paragraph [ref=f44e75]:
+                            - strong [ref=f44e76]: "Resultado observado:"
+                            - text: O link inicial redireciona para uma imagem/tela incorreta antes de permitir o acesso à tela de trial real.
+                        - strong [ref=f44e77]: Categorias
+                        - paragraph
+                        - strong [ref=f44e78]: Prioridade
+                        - paragraph [ref=f44e79]: "0"
+                        - strong [ref=f44e80]: Tags
+                        - paragraph:
+                          - generic:
+                            - list
+                        - strong [ref=f44e81]: Replanejamentos
+                        - paragraph [ref=f44e82]: "0"
+                        - generic [ref=f44e83]:
+                          - generic [ref=f44e84]:
+                            - strong [ref=f44e85]: Pull request
+                            - paragraph [ref=f44e86]:
+                              - link "https://github.com/Twygo/twyg-app/pull/10976" [ref=f44e87] [cursor=pointer]:
+                                - /url: https://github.com/Twygo/twyg-app/pull/10976
+                          - generic [ref=f44e88]:
+                            - strong [ref=f44e89]: Nº Ticket Movidesk
+                            - paragraph [ref=f44e90]: n-a
+                          - generic [ref=f44e91]:
+                            - strong [ref=f44e92]: Urgência
+                            - paragraph [ref=f44e93]: Alto
+                          - generic [ref=f44e94]:
+                            - strong [ref=f44e95]: Versão
+                            - paragraph
+                          - generic [ref=f44e96]:
+                            - strong [ref=f44e97]: Rebote
+                            - paragraph
+                          - generic [ref=f44e98]:
+                            - strong [ref=f44e99]: Plataforma
+                            - paragraph [ref=f44e100]: Desktop
+                          - generic [ref=f44e101]:
+                            - strong [ref=f44e102]: Funcionalidade
+                            - paragraph [ref=f44e103]: Trial
+                          - generic [ref=f44e104]:
+                            - strong [ref=f44e105]: Sub-funcionalidade
+                            - paragraph [ref=f44e106]: Acesso
+                          - generic [ref=f44e108]: J
+                          - generic [ref=f44e109]:
+                            - list [ref=f44e110]:
+                              - listitem [ref=f44e111]:
+                                - link "Cliente" [ref=f44e112] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Cliente
+                              - listitem [ref=f44e114]:
+                                - link "Classificação" [ref=f44e115] [cursor=pointer]:
+                                  - /url: "#"
+                                  - text: Classificação
+                            - generic [ref=f44e118]: J
+                      - generic [ref=f44e119]:
+                        - generic [ref=f44e120]:
+                          - generic [ref=f44e122]: i Prazo
+                          - generic [ref=f44e123]:
+                            - generic [ref=f44e124]:
+                              - generic [ref=f44e125]:
+                                - strong [ref=f44e126]: Início Estimado
+                                - paragraph
+                              - generic [ref=f44e127]:
+                                - strong [ref=f44e128]: Término Estimado
+                                - paragraph
+                            - generic [ref=f44e129]:
+                              - generic [ref=f44e130]:
+                                - strong [ref=f44e131]: Início Real
+                                - paragraph [ref=f44e132]: 02/07/2026 - 13:50h
+                              - generic [ref=f44e133]:
+                                - strong [ref=f44e134]: Término Real
+                                - paragraph [ref=f44e135]: 03/07/2026 - 11:37h
+                            - generic [ref=f44e137]:
+                              - strong [ref=f44e138]: Tendência de Término
+                              - paragraph
+                        - generic [ref=f44e139]:
+                          - generic [ref=f44e141]: h Esforço
+                          - generic [ref=f44e143]:
+                            - generic [ref=f44e144]:
+                              - strong [ref=f44e145]: Esforço Estimado
+                              - paragraph [ref=f44e146]: 0,00h
+                            - generic [ref=f44e147]:
+                              - strong [ref=f44e148]: Esforço Real
+                              - paragraph [ref=f44e149]: 3,67h
+                        - generic [ref=f44e150]:
+                          - generic [ref=f44e152]: e Lançamentos Financeiros
+                          - generic [ref=f44e154]:
+                            - generic [ref=f44e155]:
+                              - strong [ref=f44e156]: Previsto
+                              - paragraph
+                            - generic [ref=f44e157]:
+                              - strong [ref=f44e158]: Realizado
+                              - paragraph
+                        - generic [ref=f44e159]:
+                          - generic [ref=f44e161]:  Andamento
+                          - generic [ref=f44e163]:
+                            - generic [ref=f44e164]:
+                              - strong [ref=f44e165]: "% Completo"
+                              - progressbar [ref=f44e167]
+                              - generic [ref=f44e168]: 100,00%
+                            - img [ref=f44e172]:
+                              - generic [ref=f44e181]: "0"
+                              - generic [ref=f44e184]: 3,67
+                    - strong [ref=f44e190]: "[ Lembrar-me"
+                    - strong [ref=f44e191]: "@ Repetir"
+                - generic [ref=f44e194]:
+                  - list [ref=f44e195]:
+                    - listitem [ref=f44e196]:
+                      - link "Arquivos" [ref=f44e197]:
+                        - /url: "#object-show-files"
+                    - listitem [ref=f44e198]:
+                      - link "Atividades Vinculadas" [expanded] [ref=f44e199] [cursor=pointer]:
+                        - /url: "#object-show-dependencies"
+                    - listitem [ref=f44e200]:
+                      - link "Marcos" [ref=f44e201] [cursor=pointer]:
+                        - /url: "#object-show-milestones"
+                    - listitem [ref=f44e202]:
+                      - link "Links" [ref=f44e203] [cursor=pointer]:
+                        - /url: "#object-show-links"
+                    - listitem [ref=f44e204]:
+                      - link "Finanças" [ref=f44e205] [cursor=pointer]:
+                        - /url: "#object-show-finances"
+                    - listitem [ref=f44e206]:
+                      - link "Histórico" [ref=f44e207] [cursor=pointer]:
+                        - /url: "#object-show-timeline"
+                  - generic [ref=f44e208]:
+                    - text: J J
+                    - generic [ref=f44e209]:
+                      - link "JVincular Arquivo" [ref=f44e210] [cursor=pointer]:
+                        - /url: "#"
+                      - list [ref=f44e212]:
+                        - listitem [ref=f44e213]: Nenhum registro encontrado.
+                        - table:
+                          - rowgroup
+                    - text: J J J
+                - text: $
+              - text: D V
+            - generic:
+              - list
+              - list
+              - list
+              - list
+              - list
+              - list
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
