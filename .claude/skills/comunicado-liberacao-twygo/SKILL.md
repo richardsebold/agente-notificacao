@@ -101,10 +101,6 @@ Bom dia, pessoal, segue a lista das atividades liberadas para ambiente de produ�
 
 Twygeers - A toca da coruja!
 
-Atividades referente a data do dia <DATA>.
-
-<Categoria> (Liberações <DATA>).
-
 <subseções e atividades da categoria>
 ```
 
@@ -136,7 +132,7 @@ O campo **Solicitante** aparece **abaixo da Solução**. A origem do nome depend
 
 **Subdivisão por projeto:** quando uma categoria tiver atividades de **mais de um projeto**, separe os itens por projeto, com uma linha de subtítulo (o nome do projeto) antes de cada grupo. Use como subtítulo o **nome do projeto exatamente como veio na mensagem de liberações** (ex.: "Competências", "Kit de marca", "Migrar API V1 > V2"). O texto **entre colchetes** no título da atividade serve para **identificar a qual projeto** cada item pertence (ex.: `P1 [Kit de Marca] Alterar componente de filtro` → projeto "Kit de marca"), mas o subtítulo deve seguir o nome da mensagem, não o texto cru do colchete. Em N2/Sustentação isso normalmente aparece como o subtítulo "Sustentação / N2". Se houver só um projeto na categoria, não precisa do subtítulo.
 
-**B) Inovação e projetos novos** → formato **por projeto** (visão de alto nível), porque são iniciativas novas, não correções pontuais — não há "problema/solução", e sim um objetivo:
+**B Inovação e projetos novos** → formato **por projeto** (visão de alto nível), porque são iniciativas novas, não correções pontuais — não há "problema/solução", e sim um objetivo:
 
 ```
 **<Nome do projeto>**
@@ -174,10 +170,6 @@ Comunicado de liberação na Twygo - 11/05/2026
 Bom dia, pessoal, segue a lista das atividades liberadas para ambiente de produção do dia de ontem 
 
 Twygeers - A toca da coruja!
-
-Atividades referente a data do dia 11/05/2026.
-
-Sustentação (Liberações 11/05/2026).
 
 Sustentação / N2
 
